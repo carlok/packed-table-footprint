@@ -1,0 +1,49 @@
+{
+  "artifacts": 173,
+  "scan_counts": {
+    "unsafe": 0,
+    "implemented_by": 0,
+    "extern": 0,
+    "macro": 0,
+    "syntax": 0,
+    "elab": 0,
+    "initialize": 0,
+    "run_": 0,
+    "import_Lean": 0,
+    "open_Lean": 0,
+    "attr": 0,
+    "native_decide": 0,
+    "sorry": 0,
+    "partial": 0,
+    "opaque": 0,
+    "axiom": 0,
+    "set_option": 0
+  },
+  "scan_examples": {},
+  "toolchains": {
+    "v4.34.1": {
+      "version": "Lean (version 4.34.1, arm64-apple-darwin24.6.0, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)",
+      "paranoid_available": false,
+      "certificates": 173,
+      "compiled": 173,
+      "leanchecker_exit0": 173,
+      "paranoid_exit0": null,
+      "independent_no_axioms": 173,
+      "goal_typechecks": 173,
+      "all_checks_pass": 173,
+      "failures": []
+    },
+    "v4.35.0": {
+      "version": "Lean (version 4.35.0, arm64-apple-darwin24.6.0, commit eb6cafb7290e8bd5f2937522d8d804f58f02bafc, Release)",
+      "paranoid_available": true,
+      "certificates": 173,
+      "compiled": 173,
+      "leanchecker_exit0": 173,
+      "paranoid_exit0": 173,
+      "independent_no_axioms": 173,
+      "goal_typechecks": 173,
+      "all_checks_pass": 173,
+      "failures": []
+    }
+  }
+}

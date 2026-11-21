@@ -1,0 +1,822 @@
+# Pair-to-source map for data/etp/infinite-only.tsv; see README.md. best_class: E explicit finite case analysis, W explicit on words, C confluent normal forms, Ga/Gg/Gs/Gt/Gv greedy subclasses.
+set	frm	to	how	n_facts	best_class	best_model	file	line	theorem	via_sat	via_ref	all_classes	n_models	explicit_models_sampled	zero_axiom_judge	from_law	to_law
+unresolved	63	1692	direct	1	Gt	Equation63	ManuallyProved/Equation63.lean	313	Eq63.Equation63_not_implies_Equation1692	63	1692	Gt	1	-	-	x = y ◇ (x ◇ (x ◇ y))	x = (y ◇ x) ◇ ((y ◇ x) ◇ y)
+unresolved	65	359	closure	1	Ga	Asterix	Asterix.lean	531	Asterix.Equation65_facts	65	4065	Ga	1	-	-	x = y ◇ (x ◇ (y ◇ x))	x ◇ x = (x ◇ x) ◇ x
+unresolved	65	614	direct	1	Ga	Asterix	Asterix.lean	531	Asterix.Equation65_facts	65	614	Ga	1	-	-	x = y ◇ (x ◇ (y ◇ x))	x = x ◇ (x ◇ ((x ◇ x) ◇ x))
+unresolved	65	817	direct	1	Ga	Asterix	Asterix.lean	531	Asterix.Equation65_facts	65	817	Ga	1	-	TI=accepted	x = y ◇ (x ◇ (y ◇ x))	x = x ◇ ((x ◇ x) ◇ (x ◇ x))
+unresolved	65	1426	direct	1	Ga	Asterix	Asterix.lean	531	Asterix.Equation65_facts	65	1426	Ga	1	-	-	x = y ◇ (x ◇ (y ◇ x))	x = (x ◇ x) ◇ (x ◇ (x ◇ x))
+unresolved	65	1491	closure	1	Ga	Asterix	Asterix.lean	531	Asterix.Equation65_facts	65	4065	Ga	1	-	TI=accepted	x = y ◇ (x ◇ (y ◇ x))	x = (y ◇ x) ◇ (y ◇ (y ◇ x))
+unresolved	65	3862	direct	1	Ga	Asterix	Asterix.lean	531	Asterix.Equation65_facts	65	3862	Ga	1	-	TI=accepted	x = y ◇ (x ◇ (y ◇ x))	x ◇ x = (x ◇ (x ◇ x)) ◇ x
+unresolved	65	4065	direct	1	Ga	Asterix	Asterix.lean	531	Asterix.Equation65_facts	65	4065	Ga	1	-	-	x = y ◇ (x ◇ (y ◇ x))	x ◇ x = ((x ◇ x) ◇ x) ◇ x
+unresolved	73	99	direct	1	Gt	Equation73	ManuallyProved/Equation73.lean	269	Eq73.not_99_4380	73	99	Gt	1	-	-	x = y ◇ (y ◇ (x ◇ y))	x = x ◇ ((x ◇ x) ◇ x)
+unresolved	73	125	closure	3	Gt	Equation73	ManuallyProved/Equation73.lean	269	Eq73.not_99_4380	73	4380	Gt	1	-	-	x = y ◇ (y ◇ (x ◇ y))	x = y ◇ ((y ◇ x) ◇ y)
+unresolved	73	203	direct	1	Gt	Equation73	ManuallyProved/Equation73.lean	296	Eq73.not_203	73	203	Gt	1	-	-	x = y ◇ (y ◇ (x ◇ y))	x = (x ◇ (x ◇ x)) ◇ x
+unresolved	73	229	closure	3	Gt	Equation73	ManuallyProved/Equation73.lean	269	Eq73.not_99_4380	73	4380	Gt	1	-	-	x = y ◇ (y ◇ (x ◇ y))	x = (y ◇ (y ◇ x)) ◇ y
+unresolved	73	255	direct	1	Gt	Equation73	ManuallyProved/Equation73.lean	313	Eq73.not_255	73	255	Gt	1	-	-	x = y ◇ (y ◇ (x ◇ y))	x = ((x ◇ x) ◇ x) ◇ x
+unresolved	73	4380	direct	1	Gt	Equation73	ManuallyProved/Equation73.lean	269	Eq73.not_99_4380	73	4380	Gt	1	-	-	x = y ◇ (y ◇ (x ◇ y))	x ◇ (x ◇ x) = (x ◇ x) ◇ x
+unresolved	73	4435	closure	1	Gt	Equation73	ManuallyProved/Equation73.lean	269	Eq73.not_99_4380	73	4380	Gt	1	-	-	x = y ◇ (y ◇ (x ◇ y))	x ◇ (y ◇ x) = (x ◇ y) ◇ x
+unresolved	118	222	direct	3	Gg	Eq118	Generated/Greedy/Eq118.lean	2707	Equation118_not_implies_Equation222	118	222	Gg	1	-	-	x = y ◇ ((x ◇ y) ◇ y)	x = (y ◇ (x ◇ y)) ◇ y
+unresolved	206	1648	direct	2	W	M3C2	ThreeC2.lean	367	ThreeC2.Fact	206	1648	W,Gg	2	M3C2	M3C2=accepted	x = (x ◇ (x ◇ y)) ◇ y	x = (x ◇ y) ◇ ((x ◇ y) ◇ y)
+unresolved	229	73	dual	1	Gg	Eq118	Generated/Greedy/Eq118.lean	2740	Equation118_not_implies_Equation274	118	274	Gg	1	-	-	x = (y ◇ (y ◇ x)) ◇ y	x = y ◇ (y ◇ (x ◇ y))
+unresolved	229	4435	dual	1	Gg	Eq118	Generated/Greedy/Eq118.lean	2775	Equation118_not_implies_Equation4435	118	4435	Gg	1	-	-	x = (y ◇ (y ◇ x)) ◇ y	x ◇ (y ◇ x) = (x ◇ y) ◇ x
+unresolved	261	307	dual	1	Ga	Asterix	Asterix.lean	531	Asterix.Equation65_facts	65	4065	Ga	1	-	-	x = ((x ◇ y) ◇ x) ◇ y	x ◇ x = x ◇ (x ◇ x)
+unresolved	261	2035	dual	1	Ga	Asterix	Asterix.lean	531	Asterix.Equation65_facts	65	1426	Ga	1	-	-	x = ((x ◇ y) ◇ x) ◇ y	x = ((x ◇ x) ◇ x) ◇ (x ◇ x)
+unresolved	261	2061	dual	1	Ga	Asterix	Asterix.lean	531	Asterix.Equation65_facts	65	4065	Ga	1	-	TI=accepted	x = ((x ◇ y) ◇ x) ◇ y	x = ((x ◇ y) ◇ y) ◇ (x ◇ y)
+unresolved	261	2644	dual	1	Ga	Asterix	Asterix.lean	531	Asterix.Equation65_facts	65	817	Ga	1	-	TI=accepted	x = ((x ◇ y) ◇ x) ◇ y	x = ((x ◇ x) ◇ (x ◇ x)) ◇ x
+unresolved	261	2847	dual	1	Ga	Asterix	Asterix.lean	531	Asterix.Equation65_facts	65	614	Ga	1	-	-	x = ((x ◇ y) ◇ x) ◇ y	x = ((x ◇ (x ◇ x)) ◇ x) ◇ x
+unresolved	261	3253	dual	1	Ga	Asterix	Asterix.lean	531	Asterix.Equation65_facts	65	4065	Ga	1	-	-	x = ((x ◇ y) ◇ x) ◇ y	x ◇ x = x ◇ (x ◇ (x ◇ x))
+unresolved	261	3456	dual	1	Ga	Asterix	Asterix.lean	531	Asterix.Equation65_facts	65	3862	Ga	1	-	TI=accepted	x = ((x ◇ y) ◇ x) ◇ y	x ◇ x = x ◇ ((x ◇ x) ◇ x)
+unresolved	271	1895	dual	1	Gt	Equation63	ManuallyProved/Equation63.lean	313	Eq63.Equation63_not_implies_Equation1692	63	1692	Gt	1	-	-	x = ((y ◇ x) ◇ x) ◇ y	x = (y ◇ (x ◇ y)) ◇ (x ◇ y)
+unresolved	274	47	dual	1	Gt	Equation73	ManuallyProved/Equation73.lean	313	Eq73.not_255	73	255	Gt	1	-	-	x = ((y ◇ x) ◇ y) ◇ y	x = x ◇ (x ◇ (x ◇ x))
+unresolved	274	99	dual	1	Gt	Equation73	ManuallyProved/Equation73.lean	296	Eq73.not_203	73	203	Gt	1	-	-	x = ((y ◇ x) ◇ y) ◇ y	x = x ◇ ((x ◇ x) ◇ x)
+unresolved	274	118	dual	3	Gt	Equation73	ManuallyProved/Equation73.lean	269	Eq73.not_99_4380	73	4380	Gt	1	-	-	x = ((y ◇ x) ◇ y) ◇ y	x = y ◇ ((x ◇ y) ◇ y)
+unresolved	274	203	dual	1	Gt	Equation73	ManuallyProved/Equation73.lean	269	Eq73.not_99_4380	73	99	Gt	1	-	-	x = ((y ◇ x) ◇ y) ◇ y	x = (x ◇ (x ◇ x)) ◇ x
+unresolved	274	222	dual	3	Gt	Equation73	ManuallyProved/Equation73.lean	269	Eq73.not_99_4380	73	4380	Gt	1	-	-	x = ((y ◇ x) ◇ y) ◇ y	x = (y ◇ (x ◇ y)) ◇ y
+unresolved	274	4380	dual	1	Gt	Equation73	ManuallyProved/Equation73.lean	269	Eq73.not_99_4380	73	4380	Gt	1	-	-	x = ((y ◇ x) ◇ y) ◇ y	x ◇ (x ◇ x) = (x ◇ x) ◇ x
+unresolved	274	4435	dual	1	Gt	Equation73	ManuallyProved/Equation73.lean	269	Eq73.not_99_4380	73	4380	Gt	1	-	-	x = ((y ◇ x) ◇ y) ◇ y	x ◇ (y ◇ x) = (x ◇ y) ◇ x
+unresolved	476	3862	direct	1	Gg	Eq476	Generated/Greedy/Eq476.lean	1058	Equation476_not_implies_Equation3862	476	3862	Gg	1	-	-	x = y ◇ (x ◇ (y ◇ (y ◇ x)))	x ◇ x = (x ◇ (x ◇ x)) ◇ x
+unresolved	511	614	direct	1	Gg	Eq511	Generated/Greedy/Eq511.lean	2751	Equation511_not_implies_Equation614	511	614	Gg	1	-	-	x = y ◇ (y ◇ (y ◇ (x ◇ y)))	x = x ◇ (x ◇ ((x ◇ x) ◇ x))
+unresolved	511	714	direct	11	Gg	Eq511	Generated/Greedy/Eq511.lean	2792	Equation511_not_implies_Equation714	511	714	Gg	1	-	-	x = y ◇ (y ◇ (y ◇ (x ◇ y)))	x = y ◇ (y ◇ ((y ◇ x) ◇ y))
+unresolved	511	1020	direct	1	Gg	Eq511	Generated/Greedy/Eq511.lean	2830	Equation511_not_implies_Equation1020	511	1020	Gg	1	-	-	x = y ◇ (y ◇ (y ◇ (x ◇ y)))	x = x ◇ ((x ◇ (x ◇ x)) ◇ x)
+unresolved	511	1120	closure	11	Gg	Eq511	Generated/Greedy/Eq511.lean	2751	Equation511_not_implies_Equation614	511	614	Gg	1	-	-	x = y ◇ (y ◇ (y ◇ (x ◇ y)))	x = y ◇ ((y ◇ (y ◇ x)) ◇ y)
+unresolved	511	1223	direct	1	Gg	Eq511	Generated/Greedy/Eq511.lean	2870	Equation511_not_implies_Equation1223	511	1223	Gg	1	-	-	x = y ◇ (y ◇ (y ◇ (x ◇ y)))	x = x ◇ (((x ◇ x) ◇ x) ◇ x)
+unresolved	511	2238	direct	1	Gg	Eq511	Generated/Greedy/Eq511.lean	2910	Equation511_not_implies_Equation2238	511	2238	Gg	1	-	-	x = y ◇ (y ◇ (y ◇ (x ◇ y)))	x = (x ◇ (x ◇ (x ◇ x))) ◇ x
+unresolved	511	2338	direct	9	Gg	Eq511	Generated/Greedy/Eq511.lean	2949	Equation511_not_implies_Equation2338	511	2338	Gg	1	-	-	x = y ◇ (y ◇ (y ◇ (x ◇ y)))	x = (y ◇ (y ◇ (y ◇ x))) ◇ y
+unresolved	511	2441	direct	1	Gg	Eq511	Generated/Greedy/Eq511.lean	2987	Equation511_not_implies_Equation2441	511	2441	Gg	1	-	-	x = y ◇ (y ◇ (y ◇ (x ◇ y)))	x = (x ◇ ((x ◇ x) ◇ x)) ◇ x
+unresolved	511	2847	direct	1	Gg	Eq511	Generated/Greedy/Eq511.lean	3027	Equation511_not_implies_Equation2847	511	2847	Gg	1	-	-	x = y ◇ (y ◇ (y ◇ (x ◇ y)))	x = ((x ◇ (x ◇ x)) ◇ x) ◇ x
+unresolved	511	3050	direct	1	Gg	Eq511	Generated/Greedy/Eq511.lean	3066	Equation511_not_implies_Equation3050	511	3050	Gg	1	-	-	x = y ◇ (y ◇ (y ◇ (x ◇ y)))	x = (((x ◇ x) ◇ x) ◇ x) ◇ x
+unresolved	511	4380	direct	1	Gg	Eq511	Generated/Greedy/Eq511.lean	3106	Equation511_not_implies_Equation4380	511	4380	Gg	1	-	-	x = y ◇ (y ◇ (y ◇ (x ◇ y)))	x ◇ (x ◇ x) = (x ◇ x) ◇ x
+unresolved	511	4435	direct	2	Gg	Eq511	Generated/Greedy/Eq511.lean	3145	Equation511_not_implies_Equation4435	511	4435	Gg	1	-	-	x = y ◇ (y ◇ (y ◇ (x ◇ y)))	x ◇ (y ◇ x) = (x ◇ y) ◇ x
+unresolved	707	1223	direct	1	Gg	Eq707	Generated/Greedy/Eq707.lean	548	Equation707_not_implies_Equation1223	707	1223	Gg	1	-	-	x = y ◇ (y ◇ ((x ◇ y) ◇ y))	x = x ◇ (((x ◇ x) ◇ x) ◇ x)
+unresolved	707	1316	direct	5	Gg	Eq707	Generated/Greedy/Eq707.lean	581	Equation707_not_implies_Equation1316	707	1316	Gg	1	-	-	x = y ◇ (y ◇ ((x ◇ y) ◇ y))	x = y ◇ (((y ◇ x) ◇ y) ◇ y)
+unresolved	707	2238	direct	1	Gg	Eq707	Generated/Greedy/Eq707.lean	608	Equation707_not_implies_Equation2238	707	2238	Gg	1	-	-	x = y ◇ (y ◇ ((x ◇ y) ◇ y))	x = (x ◇ (x ◇ (x ◇ x))) ◇ x
+unresolved	707	2331	closure	5	Gg	Eq707	Generated/Greedy/Eq707.lean	548	Equation707_not_implies_Equation1223	707	1223	Gg	1	-	-	x = y ◇ (y ◇ ((x ◇ y) ◇ y))	x = (y ◇ (y ◇ (x ◇ y))) ◇ y
+unresolved	707	2847	direct	1	Gg	Eq707	Generated/Greedy/Eq707.lean	636	Equation707_not_implies_Equation2847	707	2847	Gg	1	-	-	x = y ◇ (y ◇ ((x ◇ y) ◇ y))	x = ((x ◇ (x ◇ x)) ◇ x) ◇ x
+unresolved	713	359	closure	1	Gs	Equation713	ManuallyProved/Equation713.lean	348	Eq713.not_817_1426_3862_4065	713	4065	Gs	1	-	-	x = y ◇ (y ◇ ((y ◇ x) ◇ x))	x ◇ x = (x ◇ x) ◇ x
+unresolved	713	817	direct	1	Gs	Equation713	ManuallyProved/Equation713.lean	348	Eq713.not_817_1426_3862_4065	713	817	Gs	1	-	-	x = y ◇ (y ◇ ((y ◇ x) ◇ x))	x = x ◇ ((x ◇ x) ◇ (x ◇ x))
+unresolved	713	3862	direct	1	Gs	Equation713	ManuallyProved/Equation713.lean	348	Eq713.not_817_1426_3862_4065	713	3862	Gs	1	-	-	x = y ◇ (y ◇ ((y ◇ x) ◇ x))	x ◇ x = (x ◇ (x ◇ x)) ◇ x
+unresolved	713	4065	direct	1	Gs	Equation713	ManuallyProved/Equation713.lean	348	Eq713.not_817_1426_3862_4065	713	4065	Gs	1	-	-	x = y ◇ (y ◇ ((y ◇ x) ◇ x))	x ◇ x = ((x ◇ x) ◇ x) ◇ x
+unresolved	883	2035	direct	1	Gg	Eq883	Generated/Greedy/Eq883.lean	657	Equation883_not_implies_Equation2035	883	2035	Gg	1	-	-	x = y ◇ ((x ◇ y) ◇ (y ◇ y))	x = ((x ◇ x) ◇ x) ◇ (x ◇ x)
+unresolved	883	2304	direct	4	Gg	Eq883	Generated/Greedy/Eq883.lean	742	Equation883_not_implies_Equation2304	883	2304	Gg	1	-	-	x = y ◇ ((x ◇ y) ◇ (y ◇ y))	x = (y ◇ (x ◇ (y ◇ y))) ◇ y
+unresolved	917	1629	direct	1	Gt	Equation917	ManuallyProved/Equation917.lean	284	Eq917.not_1629	917	1629	Gt	1	-	-	x = y ◇ ((y ◇ y) ◇ (x ◇ y))	x = (x ◇ x) ◇ ((x ◇ x) ◇ x)
+unresolved	917	1729	closure	2	Gt	Equation917	ManuallyProved/Equation917.lean	284	Eq917.not_1629	917	1629	Gt	1	-	-	x = y ◇ ((y ◇ y) ◇ (x ◇ y))	x = (y ◇ y) ◇ ((y ◇ x) ◇ y)
+unresolved	917	2441	direct	1	Gt	Equation917	ManuallyProved/Equation917.lean	301	Eq917.not_2441	917	2441	Gt	1	-	-	x = y ◇ ((y ◇ y) ◇ (x ◇ y))	x = (x ◇ ((x ◇ x) ◇ x)) ◇ x
+unresolved	917	2541	closure	1	Gt	Equation917	ManuallyProved/Equation917.lean	301	Eq917.not_2441	917	2441	Gt	1	-	-	x = y ◇ ((y ◇ y) ◇ (x ◇ y))	x = (y ◇ ((y ◇ y) ◇ x)) ◇ y
+unresolved	1076	3	direct	9	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	4380	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x = x ◇ x
+unresolved	1076	8	direct	4	Gs	Equation1076	ManuallyProved/Equation1076.lean	312	Eq1076.refute_seed3	1076	3862	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x = x ◇ (x ◇ x)
+unresolved	1076	23	direct	3	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	4118	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x = (x ◇ x) ◇ x
+unresolved	1076	47	direct	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	343	Eq1076.refute_seed4	1076	47	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x = x ◇ (x ◇ (x ◇ x))
+unresolved	1076	99	direct	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	99	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x = x ◇ ((x ◇ x) ◇ x)
+unresolved	1076	151	direct	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	274	Eq1076.refute_seed2	1076	151	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x = (x ◇ x) ◇ (x ◇ x)
+unresolved	1076	203	direct	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	203	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x = (x ◇ (x ◇ x)) ◇ x
+unresolved	1076	255	direct	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	408	Eq1076.refute_seed7	1076	255	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x = ((x ◇ x) ◇ x) ◇ x
+unresolved	1076	307	direct	2	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	307	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x ◇ x = x ◇ (x ◇ x)
+unresolved	1076	326	direct	4	Gs	Equation1076	ManuallyProved/Equation1076.lean	274	Eq1076.refute_seed2	1076	3522	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x ◇ y = x ◇ (y ◇ y)
+unresolved	1076	359	direct	2	Gs	Equation1076	ManuallyProved/Equation1076.lean	390	Eq1076.refute_seed6	1076	359	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x ◇ x = (x ◇ x) ◇ x
+unresolved	1076	375	direct	4	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	4118	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x ◇ y = (x ◇ x) ◇ y
+unresolved	1076	411	direct	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	312	Eq1076.refute_seed3	1076	411	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x = x ◇ (x ◇ (x ◇ (x ◇ x)))
+unresolved	1076	614	direct	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	390	Eq1076.refute_seed6	1076	614	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x = x ◇ (x ◇ ((x ◇ x) ◇ x))
+unresolved	1076	817	direct	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	274	Eq1076.refute_seed2	1076	817	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x = x ◇ ((x ◇ x) ◇ (x ◇ x))
+unresolved	1076	1223	direct	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	1223	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x = x ◇ (((x ◇ x) ◇ x) ◇ x)
+unresolved	1076	1426	direct	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	312	Eq1076.refute_seed3	1076	1426	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x = (x ◇ x) ◇ (x ◇ (x ◇ x))
+unresolved	1076	1629	direct	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	274	Eq1076.refute_seed2	1076	1629	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x = (x ◇ x) ◇ ((x ◇ x) ◇ x)
+unresolved	1076	1832	direct	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	429	Eq1076.refute_seed8	1076	1832	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x = (x ◇ (x ◇ x)) ◇ (x ◇ x)
+unresolved	1076	2035	direct	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	274	Eq1076.refute_seed2	1076	2035	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x = ((x ◇ x) ◇ x) ◇ (x ◇ x)
+unresolved	1076	2238	direct	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	343	Eq1076.refute_seed4	1076	2238	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x = (x ◇ (x ◇ (x ◇ x))) ◇ x
+unresolved	1076	2441	direct	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	2441	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x = (x ◇ ((x ◇ x) ◇ x)) ◇ x
+unresolved	1076	2644	direct	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	274	Eq1076.refute_seed2	1076	2644	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x = ((x ◇ x) ◇ (x ◇ x)) ◇ x
+unresolved	1076	2847	direct	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	369	Eq1076.refute_seed5	1076	2847	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x = ((x ◇ (x ◇ x)) ◇ x) ◇ x
+unresolved	1076	3050	direct	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	3050	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x = (((x ◇ x) ◇ x) ◇ x) ◇ x
+unresolved	1076	3253	direct	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	312	Eq1076.refute_seed3	1076	3253	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x ◇ x = x ◇ (x ◇ (x ◇ x))
+unresolved	1076	3319	direct	2	Gs	Equation1076	ManuallyProved/Equation1076.lean	343	Eq1076.refute_seed4	1076	3319	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x ◇ y = x ◇ (y ◇ (y ◇ y))
+unresolved	1076	3456	direct	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	3456	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x ◇ x = x ◇ ((x ◇ x) ◇ x)
+unresolved	1076	3522	direct	2	Gs	Equation1076	ManuallyProved/Equation1076.lean	274	Eq1076.refute_seed2	1076	3522	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x ◇ y = x ◇ ((y ◇ y) ◇ y)
+unresolved	1076	3659	direct	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	444	Eq1076.refute_seed9	1076	3659	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x ◇ x = (x ◇ x) ◇ (x ◇ x)
+unresolved	1076	3715	direct	7	Gs	Equation1076	ManuallyProved/Equation1076.lean	274	Eq1076.refute_seed2	1076	4470	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x ◇ y = (x ◇ x) ◇ (y ◇ y)
+unresolved	1076	3722	direct	2	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	3722	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x ◇ y = (x ◇ y) ◇ (x ◇ y)
+unresolved	1076	3862	direct	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	312	Eq1076.refute_seed3	1076	3862	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x ◇ x = (x ◇ (x ◇ x)) ◇ x
+unresolved	1076	3915	direct	2	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	3915	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x ◇ y = (x ◇ (x ◇ x)) ◇ y
+unresolved	1076	4065	direct	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	408	Eq1076.refute_seed7	1076	4065	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x ◇ x = ((x ◇ x) ◇ x) ◇ x
+unresolved	1076	4118	direct	2	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	4118	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x ◇ y = ((x ◇ x) ◇ x) ◇ y
+unresolved	1076	4380	direct	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	4380	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x ◇ (x ◇ x) = (x ◇ x) ◇ x
+unresolved	1076	4470	direct	2	Gs	Equation1076	ManuallyProved/Equation1076.lean	274	Eq1076.refute_seed2	1076	4470	Gs	1	-	-	x = y ◇ ((x ◇ (x ◇ y)) ◇ y)	x ◇ (y ◇ y) = (x ◇ x) ◇ y
+unresolved	1112	8	direct	7	Gg	Eq1112	Generated/Greedy/Eq1112.lean	833	Equation1112_not_implies_Equation8	1112	8	Gg	1	-	-	x = y ◇ ((y ◇ (x ◇ y)) ◇ x)	x = x ◇ (x ◇ x)
+unresolved	1112	411	direct	1	Gg	Eq1112	Generated/Greedy/Eq1112.lean	859	Equation1112_not_implies_Equation411	1112	411	Gg	1	-	-	x = y ◇ ((y ◇ (x ◇ y)) ◇ x)	x = x ◇ (x ◇ (x ◇ (x ◇ x)))
+unresolved	1112	1832	direct	1	Gg	Eq1112	Generated/Greedy/Eq1112.lean	912	Equation1112_not_implies_Equation1832	1112	1832	Gg	1	-	-	x = y ◇ ((y ◇ (x ◇ y)) ◇ x)	x = (x ◇ (x ◇ x)) ◇ (x ◇ x)
+unresolved	1112	3253	direct	1	Gg	Eq1112	Generated/Greedy/Eq1112.lean	939	Equation1112_not_implies_Equation3253	1112	3253	Gg	1	-	-	x = y ◇ ((y ◇ (x ◇ y)) ◇ x)	x ◇ x = x ◇ (x ◇ (x ◇ x))
+unresolved	1112	3319	direct	2	Gg	Eq1112	Generated/Greedy/Eq1112.lean	966	Equation1112_not_implies_Equation3319	1112	3319	Gg	1	-	-	x = y ◇ ((y ◇ (x ◇ y)) ◇ x)	x ◇ y = x ◇ (y ◇ (y ◇ y))
+unresolved	1112	3862	direct	1	Gg	Eq1112	Generated/Greedy/Eq1112.lean	993	Equation1112_not_implies_Equation3862	1112	3862	Gg	1	-	-	x = y ◇ ((y ◇ (x ◇ y)) ◇ x)	x ◇ x = (x ◇ (x ◇ x)) ◇ x
+unresolved	1112	3915	direct	2	Gg	Eq1112	Generated/Greedy/Eq1112.lean	1021	Equation1112_not_implies_Equation3915	1112	3915	Gg	1	-	-	x = y ◇ ((y ◇ (x ◇ y)) ◇ x)	x ◇ y = (x ◇ (x ◇ x)) ◇ y
+unresolved	1117	2441	direct	1	E	M1117	ManuallyProved/Equation1117.lean	8	Equation1117_not_implies_Equation2441	1117	2441	E	1	M1117	M1117x=accepted	x = y ◇ ((y ◇ (x ◇ z)) ◇ z)	x = (x ◇ ((x ◇ x) ◇ x)) ◇ x
+unresolved	1117	2444	closure	1	E	M1117	ManuallyProved/Equation1117.lean	8	Equation1117_not_implies_Equation2441	1117	2441	E	1	M1117	M1117x=accepted	x = y ◇ ((y ◇ (x ◇ z)) ◇ z)	x = (x ◇ ((x ◇ x) ◇ y)) ◇ y
+unresolved	1117	2530	closure	1	E	M1117	ManuallyProved/Equation1117.lean	8	Equation1117_not_implies_Equation2441	1117	2441	E	1	M1117	M1117x=accepted	x = y ◇ ((y ◇ (x ◇ z)) ◇ z)	x = (y ◇ ((y ◇ x) ◇ x)) ◇ x
+unresolved	1117	2534	closure	1	E	M1117	ManuallyProved/Equation1117.lean	8	Equation1117_not_implies_Equation2441	1117	2441	E	1	M1117	M1117x=accepted	x = y ◇ ((y ◇ (x ◇ z)) ◇ z)	x = (y ◇ ((y ◇ x) ◇ y)) ◇ y
+unresolved	1117	2538	closure	1	E	M1117	ManuallyProved/Equation1117.lean	8	Equation1117_not_implies_Equation2441	1117	2441	E	1	M1117	M1117x=accepted	x = y ◇ ((y ◇ (x ◇ z)) ◇ z)	x = (y ◇ ((y ◇ x) ◇ z)) ◇ z
+unresolved	1133	1035	closure	2	E	M1661^T	ManuallyProved/Equation1661.lean	537	Equation1979_not_implies_Equation1035	1979	1035	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x = x ◇ ((y ◇ (x ◇ x)) ◇ x)
+unresolved	1133	1055	closure	2	E	M1661^T	ManuallyProved/Equation1661.lean	537	Equation1979_not_implies_Equation1035	1979	1035	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x = x ◇ ((y ◇ (z ◇ x)) ◇ x)
+unresolved	1133	1085	closure	2	E	M1661^T	ManuallyProved/Equation1661.lean	558	Equation1979_not_implies_Equation1085	1979	1085	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x = y ◇ ((x ◇ (y ◇ y)) ◇ x)
+unresolved	1133	1096	closure	24	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x = y ◇ ((x ◇ (z ◇ y)) ◇ x)
+unresolved	1133	1150	closure	24	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x = y ◇ ((z ◇ (x ◇ y)) ◇ x)
+unresolved	1133	1167	closure	12	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)
+unresolved	1133	1202	closure	24	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x = y ◇ ((z ◇ (w ◇ y)) ◇ x)
+unresolved	1133	1634	closure	2	E	M1661^T	ManuallyProved/Equation1661.lean	474	Equation1979_not_implies_Equation1634	1979	1634	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x = (x ◇ x) ◇ ((y ◇ x) ◇ x)
+unresolved	1133	1657	closure	2	E	M1661^T	ManuallyProved/Equation1661.lean	516	Equation1979_not_implies_Equation1657	1979	1657	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x = (x ◇ y) ◇ ((y ◇ y) ◇ x)
+unresolved	1133	1668	closure	6	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x = (x ◇ y) ◇ ((z ◇ y) ◇ x)
+unresolved	1133	1681	closure	2	E	M1661^T	ManuallyProved/Equation1661.lean	453	Equation1979_not_implies_Equation1681	1979	1681	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x = (y ◇ x) ◇ ((x ◇ x) ◇ x)
+unresolved	1133	1701	closure	4	E	M1661^T	ManuallyProved/Equation1661.lean	453	Equation1979_not_implies_Equation1681	1979	1681	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x = (y ◇ x) ◇ ((z ◇ x) ◇ x)
+unresolved	1133	1721	closure	2	E	M1661^T	ManuallyProved/Equation1661.lean	495	Equation1979_not_implies_Equation1721	1979	1721	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x = (y ◇ y) ◇ ((x ◇ y) ◇ x)
+unresolved	1133	1742	closure	24	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x = (y ◇ y) ◇ ((z ◇ y) ◇ x)
+unresolved	1133	1763	closure	24	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x = (y ◇ z) ◇ ((x ◇ z) ◇ x)
+unresolved	1133	1797	closure	24	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x = (y ◇ z) ◇ ((z ◇ z) ◇ x)
+unresolved	1133	1816	closure	24	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x = (y ◇ z) ◇ ((w ◇ z) ◇ x)
+unresolved	1133	1860	closure	2	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x = (x ◇ (y ◇ y)) ◇ (y ◇ x)
+unresolved	1133	1875	closure	6	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x = (x ◇ (y ◇ z)) ◇ (z ◇ x)
+unresolved	1133	1884	closure	2	E	M1661^T	ManuallyProved/Equation1661.lean	432	Equation1979_not_implies_Equation1884	1979	1884	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x = (y ◇ (x ◇ x)) ◇ (x ◇ x)
+unresolved	1133	1912	closure	24	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x = (y ◇ (x ◇ z)) ◇ (z ◇ x)
+unresolved	1133	1958	closure	2	E	M1661^T	ManuallyProved/Equation1661.lean	432	Equation1979_not_implies_Equation1884	1979	1884	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x = (y ◇ (z ◇ x)) ◇ (x ◇ x)
+unresolved	1133	2000	closure	12	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)
+unresolved	1133	2024	closure	24	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x = (y ◇ (z ◇ w)) ◇ (w ◇ x)
+unresolved	1133	3877	closure	2	E	M1661^T	ManuallyProved/Equation1661.lean	579	Equation1979_not_implies_Equation3877	1979	3877	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x ◇ x = (y ◇ (x ◇ x)) ◇ x
+unresolved	1133	3897	closure	2	E	M1661^T	ManuallyProved/Equation1661.lean	579	Equation1979_not_implies_Equation3877	1979	3877	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x ◇ x = (y ◇ (z ◇ x)) ◇ x
+unresolved	1133	3952	closure	2	E	M1661^T	ManuallyProved/Equation1661.lean	600	Equation1979_not_implies_Equation3952	1979	3952	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x ◇ y = (y ◇ (x ◇ x)) ◇ y
+unresolved	1133	3972	closure	2	E	M1661^T	ManuallyProved/Equation1661.lean	600	Equation1979_not_implies_Equation3952	1979	3952	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x ◇ y = (y ◇ (z ◇ x)) ◇ y
+unresolved	1133	3989	closure	4	E	M1661^T	ManuallyProved/Equation1661.lean	579	Equation1979_not_implies_Equation3877	1979	3877	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x ◇ y = (z ◇ (x ◇ x)) ◇ y
+unresolved	1133	4006	closure	2	E	M1661^T	ManuallyProved/Equation1661.lean	579	Equation1979_not_implies_Equation3877	1979	3877	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x ◇ y = (z ◇ (y ◇ x)) ◇ y
+unresolved	1133	4040	closure	4	E	M1661^T	ManuallyProved/Equation1661.lean	579	Equation1979_not_implies_Equation3877	1979	3877	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	x ◇ y = (z ◇ (w ◇ x)) ◇ y
+unresolved	1133	4587	closure	2	E	M1661^T	ManuallyProved/Equation1661.lean	621	Equation1979_not_implies_Equation4587	1979	4587	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	(x ◇ x) ◇ x = (y ◇ x) ◇ x
+unresolved	1133	4606	closure	2	E	M1661^T	ManuallyProved/Equation1661.lean	642	Equation1979_not_implies_Equation4606	1979	4606	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	(x ◇ x) ◇ y = (y ◇ x) ◇ y
+unresolved	1133	4615	closure	4	E	M1661^T	ManuallyProved/Equation1661.lean	621	Equation1979_not_implies_Equation4587	1979	4587	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	(x ◇ x) ◇ y = (z ◇ x) ◇ y
+unresolved	1133	4645	closure	4	E	M1661^T	ManuallyProved/Equation1661.lean	621	Equation1979_not_implies_Equation4587	1979	4587	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	(x ◇ y) ◇ x = (z ◇ y) ◇ x
+unresolved	1133	4666	closure	2	E	M1661^T	ManuallyProved/Equation1661.lean	621	Equation1979_not_implies_Equation4587	1979	4587	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	(x ◇ y) ◇ y = (z ◇ y) ◇ y
+unresolved	1133	4689	closure	4	E	M1661^T	ManuallyProved/Equation1661.lean	621	Equation1979_not_implies_Equation4587	1979	4587	E	2	M1661^T	M1661T=accepted	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)	(x ◇ y) ◇ z = (w ◇ y) ◇ z
+unresolved	1167	1025	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	2446	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x = x ◇ ((x ◇ (y ◇ x)) ◇ x)
+unresolved	1167	1055	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	2452	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x = x ◇ ((y ◇ (z ◇ x)) ◇ x)
+unresolved	1167	1096	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x = y ◇ ((x ◇ (z ◇ y)) ◇ x)
+unresolved	1167	1112	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	2460	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x = y ◇ ((y ◇ (x ◇ y)) ◇ x)
+unresolved	1167	1133	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3525	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)
+unresolved	1167	1150	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x = y ◇ ((z ◇ (x ◇ y)) ◇ x)
+unresolved	1167	1202	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x = y ◇ ((z ◇ (w ◇ y)) ◇ x)
+unresolved	1167	1634	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1837	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x = (x ◇ x) ◇ ((y ◇ x) ◇ x)
+unresolved	1167	1657	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1860	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x = (x ◇ y) ◇ ((y ◇ y) ◇ x)
+unresolved	1167	1668	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1860	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x = (x ◇ y) ◇ ((z ◇ y) ◇ x)
+unresolved	1167	1681	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1833	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x = (y ◇ x) ◇ ((x ◇ x) ◇ x)
+unresolved	1167	1701	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1839	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x = (y ◇ x) ◇ ((z ◇ x) ◇ x)
+unresolved	1167	1721	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1851	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x = (y ◇ y) ◇ ((x ◇ y) ◇ x)
+unresolved	1167	1742	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x = (y ◇ y) ◇ ((z ◇ y) ◇ x)
+unresolved	1167	1763	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659^T	M1659T=accepted;hard2_0027=accepted;ledger=incomplete_proof:Quot.sound+propext;nat=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x = (y ◇ z) ◇ ((x ◇ z) ◇ x)
+unresolved	1167	1797	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x = (y ◇ z) ◇ ((z ◇ z) ◇ x)
+unresolved	1167	1816	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x = (y ◇ z) ◇ ((w ◇ z) ◇ x)
+unresolved	1167	1847	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1631	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x = (x ◇ (y ◇ x)) ◇ (x ◇ x)
+unresolved	1167	1875	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1860	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x = (x ◇ (y ◇ z)) ◇ (z ◇ x)
+unresolved	1167	1897	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1655	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x = (y ◇ (x ◇ y)) ◇ (y ◇ x)
+unresolved	1167	1912	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x = (y ◇ (x ◇ z)) ◇ (z ◇ x)
+unresolved	1167	1958	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1631	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x = (y ◇ (z ◇ x)) ◇ (x ◇ x)
+unresolved	1167	1979	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3525	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)
+unresolved	1167	2024	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x = (y ◇ (z ◇ w)) ◇ (w ◇ x)
+unresolved	1167	3867	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3458	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x ◇ x = (x ◇ (y ◇ x)) ◇ x
+unresolved	1167	3897	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3460	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x ◇ x = (y ◇ (z ◇ x)) ◇ x
+unresolved	1167	3925	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3519	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x ◇ y = (x ◇ (y ◇ x)) ◇ y
+unresolved	1167	3935	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3525	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x ◇ y = (x ◇ (z ◇ x)) ◇ y
+unresolved	1167	3972	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3524	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x ◇ y = (y ◇ (z ◇ x)) ◇ y
+unresolved	1167	4006	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3520	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x ◇ y = (z ◇ (y ◇ x)) ◇ y
+unresolved	1167	4040	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3527	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	x ◇ y = (z ◇ (w ◇ x)) ◇ y
+unresolved	1167	4587	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4268	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	(x ◇ x) ◇ x = (y ◇ x) ◇ x
+unresolved	1167	4606	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4314	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	(x ◇ x) ◇ y = (y ◇ x) ◇ y
+unresolved	1167	4615	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	(x ◇ x) ◇ y = (z ◇ x) ◇ y
+unresolved	1167	4645	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	(x ◇ y) ◇ x = (z ◇ y) ◇ x
+unresolved	1167	4666	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4268	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	(x ◇ y) ◇ y = (z ◇ y) ◇ y
+unresolved	1167	4689	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659^T	M1659T=accepted	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)	(x ◇ y) ◇ z = (w ◇ y) ◇ z
+unresolved	1289	2507	closure	1	Gs	Equation1289	ManuallyProved/Equation1289.lean	397	Eq1289.not_3116_4435	1289	4435	Gs	1	-	-	x = y ◇ (((x ◇ y) ◇ y) ◇ y)	x = (y ◇ ((x ◇ y) ◇ y)) ◇ y
+unresolved	1289	2913	closure	1	Gs	Equation1289	ManuallyProved/Equation1289.lean	397	Eq1289.not_3116_4435	1289	4435	Gs	1	-	-	x = y ◇ (((x ◇ y) ◇ y) ◇ y)	x = ((y ◇ (x ◇ y)) ◇ y) ◇ y
+unresolved	1289	4435	direct	1	Gs	Equation1289	ManuallyProved/Equation1289.lean	397	Eq1289.not_3116_4435	1289	4435	Gs	1	-	-	x = y ◇ (((x ◇ y) ◇ y) ◇ y)	x ◇ (y ◇ x) = (x ◇ y) ◇ x
+unresolved	1323	2744	direct	1	Gt	Equation1323	ManuallyProved/Equation1323.lean	672	Eq1323.Equation1323_not_implies_Equation2744	1323	2744	Gt	1	-	-	x = y ◇ (((y ◇ y) ◇ x) ◇ y)	x = ((y ◇ y) ◇ (y ◇ x)) ◇ y
+unresolved	1437	4269	direct	1	E	M1437	ManuallyProved/Equation1437.lean	15	Equation1437_not_implies_Equation4269	1437	4269	E	1	M1437	M1437=accepted	x = (x ◇ x) ◇ (y ◇ (z ◇ x))	x ◇ (x ◇ x) = x ◇ (y ◇ x)
+unresolved	1437	4316	closure	1	E	M1437	ManuallyProved/Equation1437.lean	15	Equation1437_not_implies_Equation4269	1437	4269	E	1	M1437	M1437=accepted	x = (x ◇ x) ◇ (y ◇ (z ◇ x))	x ◇ (y ◇ x) = x ◇ (z ◇ x)
+unresolved	1447	1431	direct	1	E	M1447	ManuallyProved/Equation1447.lean	325	Equation1447.Equation1447_facts	1447	1431	E	1	M1447	M1447x=accepted	x = (x ◇ y) ◇ (x ◇ (z ◇ x))	x = (x ◇ x) ◇ (y ◇ (x ◇ x))
+unresolved	1447	4269	direct	1	E	M1447	ManuallyProved/Equation1447.lean	325	Equation1447.Equation1447_facts	1447	4269	E	1	M1447	M1447x=accepted	x = (x ◇ y) ◇ (x ◇ (z ◇ x))	x ◇ (x ◇ x) = x ◇ (y ◇ x)
+unresolved	1447	4316	closure	1	E	M1447	ManuallyProved/Equation1447.lean	325	Equation1447.Equation1447_facts	1447	4269	E	1	M1447	M1447x=accepted	x = (x ◇ y) ◇ (x ◇ (z ◇ x))	x ◇ (y ◇ x) = x ◇ (z ◇ x)
+unresolved	1491	65	direct	1	Gv	Obelix	Obelix.lean	789	Obelix.PartialSolution.Equation1491_facts	1491	65	Gv	1	-	TI=accepted	x = (y ◇ x) ◇ (y ◇ (y ◇ x))	x = y ◇ (x ◇ (y ◇ x))
+unresolved	1516	255	direct	1	Gt	Equation1516	ManuallyProved/Equation1516.lean	2151	Equation1516_not_implies_Equation255	1516	255	Gt	1	-	-	x = (y ◇ y) ◇ (x ◇ (x ◇ y))	x = ((x ◇ x) ◇ x) ◇ x
+unresolved	1526	1223	direct	1	Gt	Equation1526	ManuallyProved/Equation1526.lean	279	Eq1526.not_1223	1526	1223	Gt	1	-	-	x = (y ◇ y) ◇ (y ◇ (x ◇ y))	x = x ◇ (((x ◇ x) ◇ x) ◇ x)
+unresolved	1526	1323	closure	1	Gt	Equation1526	ManuallyProved/Equation1526.lean	279	Eq1526.not_1223	1526	1223	Gt	1	-	-	x = (y ◇ y) ◇ (y ◇ (x ◇ y))	x = y ◇ (((y ◇ y) ◇ x) ◇ y)
+unresolved	1526	2744	direct	2	Gt	Equation1526	ManuallyProved/Equation1526.lean	297	Eq1526.not_2744	1526	2744	Gt	2	-	-	x = (y ◇ y) ◇ (y ◇ (x ◇ y))	x = ((y ◇ y) ◇ (y ◇ x)) ◇ y
+unresolved	1648	23	closure	1	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	4065	E	1	M1648b	M1648b=accepted	x = (x ◇ y) ◇ ((x ◇ y) ◇ y)	x = (x ◇ x) ◇ x
+unresolved	1648	151	direct	1	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	151	E	1	M1648b	M1648b=accepted	x = (x ◇ y) ◇ ((x ◇ y) ◇ y)	x = (x ◇ x) ◇ (x ◇ x)
+unresolved	1648	203	direct	1	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	203	E	1	M1648b	M1648b=accepted	x = (x ◇ y) ◇ ((x ◇ y) ◇ y)	x = (x ◇ (x ◇ x)) ◇ x
+unresolved	1648	206	direct	3	E	M1648a	ManuallyProved/Equation1648.lean	11	Equation1648_not_implies_Equation206	1648	206	E,Gg	3	M1648a,M1648b	M1648a=accepted;M1648b=accepted	x = (x ◇ y) ◇ ((x ◇ y) ◇ y)	x = (x ◇ (x ◇ y)) ◇ y
+unresolved	1648	307	direct	2	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	307	E,Gg	2	M1648b	M1648b=accepted	x = (x ◇ y) ◇ ((x ◇ y) ◇ y)	x ◇ x = x ◇ (x ◇ x)
+unresolved	1648	1426	direct	1	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	1426	E	1	M1648b	M1648b=accepted	x = (x ◇ y) ◇ ((x ◇ y) ◇ y)	x = (x ◇ x) ◇ (x ◇ (x ◇ x))
+unresolved	1648	1832	direct	1	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	1832	E	1	M1648b	M1648b=accepted	x = (x ◇ y) ◇ ((x ◇ y) ◇ y)	x = (x ◇ (x ◇ x)) ◇ (x ◇ x)
+unresolved	1648	2238	direct	1	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	2238	E	1	M1648b	M1648b=accepted	x = (x ◇ y) ◇ ((x ◇ y) ◇ y)	x = (x ◇ (x ◇ (x ◇ x))) ◇ x
+unresolved	1648	2441	direct	1	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	2441	E	1	M1648b	M1648b=accepted	x = (x ◇ y) ◇ ((x ◇ y) ◇ y)	x = (x ◇ ((x ◇ x) ◇ x)) ◇ x
+unresolved	1648	3050	direct	1	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	3050	E	1	M1648b	M1648b=accepted	x = (x ◇ y) ◇ ((x ◇ y) ◇ y)	x = (((x ◇ x) ◇ x) ◇ x) ◇ x
+unresolved	1648	3253	direct	1	Gg	Eq1648	Generated/Greedy/Eq1648.lean	407	Equation1648_not_implies_Equation3253	1648	3253	Gg	1	-	-	x = (x ◇ y) ◇ ((x ◇ y) ◇ y)	x ◇ x = x ◇ (x ◇ (x ◇ x))
+unresolved	1648	3456	direct	1	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	3456	E	1	M1648b	M1648b=accepted	x = (x ◇ y) ◇ ((x ◇ y) ◇ y)	x ◇ x = x ◇ ((x ◇ x) ◇ x)
+unresolved	1648	3522	direct	1	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	3522	E	1	M1648b	M1648b=accepted	x = (x ◇ y) ◇ ((x ◇ y) ◇ y)	x ◇ y = x ◇ ((y ◇ y) ◇ y)
+unresolved	1648	4065	direct	1	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	4065	E	1	M1648b	M1648b=accepted	x = (x ◇ y) ◇ ((x ◇ y) ◇ y)	x ◇ x = ((x ◇ x) ◇ x) ◇ x
+unresolved	1648	4118	closure	1	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	4065	E	1	M1648b	M1648b=accepted	x = (x ◇ y) ◇ ((x ◇ y) ◇ y)	x ◇ y = ((x ◇ x) ◇ x) ◇ y
+unresolved	1659	1631	direct	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1631	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x = (x ◇ x) ◇ ((x ◇ y) ◇ x)
+unresolved	1659	1633	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1631	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x = (x ◇ x) ◇ ((x ◇ y) ◇ z)
+unresolved	1659	1655	direct	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1655	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x = (x ◇ y) ◇ ((y ◇ x) ◇ y)
+unresolved	1659	1656	direct	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x = (x ◇ y) ◇ ((y ◇ x) ◇ z)
+unresolved	1659	1660	direct	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1860	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x = (x ◇ y) ◇ ((y ◇ z) ◇ x)
+unresolved	1659	1661	direct	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3525	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)
+unresolved	1659	1663	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x = (x ◇ y) ◇ ((y ◇ z) ◇ w)
+unresolved	1659	1833	direct	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1833	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x = (x ◇ (x ◇ x)) ◇ (x ◇ y)
+unresolved	1659	1837	direct	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1837	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x = (x ◇ (x ◇ y)) ◇ (x ◇ x)
+unresolved	1659	1839	direct	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1839	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x = (x ◇ (x ◇ y)) ◇ (x ◇ z)
+unresolved	1659	1851	direct	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1851	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x = (x ◇ (y ◇ x)) ◇ (y ◇ y)
+unresolved	1659	1852	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x = (x ◇ (y ◇ x)) ◇ (y ◇ z)
+unresolved	1659	1860	direct	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1860	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x = (x ◇ (y ◇ y)) ◇ (y ◇ x)
+unresolved	1659	1862	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x = (x ◇ (y ◇ y)) ◇ (y ◇ z)
+unresolved	1659	1871	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1860	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x = (x ◇ (y ◇ z)) ◇ (y ◇ x)
+unresolved	1659	1872	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x = (x ◇ (y ◇ z)) ◇ (y ◇ y)
+unresolved	1659	1874	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x = (x ◇ (y ◇ z)) ◇ (y ◇ w)
+unresolved	1659	2446	direct	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	2446	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x = (x ◇ ((x ◇ y) ◇ x)) ◇ x
+unresolved	1659	2452	direct	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	2452	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x = (x ◇ ((x ◇ y) ◇ z)) ◇ x
+unresolved	1659	2460	direct	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	2460	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x = (x ◇ ((y ◇ x) ◇ y)) ◇ y
+unresolved	1659	2463	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x = (x ◇ ((y ◇ x) ◇ z)) ◇ y
+unresolved	1659	2477	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x = (x ◇ ((y ◇ z) ◇ x)) ◇ y
+unresolved	1659	2481	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3525	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y
+unresolved	1659	2489	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x = (x ◇ ((y ◇ z) ◇ w)) ◇ y
+unresolved	1659	3458	direct	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3458	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x ◇ x = x ◇ ((x ◇ y) ◇ x)
+unresolved	1659	3460	direct	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3460	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x ◇ x = x ◇ ((x ◇ y) ◇ z)
+unresolved	1659	3519	direct	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3519	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x ◇ y = x ◇ ((y ◇ x) ◇ y)
+unresolved	1659	3520	direct	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3520	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x ◇ y = x ◇ ((y ◇ x) ◇ z)
+unresolved	1659	3524	direct	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3524	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x ◇ y = x ◇ ((y ◇ z) ◇ x)
+unresolved	1659	3525	direct	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3525	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x ◇ y = x ◇ ((y ◇ z) ◇ y)
+unresolved	1659	3527	direct	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3527	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x ◇ y = x ◇ ((y ◇ z) ◇ w)
+unresolved	1659	4268	direct	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4268	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x ◇ (x ◇ x) = x ◇ (x ◇ y)
+unresolved	1659	4282	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4268	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x ◇ (x ◇ y) = x ◇ (x ◇ z)
+unresolved	1659	4314	direct	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4314	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x ◇ (y ◇ x) = x ◇ (y ◇ y)
+unresolved	1659	4315	direct	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x ◇ (y ◇ x) = x ◇ (y ◇ z)
+unresolved	1659	4339	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x ◇ (y ◇ y) = x ◇ (y ◇ z)
+unresolved	1659	4357	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659	M1659=accepted	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)	x ◇ (y ◇ z) = x ◇ (y ◇ w)
+unresolved	1661	1630	direct	2	E	M1661	ManuallyProved/Equation1661.lean	420	Equation1661_not_implies_Equation1630	1661	1630	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x = (x ◇ x) ◇ ((x ◇ x) ◇ y)
+unresolved	1661	1633	closure	2	E	M1661	ManuallyProved/Equation1661.lean	420	Equation1661_not_implies_Equation1630	1661	1630	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x = (x ◇ x) ◇ ((x ◇ y) ◇ z)
+unresolved	1661	1656	closure	24	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x = (x ◇ y) ◇ ((y ◇ x) ◇ z)
+unresolved	1661	1657	direct	2	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x = (x ◇ y) ◇ ((y ◇ y) ◇ x)
+unresolved	1661	1659	closure	12	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)
+unresolved	1661	1660	closure	6	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x = (x ◇ y) ◇ ((y ◇ z) ◇ x)
+unresolved	1661	1663	closure	24	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x = (x ◇ y) ◇ ((y ◇ z) ◇ w)
+unresolved	1661	1833	direct	2	E	M1661	ManuallyProved/Equation1661.lean	441	Equation1661_not_implies_Equation1833	1661	1833	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x = (x ◇ (x ◇ x)) ◇ (x ◇ y)
+unresolved	1661	1837	direct	2	E	M1661	ManuallyProved/Equation1661.lean	462	Equation1661_not_implies_Equation1837	1661	1837	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x = (x ◇ (x ◇ y)) ◇ (x ◇ x)
+unresolved	1661	1839	closure	4	E	M1661	ManuallyProved/Equation1661.lean	441	Equation1661_not_implies_Equation1833	1661	1833	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x = (x ◇ (x ◇ y)) ◇ (x ◇ z)
+unresolved	1661	1851	direct	2	E	M1661	ManuallyProved/Equation1661.lean	483	Equation1661_not_implies_Equation1851	1661	1851	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x = (x ◇ (y ◇ x)) ◇ (y ◇ y)
+unresolved	1661	1852	closure	24	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x = (x ◇ (y ◇ x)) ◇ (y ◇ z)
+unresolved	1661	1860	direct	2	E	M1661	ManuallyProved/Equation1661.lean	504	Equation1661_not_implies_Equation1860	1661	1860	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x = (x ◇ (y ◇ y)) ◇ (y ◇ x)
+unresolved	1661	1862	closure	24	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x = (x ◇ (y ◇ y)) ◇ (y ◇ z)
+unresolved	1661	1871	closure	6	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x = (x ◇ (y ◇ z)) ◇ (y ◇ x)
+unresolved	1661	1872	closure	24	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x = (x ◇ (y ◇ z)) ◇ (y ◇ y)
+unresolved	1661	1874	closure	24	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x = (x ◇ (y ◇ z)) ◇ (y ◇ w)
+unresolved	1661	2443	direct	2	E	M1661	ManuallyProved/Equation1661.lean	525	Equation1661_not_implies_Equation2443	1661	2443	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x = (x ◇ ((x ◇ x) ◇ y)) ◇ x
+unresolved	1661	2452	closure	2	E	M1661	ManuallyProved/Equation1661.lean	525	Equation1661_not_implies_Equation2443	1661	2443	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x = (x ◇ ((x ◇ y) ◇ z)) ◇ x
+unresolved	1661	2463	closure	24	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x = (x ◇ ((y ◇ x) ◇ z)) ◇ y
+unresolved	1661	2467	direct	2	E	M1661	ManuallyProved/Equation1661.lean	546	Equation1661_not_implies_Equation2467	1661	2467	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x = (x ◇ ((y ◇ y) ◇ x)) ◇ y
+unresolved	1661	2473	closure	12	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y
+unresolved	1661	2477	closure	24	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x = (x ◇ ((y ◇ z) ◇ x)) ◇ y
+unresolved	1661	2489	closure	24	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x = (x ◇ ((y ◇ z) ◇ w)) ◇ y
+unresolved	1661	3457	direct	2	E	M1661	ManuallyProved/Equation1661.lean	567	Equation1661_not_implies_Equation3457	1661	3457	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x ◇ x = x ◇ ((x ◇ x) ◇ y)
+unresolved	1661	3460	closure	2	E	M1661	ManuallyProved/Equation1661.lean	567	Equation1661_not_implies_Equation3457	1661	3457	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x ◇ x = x ◇ ((x ◇ y) ◇ z)
+unresolved	1661	3520	closure	2	E	M1661	ManuallyProved/Equation1661.lean	567	Equation1661_not_implies_Equation3457	1661	3457	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x ◇ y = x ◇ ((y ◇ x) ◇ z)
+unresolved	1661	3521	direct	2	E	M1661	ManuallyProved/Equation1661.lean	588	Equation1661_not_implies_Equation3521	1661	3521	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x ◇ y = x ◇ ((y ◇ y) ◇ x)
+unresolved	1661	3523	closure	4	E	M1661	ManuallyProved/Equation1661.lean	567	Equation1661_not_implies_Equation3457	1661	3457	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x ◇ y = x ◇ ((y ◇ y) ◇ z)
+unresolved	1661	3524	closure	2	E	M1661	ManuallyProved/Equation1661.lean	588	Equation1661_not_implies_Equation3521	1661	3521	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x ◇ y = x ◇ ((y ◇ z) ◇ x)
+unresolved	1661	3527	closure	4	E	M1661	ManuallyProved/Equation1661.lean	567	Equation1661_not_implies_Equation3457	1661	3457	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x ◇ y = x ◇ ((y ◇ z) ◇ w)
+unresolved	1661	4268	direct	2	E	M1661	ManuallyProved/Equation1661.lean	609	Equation1661_not_implies_Equation4268	1661	4268	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x ◇ (x ◇ x) = x ◇ (x ◇ y)
+unresolved	1661	4282	closure	2	E	M1661	ManuallyProved/Equation1661.lean	609	Equation1661_not_implies_Equation4268	1661	4268	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x ◇ (x ◇ y) = x ◇ (x ◇ z)
+unresolved	1661	4314	direct	2	E	M1661	ManuallyProved/Equation1661.lean	630	Equation1661_not_implies_Equation4314	1661	4314	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x ◇ (y ◇ x) = x ◇ (y ◇ y)
+unresolved	1661	4315	closure	4	E	M1661	ManuallyProved/Equation1661.lean	609	Equation1661_not_implies_Equation4268	1661	4268	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x ◇ (y ◇ x) = x ◇ (y ◇ z)
+unresolved	1661	4339	closure	4	E	M1661	ManuallyProved/Equation1661.lean	609	Equation1661_not_implies_Equation4268	1661	4268	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x ◇ (y ◇ y) = x ◇ (y ◇ z)
+unresolved	1661	4357	closure	4	E	M1661	ManuallyProved/Equation1661.lean	609	Equation1661_not_implies_Equation4268	1661	4268	E	2	M1661	M1661=accepted	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)	x ◇ (y ◇ z) = x ◇ (y ◇ w)
+unresolved	1692	23	direct	5	Gv	Equation1692	ManuallyProved/Equation1692.lean	2556	Equation1692_not_implies_Equation23	1692	23	Gv	1	-	-	x = (y ◇ x) ◇ ((y ◇ x) ◇ y)	x = (x ◇ x) ◇ x
+unresolved	1692	47	direct	1	Gv	Equation1692	ManuallyProved/Equation1692.lean	2566	Equation1692_not_implies_Equation47	1692	47	Gv	1	-	-	x = (y ◇ x) ◇ ((y ◇ x) ◇ y)	x = x ◇ (x ◇ (x ◇ x))
+unresolved	1692	63	closure	7	Gv	Equation1692	ManuallyProved/Equation1692.lean	2556	Equation1692_not_implies_Equation23	1692	23	Gv	1	-	-	x = (y ◇ x) ◇ ((y ◇ x) ◇ y)	x = y ◇ (x ◇ (x ◇ y))
+unresolved	1692	1832	direct	1	Gv	Equation1692	ManuallyProved/Equation1692.lean	2576	Equation1692_not_implies_Equation1832	1692	1832	Gv	1	-	-	x = (y ◇ x) ◇ ((y ◇ x) ◇ y)	x = (x ◇ (x ◇ x)) ◇ (x ◇ x)
+unresolved	1692	1922	closure	1	Gv	Equation1692	ManuallyProved/Equation1692.lean	2576	Equation1692_not_implies_Equation1832	1692	1832	Gv	1	-	-	x = (y ◇ x) ◇ ((y ◇ x) ◇ y)	x = (y ◇ (y ◇ x)) ◇ (x ◇ y)
+unresolved	1692	2441	direct	1	Gv	Equation1692	ManuallyProved/Equation1692.lean	2586	Equation1692_not_implies_Equation2441	1692	2441	Gv	1	-	-	x = (y ◇ x) ◇ ((y ◇ x) ◇ y)	x = (x ◇ ((x ◇ x) ◇ x)) ◇ x
+unresolved	1692	3050	direct	1	Gv	Equation1692	ManuallyProved/Equation1692.lean	2596	Equation1692_not_implies_Equation3050	1692	3050	Gv	1	-	-	x = (y ◇ x) ◇ ((y ◇ x) ◇ y)	x = (((x ◇ x) ◇ x) ◇ x) ◇ x
+unresolved	1692	3456	direct	1	Gv	Equation1692	ManuallyProved/Equation1692.lean	2612	Equation1692_not_implies_Equation3456	1692	3456	Gv	1	-	-	x = (y ◇ x) ◇ ((y ◇ x) ◇ y)	x ◇ x = x ◇ ((x ◇ x) ◇ x)
+unresolved	1692	3522	closure	1	Gv	Equation1692	ManuallyProved/Equation1692.lean	2612	Equation1692_not_implies_Equation3456	1692	3456	Gv	1	-	-	x = (y ◇ x) ◇ ((y ◇ x) ◇ y)	x ◇ y = x ◇ ((y ◇ y) ◇ y)
+unresolved	1692	4065	direct	1	Gv	Equation1692	ManuallyProved/Equation1692.lean	2622	Equation1692_not_implies_Equation4065	1692	4065	Gv	1	-	-	x = (y ◇ x) ◇ ((y ◇ x) ◇ y)	x ◇ x = ((x ◇ x) ◇ x) ◇ x
+unresolved	1692	4118	closure	1	Gv	Equation1692	ManuallyProved/Equation1692.lean	2622	Equation1692_not_implies_Equation4065	1692	4065	Gv	1	-	-	x = (y ◇ x) ◇ ((y ◇ x) ◇ y)	x ◇ y = ((x ◇ x) ◇ x) ◇ y
+unresolved	1701	411	direct	1	E	M1701_8	ManuallyProved/Equation1701.lean	128	Equation1701_facts	1701	411	E	1	M1701_3253,M1701_4587,M1701_8	M1701_3253=accepted;M1701_4587=accepted;M1701_8=accepted	x = (y ◇ x) ◇ ((z ◇ x) ◇ x)	x = x ◇ (x ◇ (x ◇ (x ◇ x)))
+unresolved	1701	1884	direct	3	E	M1701_8	ManuallyProved/Equation1701.lean	137	Equation1701_facts'	1701	3319	E	2	M1701_3253,M1701_4587,M1701_8	M1701_3253=accepted;M1701_4587=accepted;M1701_8=accepted	x = (y ◇ x) ◇ ((z ◇ x) ◇ x)	x = (y ◇ (x ◇ x)) ◇ (x ◇ x)
+unresolved	1701	3253	direct	1	E	M1701_3253	ManuallyProved/Equation1701.lean	246	Equation1701_not_implies_Equation3253	1701	3253	E	1	M1701_3253	M1701_3253=accepted	x = (y ◇ x) ◇ ((z ◇ x) ◇ x)	x ◇ x = x ◇ (x ◇ (x ◇ x))
+unresolved	1701	3319	direct	2	E	M1701_8	ManuallyProved/Equation1701.lean	137	Equation1701_facts'	1701	3319	E	2	M1701_3253,M1701_4587,M1701_8	M1701_3253=accepted;M1701_4587=accepted;M1701_8=accepted	x = (y ◇ x) ◇ ((z ◇ x) ◇ x)	x ◇ y = x ◇ (y ◇ (y ◇ y))
+unresolved	1701	3877	closure	1	E	M1701_8	ManuallyProved/Equation1701.lean	128	Equation1701_facts	1701	3862	E	1	M1701_3253,M1701_8	M1701_3253=accepted;M1701_8=accepted	x = (y ◇ x) ◇ ((z ◇ x) ◇ x)	x ◇ x = (y ◇ (x ◇ x)) ◇ x
+unresolved	1701	3915	closure	1	E	M1701_8	ManuallyProved/Equation1701.lean	128	Equation1701_facts	1701	3862	E	1	M1701_3253,M1701_4587,M1701_8	M1701_3253=accepted;M1701_4587=accepted;M1701_8=accepted	x = (y ◇ x) ◇ ((z ◇ x) ◇ x)	x ◇ y = (x ◇ (x ◇ x)) ◇ y
+unresolved	1722	1832	direct	1	Gs	Equation1722	ManuallyProved/Equation1722.lean	400	Eq1722.not_1832_2644_3050	1722	1832	Gs	1	-	-	x = (y ◇ y) ◇ ((x ◇ y) ◇ y)	x = (x ◇ (x ◇ x)) ◇ (x ◇ x)
+unresolved	1722	2644	direct	1	Gs	Equation1722	ManuallyProved/Equation1722.lean	400	Eq1722.not_1832_2644_3050	1722	2644	Gs	1	-	-	x = (y ◇ y) ◇ ((x ◇ y) ◇ y)	x = ((x ◇ x) ◇ (x ◇ x)) ◇ x
+unresolved	1722	2737	closure	1	Gs	Equation1722	ManuallyProved/Equation1722.lean	400	Eq1722.not_1832_2644_3050	1722	3050	Gs	1	-	-	x = (y ◇ y) ◇ ((x ◇ y) ◇ y)	x = ((y ◇ y) ◇ (x ◇ y)) ◇ y
+unresolved	1722	3050	direct	1	Gs	Equation1722	ManuallyProved/Equation1722.lean	400	Eq1722.not_1832_2644_3050	1722	3050	Gs	1	-	-	x = (y ◇ y) ◇ ((x ◇ y) ◇ y)	x = (((x ◇ x) ◇ x) ◇ x) ◇ x
+unresolved	1722	3143	closure	1	Gs	Equation1722	ManuallyProved/Equation1722.lean	400	Eq1722.not_1832_2644_3050	1722	3050	Gs	1	-	-	x = (y ◇ y) ◇ ((x ◇ y) ◇ y)	x = (((y ◇ y) ◇ x) ◇ y) ◇ y
+unresolved	1729	817	direct	1	Gs	Equation1729	ManuallyProved/Equation1729.lean	14	Eq1729.not_817	1729	817	Gs	1	-	-	x = (y ◇ y) ◇ ((y ◇ x) ◇ y)	x = x ◇ ((x ◇ x) ◇ (x ◇ x))
+unresolved	1729	917	closure	1	Gs	Equation1729	ManuallyProved/Equation1729.lean	14	Eq1729.not_817	1729	817	Gs	1	-	-	x = (y ◇ y) ◇ ((y ◇ x) ◇ y)	x = y ◇ ((y ◇ y) ◇ (x ◇ y))
+unresolved	1839	1630	dual	3	E	M1701_8	ManuallyProved/Equation1701.lean	128	Equation1701_facts	1701	3862	E	2	M1701_3253^T,M1701_4587^T,M1701_8^T	M1701_3253T=accepted;M1701_4587T=accepted;M1701_8T=accepted	x = (x ◇ (x ◇ y)) ◇ (x ◇ z)	x = (x ◇ x) ◇ ((x ◇ x) ◇ y)
+unresolved	1839	2441	dual	1	E	M1701_8	ManuallyProved/Equation1701.lean	128	Equation1701_facts	1701	1020	E	1	M1701_3253^T,M1701_4587^T,M1701_8^T	M1701_3253T=accepted;M1701_4587T=accepted;M1701_8T=accepted	x = (x ◇ (x ◇ y)) ◇ (x ◇ z)	x = (x ◇ ((x ◇ x) ◇ x)) ◇ x
+unresolved	1839	2443	dual	2	E	M1701_8	ManuallyProved/Equation1701.lean	128	Equation1701_facts	1701	1020	E	1	M1701_3253^T,M1701_4587^T,M1701_8^T	M1701_3253T=accepted;M1701_4587T=accepted;M1701_8T=accepted	x = (x ◇ (x ◇ y)) ◇ (x ◇ z)	x = (x ◇ ((x ◇ x) ◇ y)) ◇ x
+unresolved	1839	3456	dual	1	E	M1701_8	ManuallyProved/Equation1701.lean	128	Equation1701_facts	1701	3862	E	1	M1701_8^T	M1701_8T=accepted	x = (x ◇ (x ◇ y)) ◇ (x ◇ z)	x ◇ x = x ◇ ((x ◇ x) ◇ x)
+unresolved	1839	3457	dual	1	E	M1701_8	ManuallyProved/Equation1701.lean	128	Equation1701_facts	1701	3862	E	1	M1701_3253^T,M1701_8^T	M1701_3253T=accepted;M1701_8T=accepted	x = (x ◇ (x ◇ y)) ◇ (x ◇ z)	x ◇ x = x ◇ ((x ◇ x) ◇ y)
+unresolved	1839	3522	dual	1	E	M1701_8	ManuallyProved/Equation1701.lean	128	Equation1701_facts	1701	3862	E	1	M1701_3253^T,M1701_4587^T,M1701_8^T	M1701_3253T=accepted;M1701_4587T=accepted;M1701_8T=accepted	x = (x ◇ (x ◇ y)) ◇ (x ◇ z)	x ◇ y = x ◇ ((y ◇ y) ◇ y)
+unresolved	1839	4065	dual	1	E	M1701_3253	ManuallyProved/Equation1701.lean	246	Equation1701_not_implies_Equation3253	1701	3253	E	1	M1701_3253^T	M1701_3253T=accepted	x = (x ◇ (x ◇ y)) ◇ (x ◇ z)	x ◇ x = ((x ◇ x) ◇ x) ◇ x
+unresolved	1839	4118	dual	2	E	M1701_8	ManuallyProved/Equation1701.lean	137	Equation1701_facts'	1701	3319	E	2	M1701_3253^T,M1701_4587^T,M1701_8^T	M1701_3253T=accepted;M1701_4587T=accepted;M1701_8T=accepted	x = (x ◇ (x ◇ y)) ◇ (x ◇ z)	x ◇ y = ((x ◇ x) ◇ x) ◇ y
+unresolved	1839	4268	dual	1	E	M1701_4587	ManuallyProved/Equation1701.lean	385	Equation1701_not_implies_Equation4587	1701	4587	E	1	M1701_4587^T	M1701_4587T=accepted	x = (x ◇ (x ◇ y)) ◇ (x ◇ z)	x ◇ (x ◇ x) = x ◇ (x ◇ y)
+unresolved	1839	4282	dual	1	E	M1701_4587	ManuallyProved/Equation1701.lean	385	Equation1701_not_implies_Equation4587	1701	4587	E	1	M1701_4587^T	M1701_4587T=accepted	x = (x ◇ (x ◇ y)) ◇ (x ◇ z)	x ◇ (x ◇ y) = x ◇ (x ◇ z)
+unresolved	1895	8	dual	5	Gv	Equation1692	ManuallyProved/Equation1692.lean	2556	Equation1692_not_implies_Equation23	1692	23	Gv	1	-	-	x = (y ◇ (x ◇ y)) ◇ (x ◇ y)	x = x ◇ (x ◇ x)
+unresolved	1895	255	dual	1	Gv	Equation1692	ManuallyProved/Equation1692.lean	2566	Equation1692_not_implies_Equation47	1692	47	Gv	1	-	-	x = (y ◇ (x ◇ y)) ◇ (x ◇ y)	x = ((x ◇ x) ◇ x) ◇ x
+unresolved	1895	271	dual	7	Gv	Equation1692	ManuallyProved/Equation1692.lean	2556	Equation1692_not_implies_Equation23	1692	23	Gv	1	-	-	x = (y ◇ (x ◇ y)) ◇ (x ◇ y)	x = ((y ◇ x) ◇ x) ◇ y
+unresolved	1895	411	dual	1	Gv	Equation1692	ManuallyProved/Equation1692.lean	2596	Equation1692_not_implies_Equation3050	1692	3050	Gv	1	-	-	x = (y ◇ (x ◇ y)) ◇ (x ◇ y)	x = x ◇ (x ◇ (x ◇ (x ◇ x)))
+unresolved	1895	1020	dual	1	Gv	Equation1692	ManuallyProved/Equation1692.lean	2586	Equation1692_not_implies_Equation2441	1692	2441	Gv	1	-	-	x = (y ◇ (x ◇ y)) ◇ (x ◇ y)	x = x ◇ ((x ◇ (x ◇ x)) ◇ x)
+unresolved	1895	1629	dual	1	Gv	Equation1692	ManuallyProved/Equation1692.lean	2576	Equation1692_not_implies_Equation1832	1692	1832	Gv	1	-	-	x = (y ◇ (x ◇ y)) ◇ (x ◇ y)	x = (x ◇ x) ◇ ((x ◇ x) ◇ x)
+unresolved	1895	1685	dual	1	Gv	Equation1692	ManuallyProved/Equation1692.lean	2576	Equation1692_not_implies_Equation1832	1692	1832	Gv	1	-	-	x = (y ◇ (x ◇ y)) ◇ (x ◇ y)	x = (y ◇ x) ◇ ((x ◇ y) ◇ y)
+unresolved	1895	3253	dual	1	Gv	Equation1692	ManuallyProved/Equation1692.lean	2622	Equation1692_not_implies_Equation4065	1692	4065	Gv	1	-	-	x = (y ◇ (x ◇ y)) ◇ (x ◇ y)	x ◇ x = x ◇ (x ◇ (x ◇ x))
+unresolved	1895	3319	dual	1	Gv	Equation1692	ManuallyProved/Equation1692.lean	2622	Equation1692_not_implies_Equation4065	1692	4065	Gv	1	-	-	x = (y ◇ (x ◇ y)) ◇ (x ◇ y)	x ◇ y = x ◇ (y ◇ (y ◇ y))
+unresolved	1895	3862	dual	1	Gv	Equation1692	ManuallyProved/Equation1692.lean	2612	Equation1692_not_implies_Equation3456	1692	3456	Gv	1	-	-	x = (y ◇ (x ◇ y)) ◇ (x ◇ y)	x ◇ x = (x ◇ (x ◇ x)) ◇ x
+unresolved	1895	3915	dual	1	Gv	Equation1692	ManuallyProved/Equation1692.lean	2612	Equation1692_not_implies_Equation3456	1692	3456	Gv	1	-	-	x = (y ◇ (x ◇ y)) ◇ (x ◇ y)	x ◇ y = (x ◇ (x ◇ x)) ◇ y
+unresolved	1898	2644	dual	1	Gs	Equation1729	ManuallyProved/Equation1729.lean	14	Eq1729.not_817	1729	817	Gs	1	-	-	x = (y ◇ (x ◇ y)) ◇ (y ◇ y)	x = ((x ◇ x) ◇ (x ◇ x)) ◇ x
+unresolved	1898	2710	dual	1	Gs	Equation1729	ManuallyProved/Equation1729.lean	14	Eq1729.not_817	1729	817	Gs	1	-	-	x = (y ◇ (x ◇ y)) ◇ (y ◇ y)	x = ((y ◇ x) ◇ (y ◇ y)) ◇ y
+unresolved	1924	8	dual	1	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	4065	E	1	M1648b^T	M1648bT=accepted	x = (y ◇ (y ◇ x)) ◇ (y ◇ x)	x = x ◇ (x ◇ x)
+unresolved	1924	99	dual	1	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	203	E	1	M1648b^T	M1648bT=accepted	x = (y ◇ (y ◇ x)) ◇ (y ◇ x)	x = x ◇ ((x ◇ x) ◇ x)
+unresolved	1924	124	dual	3	E	M1648a	ManuallyProved/Equation1648.lean	11	Equation1648_not_implies_Equation206	1648	206	E,Gg	3	M1648a^T,M1648b^T	M1648aT=accepted;M1648bT=accepted	x = (y ◇ (y ◇ x)) ◇ (y ◇ x)	x = y ◇ ((y ◇ x) ◇ x)
+unresolved	1924	151	dual	1	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	151	E	1	M1648b^T	M1648bT=accepted	x = (y ◇ (y ◇ x)) ◇ (y ◇ x)	x = (x ◇ x) ◇ (x ◇ x)
+unresolved	1924	359	dual	2	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	307	E,Gg	2	M1648b^T	M1648bT=accepted	x = (y ◇ (y ◇ x)) ◇ (y ◇ x)	x ◇ x = (x ◇ x) ◇ x
+unresolved	1924	411	dual	1	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	3050	E	1	M1648b^T	M1648bT=accepted	x = (y ◇ (y ◇ x)) ◇ (y ◇ x)	x = x ◇ (x ◇ (x ◇ (x ◇ x)))
+unresolved	1924	1020	dual	1	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	2441	E	1	M1648b^T	M1648bT=accepted	x = (y ◇ (y ◇ x)) ◇ (y ◇ x)	x = x ◇ ((x ◇ (x ◇ x)) ◇ x)
+unresolved	1924	1223	dual	1	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	2238	E	1	M1648b^T	M1648bT=accepted	x = (y ◇ (y ◇ x)) ◇ (y ◇ x)	x = x ◇ (((x ◇ x) ◇ x) ◇ x)
+unresolved	1924	1629	dual	1	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	1832	E	1	M1648b^T	M1648bT=accepted	x = (y ◇ (y ◇ x)) ◇ (y ◇ x)	x = (x ◇ x) ◇ ((x ◇ x) ◇ x)
+unresolved	1924	2035	dual	1	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	1426	E	1	M1648b^T	M1648bT=accepted	x = (y ◇ (y ◇ x)) ◇ (y ◇ x)	x = ((x ◇ x) ◇ x) ◇ (x ◇ x)
+unresolved	1924	3253	dual	1	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	4065	E	1	M1648b^T	M1648bT=accepted	x = (y ◇ (y ◇ x)) ◇ (y ◇ x)	x ◇ x = x ◇ (x ◇ (x ◇ x))
+unresolved	1924	3319	dual	1	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	4065	E	1	M1648b^T	M1648bT=accepted	x = (y ◇ (y ◇ x)) ◇ (y ◇ x)	x ◇ y = x ◇ (y ◇ (y ◇ y))
+unresolved	1924	3862	dual	1	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	3456	E	1	M1648b^T	M1648bT=accepted	x = (y ◇ (y ◇ x)) ◇ (y ◇ x)	x ◇ x = (x ◇ (x ◇ x)) ◇ x
+unresolved	1924	3915	dual	1	E	M1648b	ManuallyProved/Equation1648.lean	34	Equation1648_facts	1648	3522	E	1	M1648b^T	M1648bT=accepted	x = (y ◇ (y ◇ x)) ◇ (y ◇ x)	x ◇ y = (x ◇ (x ◇ x)) ◇ y
+unresolved	1924	4065	dual	1	Gg	Eq1648	Generated/Greedy/Eq1648.lean	407	Equation1648_not_implies_Equation3253	1648	3253	Gg	1	-	-	x = (y ◇ (y ◇ x)) ◇ (y ◇ x)	x ◇ x = ((x ◇ x) ◇ x) ◇ x
+unresolved	1925	411	dual	1	Gs	Equation1722	ManuallyProved/Equation1722.lean	400	Eq1722.not_1832_2644_3050	1722	3050	Gs	1	-	-	x = (y ◇ (y ◇ x)) ◇ (y ◇ y)	x = x ◇ (x ◇ (x ◇ (x ◇ x)))
+unresolved	1925	504	dual	1	Gs	Equation1722	ManuallyProved/Equation1722.lean	400	Eq1722.not_1832_2644_3050	1722	3050	Gs	1	-	-	x = (y ◇ (y ◇ x)) ◇ (y ◇ y)	x = y ◇ (y ◇ (x ◇ (y ◇ y)))
+unresolved	1925	817	dual	1	Gs	Equation1722	ManuallyProved/Equation1722.lean	400	Eq1722.not_1832_2644_3050	1722	2644	Gs	1	-	-	x = (y ◇ (y ◇ x)) ◇ (y ◇ y)	x = x ◇ ((x ◇ x) ◇ (x ◇ x))
+unresolved	1925	910	dual	1	Gs	Equation1722	ManuallyProved/Equation1722.lean	400	Eq1722.not_1832_2644_3050	1722	3050	Gs	1	-	-	x = (y ◇ (y ◇ x)) ◇ (y ◇ y)	x = y ◇ ((y ◇ x) ◇ (y ◇ y))
+unresolved	1925	1629	dual	1	Gs	Equation1722	ManuallyProved/Equation1722.lean	400	Eq1722.not_1832_2644_3050	1722	1832	Gs	1	-	-	x = (y ◇ (y ◇ x)) ◇ (y ◇ y)	x = (x ◇ x) ◇ ((x ◇ x) ◇ x)
+unresolved	1979	1035	direct	2	E	M1661^T	ManuallyProved/Equation1661.lean	537	Equation1979_not_implies_Equation1035	1979	1035	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x = x ◇ ((y ◇ (x ◇ x)) ◇ x)
+unresolved	1979	1055	closure	2	E	M1661^T	ManuallyProved/Equation1661.lean	537	Equation1979_not_implies_Equation1035	1979	1035	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x = x ◇ ((y ◇ (z ◇ x)) ◇ x)
+unresolved	1979	1085	direct	2	E	M1661^T	ManuallyProved/Equation1661.lean	558	Equation1979_not_implies_Equation1085	1979	1085	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x = y ◇ ((x ◇ (y ◇ y)) ◇ x)
+unresolved	1979	1096	closure	24	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x = y ◇ ((x ◇ (z ◇ y)) ◇ x)
+unresolved	1979	1150	closure	24	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x = y ◇ ((z ◇ (x ◇ y)) ◇ x)
+unresolved	1979	1167	closure	12	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x = y ◇ ((z ◇ (y ◇ y)) ◇ x)
+unresolved	1979	1202	closure	24	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x = y ◇ ((z ◇ (w ◇ y)) ◇ x)
+unresolved	1979	1634	direct	2	E	M1661^T	ManuallyProved/Equation1661.lean	474	Equation1979_not_implies_Equation1634	1979	1634	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x = (x ◇ x) ◇ ((y ◇ x) ◇ x)
+unresolved	1979	1657	direct	2	E	M1661^T	ManuallyProved/Equation1661.lean	516	Equation1979_not_implies_Equation1657	1979	1657	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x = (x ◇ y) ◇ ((y ◇ y) ◇ x)
+unresolved	1979	1668	closure	6	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x = (x ◇ y) ◇ ((z ◇ y) ◇ x)
+unresolved	1979	1681	direct	2	E	M1661^T	ManuallyProved/Equation1661.lean	453	Equation1979_not_implies_Equation1681	1979	1681	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x = (y ◇ x) ◇ ((x ◇ x) ◇ x)
+unresolved	1979	1701	closure	4	E	M1661^T	ManuallyProved/Equation1661.lean	453	Equation1979_not_implies_Equation1681	1979	1681	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x = (y ◇ x) ◇ ((z ◇ x) ◇ x)
+unresolved	1979	1721	direct	2	E	M1661^T	ManuallyProved/Equation1661.lean	495	Equation1979_not_implies_Equation1721	1979	1721	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x = (y ◇ y) ◇ ((x ◇ y) ◇ x)
+unresolved	1979	1742	closure	24	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x = (y ◇ y) ◇ ((z ◇ y) ◇ x)
+unresolved	1979	1763	closure	24	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x = (y ◇ z) ◇ ((x ◇ z) ◇ x)
+unresolved	1979	1797	closure	24	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x = (y ◇ z) ◇ ((z ◇ z) ◇ x)
+unresolved	1979	1816	closure	24	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x = (y ◇ z) ◇ ((w ◇ z) ◇ x)
+unresolved	1979	1860	direct	2	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x = (x ◇ (y ◇ y)) ◇ (y ◇ x)
+unresolved	1979	1875	closure	6	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x = (x ◇ (y ◇ z)) ◇ (z ◇ x)
+unresolved	1979	1884	direct	2	E	M1661^T	ManuallyProved/Equation1661.lean	432	Equation1979_not_implies_Equation1884	1979	1884	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x = (y ◇ (x ◇ x)) ◇ (x ◇ x)
+unresolved	1979	1912	closure	24	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x = (y ◇ (x ◇ z)) ◇ (z ◇ x)
+unresolved	1979	1958	closure	2	E	M1661^T	ManuallyProved/Equation1661.lean	432	Equation1979_not_implies_Equation1884	1979	1884	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x = (y ◇ (z ◇ x)) ◇ (x ◇ x)
+unresolved	1979	2000	closure	12	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)
+unresolved	1979	2024	closure	24	E	M1661^T	ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	1979	1860	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x = (y ◇ (z ◇ w)) ◇ (w ◇ x)
+unresolved	1979	3877	direct	2	E	M1661^T	ManuallyProved/Equation1661.lean	579	Equation1979_not_implies_Equation3877	1979	3877	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x ◇ x = (y ◇ (x ◇ x)) ◇ x
+unresolved	1979	3897	closure	2	E	M1661^T	ManuallyProved/Equation1661.lean	579	Equation1979_not_implies_Equation3877	1979	3877	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x ◇ x = (y ◇ (z ◇ x)) ◇ x
+unresolved	1979	3952	direct	2	E	M1661^T	ManuallyProved/Equation1661.lean	600	Equation1979_not_implies_Equation3952	1979	3952	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x ◇ y = (y ◇ (x ◇ x)) ◇ y
+unresolved	1979	3972	closure	2	E	M1661^T	ManuallyProved/Equation1661.lean	600	Equation1979_not_implies_Equation3952	1979	3952	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x ◇ y = (y ◇ (z ◇ x)) ◇ y
+unresolved	1979	3989	closure	4	E	M1661^T	ManuallyProved/Equation1661.lean	579	Equation1979_not_implies_Equation3877	1979	3877	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x ◇ y = (z ◇ (x ◇ x)) ◇ y
+unresolved	1979	4006	closure	2	E	M1661^T	ManuallyProved/Equation1661.lean	579	Equation1979_not_implies_Equation3877	1979	3877	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x ◇ y = (z ◇ (y ◇ x)) ◇ y
+unresolved	1979	4040	closure	4	E	M1661^T	ManuallyProved/Equation1661.lean	579	Equation1979_not_implies_Equation3877	1979	3877	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	x ◇ y = (z ◇ (w ◇ x)) ◇ y
+unresolved	1979	4587	direct	2	E	M1661^T	ManuallyProved/Equation1661.lean	621	Equation1979_not_implies_Equation4587	1979	4587	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	(x ◇ x) ◇ x = (y ◇ x) ◇ x
+unresolved	1979	4606	direct	2	E	M1661^T	ManuallyProved/Equation1661.lean	642	Equation1979_not_implies_Equation4606	1979	4606	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	(x ◇ x) ◇ y = (y ◇ x) ◇ y
+unresolved	1979	4615	closure	4	E	M1661^T	ManuallyProved/Equation1661.lean	621	Equation1979_not_implies_Equation4587	1979	4587	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	(x ◇ x) ◇ y = (z ◇ x) ◇ y
+unresolved	1979	4645	closure	4	E	M1661^T	ManuallyProved/Equation1661.lean	621	Equation1979_not_implies_Equation4587	1979	4587	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	(x ◇ y) ◇ x = (z ◇ y) ◇ x
+unresolved	1979	4666	closure	2	E	M1661^T	ManuallyProved/Equation1661.lean	621	Equation1979_not_implies_Equation4587	1979	4587	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	(x ◇ y) ◇ y = (z ◇ y) ◇ y
+unresolved	1979	4689	closure	4	E	M1661^T	ManuallyProved/Equation1661.lean	621	Equation1979_not_implies_Equation4587	1979	4587	E	2	M1661^T	M1661T=accepted	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)	(x ◇ y) ◇ z = (w ◇ y) ◇ z
+unresolved	2000	1025	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	2446	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x = x ◇ ((x ◇ (y ◇ x)) ◇ x)
+unresolved	2000	1055	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	2452	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x = x ◇ ((y ◇ (z ◇ x)) ◇ x)
+unresolved	2000	1096	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x = y ◇ ((x ◇ (z ◇ y)) ◇ x)
+unresolved	2000	1112	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	2460	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x = y ◇ ((y ◇ (x ◇ y)) ◇ x)
+unresolved	2000	1133	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3525	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x = y ◇ ((y ◇ (z ◇ y)) ◇ x)
+unresolved	2000	1150	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x = y ◇ ((z ◇ (x ◇ y)) ◇ x)
+unresolved	2000	1202	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x = y ◇ ((z ◇ (w ◇ y)) ◇ x)
+unresolved	2000	1634	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1837	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x = (x ◇ x) ◇ ((y ◇ x) ◇ x)
+unresolved	2000	1657	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1860	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x = (x ◇ y) ◇ ((y ◇ y) ◇ x)
+unresolved	2000	1668	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1860	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x = (x ◇ y) ◇ ((z ◇ y) ◇ x)
+unresolved	2000	1681	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1833	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x = (y ◇ x) ◇ ((x ◇ x) ◇ x)
+unresolved	2000	1701	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1839	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x = (y ◇ x) ◇ ((z ◇ x) ◇ x)
+unresolved	2000	1721	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1851	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x = (y ◇ y) ◇ ((x ◇ y) ◇ x)
+unresolved	2000	1742	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x = (y ◇ y) ◇ ((z ◇ y) ◇ x)
+unresolved	2000	1763	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x = (y ◇ z) ◇ ((x ◇ z) ◇ x)
+unresolved	2000	1797	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x = (y ◇ z) ◇ ((z ◇ z) ◇ x)
+unresolved	2000	1816	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x = (y ◇ z) ◇ ((w ◇ z) ◇ x)
+unresolved	2000	1847	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1631	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x = (x ◇ (y ◇ x)) ◇ (x ◇ x)
+unresolved	2000	1875	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1860	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x = (x ◇ (y ◇ z)) ◇ (z ◇ x)
+unresolved	2000	1897	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1655	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x = (y ◇ (x ◇ y)) ◇ (y ◇ x)
+unresolved	2000	1912	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x = (y ◇ (x ◇ z)) ◇ (z ◇ x)
+unresolved	2000	1958	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1631	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x = (y ◇ (z ◇ x)) ◇ (x ◇ x)
+unresolved	2000	1979	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3525	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x = (y ◇ (z ◇ y)) ◇ (y ◇ x)
+unresolved	2000	2024	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x = (y ◇ (z ◇ w)) ◇ (w ◇ x)
+unresolved	2000	3867	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3458	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x ◇ x = (x ◇ (y ◇ x)) ◇ x
+unresolved	2000	3897	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3460	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x ◇ x = (y ◇ (z ◇ x)) ◇ x
+unresolved	2000	3925	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3519	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x ◇ y = (x ◇ (y ◇ x)) ◇ y
+unresolved	2000	3935	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3525	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x ◇ y = (x ◇ (z ◇ x)) ◇ y
+unresolved	2000	3972	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3524	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x ◇ y = (y ◇ (z ◇ x)) ◇ y
+unresolved	2000	4006	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3520	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x ◇ y = (z ◇ (y ◇ x)) ◇ y
+unresolved	2000	4040	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3527	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	x ◇ y = (z ◇ (w ◇ x)) ◇ y
+unresolved	2000	4587	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4268	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	(x ◇ x) ◇ x = (y ◇ x) ◇ x
+unresolved	2000	4606	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4314	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	(x ◇ x) ◇ y = (y ◇ x) ◇ y
+unresolved	2000	4615	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	(x ◇ x) ◇ y = (z ◇ x) ◇ y
+unresolved	2000	4645	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	(x ◇ y) ◇ x = (z ◇ y) ◇ x
+unresolved	2000	4666	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4268	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	(x ◇ y) ◇ y = (z ◇ y) ◇ y
+unresolved	2000	4689	dual	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659^T	M1659T=accepted	x = (y ◇ (z ◇ z)) ◇ (z ◇ x)	(x ◇ y) ◇ z = (w ◇ y) ◇ z
+unresolved	2056	2040	dual	1	E	M1447	ManuallyProved/Equation1447.lean	325	Equation1447.Equation1447_facts	1447	1431	E	1	M1447^T	M1447xT=accepted	x = ((x ◇ y) ◇ x) ◇ (z ◇ x)	x = ((x ◇ x) ◇ y) ◇ (x ◇ x)
+unresolved	2056	4584	dual	1	E	M1447	ManuallyProved/Equation1447.lean	325	Equation1447.Equation1447_facts	1447	4269	E	1	M1447^T	M1447xT=accepted	x = ((x ◇ y) ◇ x) ◇ (z ◇ x)	(x ◇ x) ◇ x = (x ◇ y) ◇ x
+unresolved	2056	4631	dual	1	E	M1447	ManuallyProved/Equation1447.lean	325	Equation1447.Equation1447_facts	1447	4269	E	1	M1447^T	M1447xT=accepted	x = ((x ◇ y) ◇ x) ◇ (z ◇ x)	(x ◇ y) ◇ x = (x ◇ z) ◇ x
+unresolved	2061	261	dual	1	Gv	Obelix	Obelix.lean	789	Obelix.PartialSolution.Equation1491_facts	1491	65	Gv	1	-	TI=accepted	x = ((x ◇ y) ◇ y) ◇ (x ◇ y)	x = ((x ◇ y) ◇ x) ◇ y
+unresolved	2070	4584	dual	1	E	M1437	ManuallyProved/Equation1437.lean	15	Equation1437_not_implies_Equation4269	1437	4269	E	1	M1437^T	M1437T=accepted	x = ((x ◇ y) ◇ z) ◇ (x ◇ x)	(x ◇ x) ◇ x = (x ◇ y) ◇ x
+unresolved	2070	4631	dual	1	E	M1437	ManuallyProved/Equation1437.lean	15	Equation1437_not_implies_Equation4269	1437	4269	E	1	M1437^T	M1437T=accepted	x = ((x ◇ y) ◇ z) ◇ (x ◇ x)	(x ◇ y) ◇ x = (x ◇ z) ◇ x
+unresolved	2091	47	dual	1	Gt	Equation1516	ManuallyProved/Equation1516.lean	2151	Equation1516_not_implies_Equation255	1516	255	Gt	1	-	-	x = ((y ◇ x) ◇ x) ◇ (y ◇ y)	x = x ◇ (x ◇ (x ◇ x))
+unresolved	2101	883	dual	2	Gt	Equation1323	ManuallyProved/Equation1323.lean	672	Eq1323.Equation1323_not_implies_Equation2744	1323	2744	Gt	2	-	-	x = ((y ◇ x) ◇ y) ◇ (y ◇ y)	x = y ◇ ((x ◇ y) ◇ (y ◇ y))
+unresolved	2101	2238	dual	1	Gt	Equation1526	ManuallyProved/Equation1526.lean	279	Eq1526.not_1223	1526	1223	Gt	1	-	-	x = ((y ◇ x) ◇ y) ◇ (y ◇ y)	x = (x ◇ (x ◇ (x ◇ x))) ◇ x
+unresolved	2101	2304	dual	1	Gt	Equation1526	ManuallyProved/Equation1526.lean	279	Eq1526.not_1223	1526	1223	Gt	1	-	-	x = ((y ◇ x) ◇ y) ◇ (y ◇ y)	x = (y ◇ (x ◇ (y ◇ y))) ◇ y
+unresolved	2304	883	dual	1	Gt	Equation1323	ManuallyProved/Equation1323.lean	672	Eq1323.Equation1323_not_implies_Equation2744	1323	2744	Gt	1	-	-	x = (y ◇ (x ◇ (y ◇ y))) ◇ y	x = y ◇ ((x ◇ y) ◇ (y ◇ y))
+unresolved	2338	511	dual	1	Gs	Equation1289	ManuallyProved/Equation1289.lean	397	Eq1289.not_3116_4435	1289	3116	Gs	1	-	-	x = (y ◇ (y ◇ (y ◇ x))) ◇ y	x = y ◇ (y ◇ (y ◇ (x ◇ y)))
+unresolved	2338	714	dual	1	Gs	Equation1289	ManuallyProved/Equation1289.lean	397	Eq1289.not_3116_4435	1289	4435	Gs	1	-	-	x = (y ◇ (y ◇ (y ◇ x))) ◇ y	x = y ◇ (y ◇ ((y ◇ x) ◇ y))
+unresolved	2338	1120	dual	1	Gs	Equation1289	ManuallyProved/Equation1289.lean	397	Eq1289.not_3116_4435	1289	4435	Gs	1	-	-	x = (y ◇ (y ◇ (y ◇ x))) ◇ y	x = y ◇ ((y ◇ (y ◇ x)) ◇ y)
+unresolved	2460	23	dual	7	Gg	Eq1112	Generated/Greedy/Eq1112.lean	833	Equation1112_not_implies_Equation8	1112	8	Gg	1	-	-	x = (x ◇ ((y ◇ x) ◇ y)) ◇ y	x = (x ◇ x) ◇ x
+unresolved	2460	1629	dual	1	Gg	Eq1112	Generated/Greedy/Eq1112.lean	912	Equation1112_not_implies_Equation1832	1112	1832	Gg	1	-	-	x = (x ◇ ((y ◇ x) ◇ y)) ◇ y	x = (x ◇ x) ◇ ((x ◇ x) ◇ x)
+unresolved	2460	3050	dual	1	Gg	Eq1112	Generated/Greedy/Eq1112.lean	859	Equation1112_not_implies_Equation411	1112	411	Gg	1	-	-	x = (x ◇ ((y ◇ x) ◇ y)) ◇ y	x = (((x ◇ x) ◇ x) ◇ x) ◇ x
+unresolved	2460	3456	dual	1	Gg	Eq1112	Generated/Greedy/Eq1112.lean	993	Equation1112_not_implies_Equation3862	1112	3862	Gg	1	-	-	x = (x ◇ ((y ◇ x) ◇ y)) ◇ y	x ◇ x = x ◇ ((x ◇ x) ◇ x)
+unresolved	2460	3522	dual	2	Gg	Eq1112	Generated/Greedy/Eq1112.lean	993	Equation1112_not_implies_Equation3862	1112	3862	Gg	1	-	-	x = (x ◇ ((y ◇ x) ◇ y)) ◇ y	x ◇ y = x ◇ ((y ◇ y) ◇ y)
+unresolved	2460	4065	dual	1	Gg	Eq1112	Generated/Greedy/Eq1112.lean	939	Equation1112_not_implies_Equation3253	1112	3253	Gg	1	-	-	x = (x ◇ ((y ◇ x) ◇ y)) ◇ y	x ◇ x = ((x ◇ x) ◇ x) ◇ x
+unresolved	2460	4118	dual	2	Gg	Eq1112	Generated/Greedy/Eq1112.lean	939	Equation1112_not_implies_Equation3253	1112	3253	Gg	1	-	-	x = (x ◇ ((y ◇ x) ◇ y)) ◇ y	x ◇ y = ((x ◇ x) ◇ x) ◇ y
+unresolved	2473	1631	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1631	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x = (x ◇ x) ◇ ((x ◇ y) ◇ x)
+unresolved	2473	1633	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1631	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x = (x ◇ x) ◇ ((x ◇ y) ◇ z)
+unresolved	2473	1655	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1655	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x = (x ◇ y) ◇ ((y ◇ x) ◇ y)
+unresolved	2473	1656	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x = (x ◇ y) ◇ ((y ◇ x) ◇ z)
+unresolved	2473	1660	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1860	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x = (x ◇ y) ◇ ((y ◇ z) ◇ x)
+unresolved	2473	1661	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3525	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x = (x ◇ y) ◇ ((y ◇ z) ◇ y)
+unresolved	2473	1663	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x = (x ◇ y) ◇ ((y ◇ z) ◇ w)
+unresolved	2473	1833	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1833	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x = (x ◇ (x ◇ x)) ◇ (x ◇ y)
+unresolved	2473	1837	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1837	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x = (x ◇ (x ◇ y)) ◇ (x ◇ x)
+unresolved	2473	1839	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1839	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x = (x ◇ (x ◇ y)) ◇ (x ◇ z)
+unresolved	2473	1851	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1851	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x = (x ◇ (y ◇ x)) ◇ (y ◇ y)
+unresolved	2473	1852	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x = (x ◇ (y ◇ x)) ◇ (y ◇ z)
+unresolved	2473	1860	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1860	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x = (x ◇ (y ◇ y)) ◇ (y ◇ x)
+unresolved	2473	1862	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x = (x ◇ (y ◇ y)) ◇ (y ◇ z)
+unresolved	2473	1871	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	1860	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x = (x ◇ (y ◇ z)) ◇ (y ◇ x)
+unresolved	2473	1872	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x = (x ◇ (y ◇ z)) ◇ (y ◇ y)
+unresolved	2473	1874	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x = (x ◇ (y ◇ z)) ◇ (y ◇ w)
+unresolved	2473	2446	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	2446	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x = (x ◇ ((x ◇ y) ◇ x)) ◇ x
+unresolved	2473	2452	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	2452	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x = (x ◇ ((x ◇ y) ◇ z)) ◇ x
+unresolved	2473	2460	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	2460	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x = (x ◇ ((y ◇ x) ◇ y)) ◇ y
+unresolved	2473	2463	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x = (x ◇ ((y ◇ x) ◇ z)) ◇ y
+unresolved	2473	2477	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x = (x ◇ ((y ◇ z) ◇ x)) ◇ y
+unresolved	2473	2481	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3525	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y
+unresolved	2473	2489	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x = (x ◇ ((y ◇ z) ◇ w)) ◇ y
+unresolved	2473	3458	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3458	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x ◇ x = x ◇ ((x ◇ y) ◇ x)
+unresolved	2473	3460	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3460	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x ◇ x = x ◇ ((x ◇ y) ◇ z)
+unresolved	2473	3519	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3519	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x ◇ y = x ◇ ((y ◇ x) ◇ y)
+unresolved	2473	3520	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3520	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x ◇ y = x ◇ ((y ◇ x) ◇ z)
+unresolved	2473	3524	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3524	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x ◇ y = x ◇ ((y ◇ z) ◇ x)
+unresolved	2473	3525	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3525	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x ◇ y = x ◇ ((y ◇ z) ◇ y)
+unresolved	2473	3527	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	3527	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x ◇ y = x ◇ ((y ◇ z) ◇ w)
+unresolved	2473	4268	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4268	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x ◇ (x ◇ x) = x ◇ (x ◇ y)
+unresolved	2473	4282	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4268	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x ◇ (x ◇ y) = x ◇ (x ◇ z)
+unresolved	2473	4314	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4314	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x ◇ (y ◇ x) = x ◇ (y ◇ y)
+unresolved	2473	4315	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x ◇ (y ◇ x) = x ◇ (y ◇ z)
+unresolved	2473	4339	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x ◇ (y ◇ y) = x ◇ (y ◇ z)
+unresolved	2473	4357	closure	1	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4315	E	1	M1659	M1659=accepted	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y	x ◇ (y ◇ z) = x ◇ (y ◇ w)
+unresolved	2481	1630	closure	2	E	M1661	ManuallyProved/Equation1661.lean	420	Equation1661_not_implies_Equation1630	1661	1630	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x = (x ◇ x) ◇ ((x ◇ x) ◇ y)
+unresolved	2481	1633	closure	2	E	M1661	ManuallyProved/Equation1661.lean	420	Equation1661_not_implies_Equation1630	1661	1630	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x = (x ◇ x) ◇ ((x ◇ y) ◇ z)
+unresolved	2481	1656	closure	24	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x = (x ◇ y) ◇ ((y ◇ x) ◇ z)
+unresolved	2481	1657	closure	2	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x = (x ◇ y) ◇ ((y ◇ y) ◇ x)
+unresolved	2481	1659	closure	12	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x = (x ◇ y) ◇ ((y ◇ y) ◇ z)
+unresolved	2481	1660	closure	6	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x = (x ◇ y) ◇ ((y ◇ z) ◇ x)
+unresolved	2481	1663	closure	24	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x = (x ◇ y) ◇ ((y ◇ z) ◇ w)
+unresolved	2481	1833	closure	2	E	M1661	ManuallyProved/Equation1661.lean	441	Equation1661_not_implies_Equation1833	1661	1833	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x = (x ◇ (x ◇ x)) ◇ (x ◇ y)
+unresolved	2481	1837	closure	2	E	M1661	ManuallyProved/Equation1661.lean	462	Equation1661_not_implies_Equation1837	1661	1837	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x = (x ◇ (x ◇ y)) ◇ (x ◇ x)
+unresolved	2481	1839	closure	4	E	M1661	ManuallyProved/Equation1661.lean	441	Equation1661_not_implies_Equation1833	1661	1833	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x = (x ◇ (x ◇ y)) ◇ (x ◇ z)
+unresolved	2481	1851	closure	2	E	M1661	ManuallyProved/Equation1661.lean	483	Equation1661_not_implies_Equation1851	1661	1851	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x = (x ◇ (y ◇ x)) ◇ (y ◇ y)
+unresolved	2481	1852	closure	24	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x = (x ◇ (y ◇ x)) ◇ (y ◇ z)
+unresolved	2481	1860	closure	2	E	M1661	ManuallyProved/Equation1661.lean	504	Equation1661_not_implies_Equation1860	1661	1860	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x = (x ◇ (y ◇ y)) ◇ (y ◇ x)
+unresolved	2481	1862	closure	24	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x = (x ◇ (y ◇ y)) ◇ (y ◇ z)
+unresolved	2481	1871	closure	6	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x = (x ◇ (y ◇ z)) ◇ (y ◇ x)
+unresolved	2481	1872	closure	24	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x = (x ◇ (y ◇ z)) ◇ (y ◇ y)
+unresolved	2481	1874	closure	24	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x = (x ◇ (y ◇ z)) ◇ (y ◇ w)
+unresolved	2481	2443	closure	2	E	M1661	ManuallyProved/Equation1661.lean	525	Equation1661_not_implies_Equation2443	1661	2443	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x = (x ◇ ((x ◇ x) ◇ y)) ◇ x
+unresolved	2481	2452	closure	2	E	M1661	ManuallyProved/Equation1661.lean	525	Equation1661_not_implies_Equation2443	1661	2443	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x = (x ◇ ((x ◇ y) ◇ z)) ◇ x
+unresolved	2481	2463	closure	24	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x = (x ◇ ((y ◇ x) ◇ z)) ◇ y
+unresolved	2481	2467	closure	2	E	M1661	ManuallyProved/Equation1661.lean	546	Equation1661_not_implies_Equation2467	1661	2467	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x = (x ◇ ((y ◇ y) ◇ x)) ◇ y
+unresolved	2481	2473	closure	12	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x = (x ◇ ((y ◇ y) ◇ z)) ◇ y
+unresolved	2481	2477	closure	24	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x = (x ◇ ((y ◇ z) ◇ x)) ◇ y
+unresolved	2481	2489	closure	24	E	M1661	ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	1661	1657	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x = (x ◇ ((y ◇ z) ◇ w)) ◇ y
+unresolved	2481	3457	closure	2	E	M1661	ManuallyProved/Equation1661.lean	567	Equation1661_not_implies_Equation3457	1661	3457	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x ◇ x = x ◇ ((x ◇ x) ◇ y)
+unresolved	2481	3460	closure	2	E	M1661	ManuallyProved/Equation1661.lean	567	Equation1661_not_implies_Equation3457	1661	3457	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x ◇ x = x ◇ ((x ◇ y) ◇ z)
+unresolved	2481	3520	closure	2	E	M1661	ManuallyProved/Equation1661.lean	567	Equation1661_not_implies_Equation3457	1661	3457	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x ◇ y = x ◇ ((y ◇ x) ◇ z)
+unresolved	2481	3521	closure	2	E	M1661	ManuallyProved/Equation1661.lean	588	Equation1661_not_implies_Equation3521	1661	3521	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x ◇ y = x ◇ ((y ◇ y) ◇ x)
+unresolved	2481	3523	closure	4	E	M1661	ManuallyProved/Equation1661.lean	567	Equation1661_not_implies_Equation3457	1661	3457	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x ◇ y = x ◇ ((y ◇ y) ◇ z)
+unresolved	2481	3524	closure	2	E	M1661	ManuallyProved/Equation1661.lean	588	Equation1661_not_implies_Equation3521	1661	3521	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x ◇ y = x ◇ ((y ◇ z) ◇ x)
+unresolved	2481	3527	closure	4	E	M1661	ManuallyProved/Equation1661.lean	567	Equation1661_not_implies_Equation3457	1661	3457	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x ◇ y = x ◇ ((y ◇ z) ◇ w)
+unresolved	2481	4268	closure	2	E	M1661	ManuallyProved/Equation1661.lean	609	Equation1661_not_implies_Equation4268	1661	4268	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x ◇ (x ◇ x) = x ◇ (x ◇ y)
+unresolved	2481	4282	closure	2	E	M1661	ManuallyProved/Equation1661.lean	609	Equation1661_not_implies_Equation4268	1661	4268	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x ◇ (x ◇ y) = x ◇ (x ◇ z)
+unresolved	2481	4314	closure	2	E	M1661	ManuallyProved/Equation1661.lean	630	Equation1661_not_implies_Equation4314	1661	4314	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x ◇ (y ◇ x) = x ◇ (y ◇ y)
+unresolved	2481	4315	closure	4	E	M1661	ManuallyProved/Equation1661.lean	609	Equation1661_not_implies_Equation4268	1661	4268	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x ◇ (y ◇ x) = x ◇ (y ◇ z)
+unresolved	2481	4339	closure	4	E	M1661	ManuallyProved/Equation1661.lean	609	Equation1661_not_implies_Equation4268	1661	4268	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x ◇ (y ◇ y) = x ◇ (y ◇ z)
+unresolved	2481	4357	closure	4	E	M1661	ManuallyProved/Equation1661.lean	609	Equation1661_not_implies_Equation4268	1661	4268	E	2	M1661	M1661=accepted	x = (x ◇ ((y ◇ z) ◇ y)) ◇ y	x ◇ (y ◇ z) = x ◇ (y ◇ w)
+unresolved	2531	3	dual	9	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	4380	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x = x ◇ x
+unresolved	2531	8	dual	3	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	4118	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x = x ◇ (x ◇ x)
+unresolved	2531	23	dual	4	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	3915	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x = (x ◇ x) ◇ x
+unresolved	2531	47	dual	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	408	Eq1076.refute_seed7	1076	255	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x = x ◇ (x ◇ (x ◇ x))
+unresolved	2531	99	dual	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	203	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x = x ◇ ((x ◇ x) ◇ x)
+unresolved	2531	151	dual	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	274	Eq1076.refute_seed2	1076	151	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x = (x ◇ x) ◇ (x ◇ x)
+unresolved	2531	203	dual	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	99	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x = (x ◇ (x ◇ x)) ◇ x
+unresolved	2531	255	dual	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	343	Eq1076.refute_seed4	1076	47	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x = ((x ◇ x) ◇ x) ◇ x
+unresolved	2531	307	dual	2	Gs	Equation1076	ManuallyProved/Equation1076.lean	390	Eq1076.refute_seed6	1076	359	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x ◇ x = x ◇ (x ◇ x)
+unresolved	2531	326	dual	4	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	4118	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x ◇ y = x ◇ (y ◇ y)
+unresolved	2531	359	dual	2	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	307	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x ◇ x = (x ◇ x) ◇ x
+unresolved	2531	375	dual	4	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	3456	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x ◇ y = (x ◇ x) ◇ y
+unresolved	2531	411	dual	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	3050	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x = x ◇ (x ◇ (x ◇ (x ◇ x)))
+unresolved	2531	614	dual	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	369	Eq1076.refute_seed5	1076	2847	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x = x ◇ (x ◇ ((x ◇ x) ◇ x))
+unresolved	2531	817	dual	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	274	Eq1076.refute_seed2	1076	2644	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x = x ◇ ((x ◇ x) ◇ (x ◇ x))
+unresolved	2531	1020	dual	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	2441	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x = x ◇ ((x ◇ (x ◇ x)) ◇ x)
+unresolved	2531	1223	dual	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	343	Eq1076.refute_seed4	1076	2238	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x = x ◇ (((x ◇ x) ◇ x) ◇ x)
+unresolved	2531	1426	dual	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	274	Eq1076.refute_seed2	1076	2035	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x = (x ◇ x) ◇ (x ◇ (x ◇ x))
+unresolved	2531	1629	dual	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	429	Eq1076.refute_seed8	1076	1832	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x = (x ◇ x) ◇ ((x ◇ x) ◇ x)
+unresolved	2531	1832	dual	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	274	Eq1076.refute_seed2	1076	1629	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x = (x ◇ (x ◇ x)) ◇ (x ◇ x)
+unresolved	2531	2035	dual	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	312	Eq1076.refute_seed3	1076	1426	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x = ((x ◇ x) ◇ x) ◇ (x ◇ x)
+unresolved	2531	2238	dual	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	1223	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x = (x ◇ (x ◇ (x ◇ x))) ◇ x
+unresolved	2531	2644	dual	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	274	Eq1076.refute_seed2	1076	817	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x = ((x ◇ x) ◇ (x ◇ x)) ◇ x
+unresolved	2531	2847	dual	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	390	Eq1076.refute_seed6	1076	614	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x = ((x ◇ (x ◇ x)) ◇ x) ◇ x
+unresolved	2531	3050	dual	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	312	Eq1076.refute_seed3	1076	411	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x = (((x ◇ x) ◇ x) ◇ x) ◇ x
+unresolved	2531	3253	dual	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	408	Eq1076.refute_seed7	1076	4065	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x ◇ x = x ◇ (x ◇ (x ◇ x))
+unresolved	2531	3319	dual	2	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	4118	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x ◇ y = x ◇ (y ◇ (y ◇ y))
+unresolved	2531	3456	dual	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	312	Eq1076.refute_seed3	1076	3862	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x ◇ x = x ◇ ((x ◇ x) ◇ x)
+unresolved	2531	3522	dual	2	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	3915	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x ◇ y = x ◇ ((y ◇ y) ◇ y)
+unresolved	2531	3659	dual	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	444	Eq1076.refute_seed9	1076	3659	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x ◇ x = (x ◇ x) ◇ (x ◇ x)
+unresolved	2531	3715	dual	7	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	4380	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x ◇ y = (x ◇ x) ◇ (y ◇ y)
+unresolved	2531	3722	dual	2	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	3722	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x ◇ y = (x ◇ y) ◇ (x ◇ y)
+unresolved	2531	3862	dual	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	3456	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x ◇ x = (x ◇ (x ◇ x)) ◇ x
+unresolved	2531	3915	dual	2	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	3456	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x ◇ y = (x ◇ (x ◇ x)) ◇ y
+unresolved	2531	4065	dual	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	312	Eq1076.refute_seed3	1076	3253	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x ◇ x = ((x ◇ x) ◇ x) ◇ x
+unresolved	2531	4118	dual	2	Gs	Equation1076	ManuallyProved/Equation1076.lean	312	Eq1076.refute_seed3	1076	3253	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x ◇ y = ((x ◇ x) ◇ x) ◇ y
+unresolved	2531	4380	dual	1	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	4380	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x ◇ (x ◇ x) = (x ◇ x) ◇ x
+unresolved	2531	4470	dual	2	Gs	Equation1076	ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	1076	4380	Gs	1	-	-	x = (y ◇ ((y ◇ x) ◇ x)) ◇ y	x ◇ (y ◇ y) = (x ◇ x) ◇ y
+unresolved	2534	1020	dual	2	E	M1117	ManuallyProved/Equation1117.lean	8	Equation1117_not_implies_Equation2441	1117	2441	E,Gg	2	M1117^T	M1117xT=accepted	x = (y ◇ ((y ◇ x) ◇ y)) ◇ y	x = x ◇ ((x ◇ (x ◇ x)) ◇ x)
+unresolved	2534	1113	dual	3	E	M1117	ManuallyProved/Equation1117.lean	8	Equation1117_not_implies_Equation2441	1117	2441	E,Gg	2	M1117^T	M1117xT=accepted	x = (y ◇ ((y ◇ x) ◇ y)) ◇ y	x = y ◇ ((y ◇ (x ◇ y)) ◇ y)
+unresolved	2538	1020	dual	1	E	M1117	ManuallyProved/Equation1117.lean	8	Equation1117_not_implies_Equation2441	1117	2441	E	1	M1117^T	M1117xT=accepted	x = (y ◇ ((y ◇ x) ◇ z)) ◇ z	x = x ◇ ((x ◇ (x ◇ x)) ◇ x)
+unresolved	2538	1023	dual	1	E	M1117	ManuallyProved/Equation1117.lean	8	Equation1117_not_implies_Equation2441	1117	2441	E	1	M1117^T	M1117xT=accepted	x = (y ◇ ((y ◇ x) ◇ z)) ◇ z	x = x ◇ ((x ◇ (x ◇ y)) ◇ y)
+unresolved	2538	1109	dual	1	E	M1117	ManuallyProved/Equation1117.lean	8	Equation1117_not_implies_Equation2441	1117	2441	E	1	M1117^T	M1117xT=accepted	x = (y ◇ ((y ◇ x) ◇ z)) ◇ z	x = y ◇ ((y ◇ (x ◇ x)) ◇ x)
+unresolved	2538	1113	dual	1	E	M1117	ManuallyProved/Equation1117.lean	8	Equation1117_not_implies_Equation2441	1117	2441	E	1	M1117^T	M1117xT=accepted	x = (y ◇ ((y ◇ x) ◇ z)) ◇ z	x = y ◇ ((y ◇ (x ◇ y)) ◇ y)
+unresolved	2538	1117	dual	1	E	M1117	ManuallyProved/Equation1117.lean	8	Equation1117_not_implies_Equation2441	1117	2441	E	1	M1117^T	M1117xT=accepted	x = (y ◇ ((y ◇ x) ◇ z)) ◇ z	x = y ◇ ((y ◇ (x ◇ z)) ◇ z)
+unresolved	2710	1020	dual	1	Gt	Equation917	ManuallyProved/Equation917.lean	301	Eq917.not_2441	917	2441	Gt	1	-	-	x = ((y ◇ x) ◇ (y ◇ y)) ◇ y	x = x ◇ ((x ◇ (x ◇ x)) ◇ x)
+unresolved	2710	1086	dual	1	Gt	Equation917	ManuallyProved/Equation917.lean	301	Eq917.not_2441	917	2441	Gt	1	-	-	x = ((y ◇ x) ◇ (y ◇ y)) ◇ y	x = y ◇ ((x ◇ (y ◇ y)) ◇ y)
+unresolved	2710	1832	dual	1	Gt	Equation917	ManuallyProved/Equation917.lean	284	Eq917.not_1629	917	1629	Gt	1	-	-	x = ((y ◇ x) ◇ (y ◇ y)) ◇ y	x = (x ◇ (x ◇ x)) ◇ (x ◇ x)
+unresolved	2710	1898	dual	2	Gt	Equation917	ManuallyProved/Equation917.lean	284	Eq917.not_1629	917	1629	Gt	1	-	-	x = ((y ◇ x) ◇ (y ◇ y)) ◇ y	x = (y ◇ (x ◇ y)) ◇ (y ◇ y)
+unresolved	2744	1323	dual	4	Gg	Eq883	Generated/Greedy/Eq883.lean	657	Equation883_not_implies_Equation2035	883	2035	Gg	1	-	-	x = ((y ◇ y) ◇ (y ◇ x)) ◇ y	x = y ◇ (((y ◇ y) ◇ x) ◇ y)
+unresolved	2744	1426	dual	1	Gg	Eq883	Generated/Greedy/Eq883.lean	657	Equation883_not_implies_Equation2035	883	2035	Gg	1	-	-	x = ((y ◇ y) ◇ (y ◇ x)) ◇ y	x = (x ◇ x) ◇ (x ◇ (x ◇ x))
+unresolved	2744	1526	dual	2	Gg	Eq883	Generated/Greedy/Eq883.lean	657	Equation883_not_implies_Equation2035	883	2035	Gg	1	-	-	x = ((y ◇ y) ◇ (y ◇ x)) ◇ y	x = (y ◇ y) ◇ (y ◇ (x ◇ y))
+unresolved	2856	2035	dual	1	Gs	Equation713	ManuallyProved/Equation713.lean	348	Eq713.not_817_1426_3862_4065	713	1426	Gs	1	-	-	x = ((x ◇ (x ◇ y)) ◇ y) ◇ y	x = ((x ◇ x) ◇ x) ◇ (x ◇ x)
+unresolved	2856	3456	dual	1	Gs	Equation713	ManuallyProved/Equation713.lean	348	Eq713.not_817_1426_3862_4065	713	3862	Gs	1	-	-	x = ((x ◇ (x ◇ y)) ◇ y) ◇ y	x ◇ x = x ◇ ((x ◇ x) ◇ x)
+unresolved	2940	614	dual	1	Gg	Eq707	Generated/Greedy/Eq707.lean	636	Equation707_not_implies_Equation2847	707	2847	Gg	1	-	-	x = ((y ◇ (y ◇ x)) ◇ y) ◇ y	x = x ◇ (x ◇ ((x ◇ x) ◇ x))
+unresolved	2940	1316	dual	5	Gg	Eq707	Generated/Greedy/Eq707.lean	548	Equation707_not_implies_Equation1223	707	1223	Gg	1	-	-	x = ((y ◇ (y ◇ x)) ◇ y) ◇ y	x = y ◇ (((y ◇ x) ◇ y) ◇ y)
+unresolved	3076	3456	dual	1	Gg	Eq476	Generated/Greedy/Eq476.lean	1058	Equation476_not_implies_Equation3862	476	3862	Gg	1	-	-	x = (((x ◇ y) ◇ y) ◇ x) ◇ y	x ◇ x = x ◇ ((x ◇ x) ◇ x)
+unresolved	3116	411	dual	1	Gg	Eq511	Generated/Greedy/Eq511.lean	3066	Equation511_not_implies_Equation3050	511	3050	Gg	1	-	-	x = (((y ◇ x) ◇ y) ◇ y) ◇ y	x = x ◇ (x ◇ (x ◇ (x ◇ x)))
+unresolved	3116	614	dual	1	Gg	Eq511	Generated/Greedy/Eq511.lean	3027	Equation511_not_implies_Equation2847	511	2847	Gg	1	-	-	x = (((y ◇ x) ◇ y) ◇ y) ◇ y	x = x ◇ (x ◇ ((x ◇ x) ◇ x))
+unresolved	3116	1020	dual	1	Gg	Eq511	Generated/Greedy/Eq511.lean	2987	Equation511_not_implies_Equation2441	511	2441	Gg	1	-	-	x = (((y ◇ x) ◇ y) ◇ y) ◇ y	x = x ◇ ((x ◇ (x ◇ x)) ◇ x)
+unresolved	3116	1223	dual	1	Gg	Eq511	Generated/Greedy/Eq511.lean	2910	Equation511_not_implies_Equation2238	511	2238	Gg	1	-	-	x = (((y ◇ x) ◇ y) ◇ y) ◇ y	x = x ◇ (((x ◇ x) ◇ x) ◇ x)
+unresolved	3116	1289	dual	9	Gg	Eq511	Generated/Greedy/Eq511.lean	2751	Equation511_not_implies_Equation614	511	614	Gg	1	-	-	x = (((y ◇ x) ◇ y) ◇ y) ◇ y	x = y ◇ (((x ◇ y) ◇ y) ◇ y)
+unresolved	3116	2238	dual	1	Gg	Eq511	Generated/Greedy/Eq511.lean	2870	Equation511_not_implies_Equation1223	511	1223	Gg	1	-	-	x = (((y ◇ x) ◇ y) ◇ y) ◇ y	x = (x ◇ (x ◇ (x ◇ x))) ◇ x
+unresolved	3116	2441	dual	1	Gg	Eq511	Generated/Greedy/Eq511.lean	2830	Equation511_not_implies_Equation1020	511	1020	Gg	1	-	-	x = (((y ◇ x) ◇ y) ◇ y) ◇ y	x = (x ◇ ((x ◇ x) ◇ x)) ◇ x
+unresolved	3116	2507	dual	11	Gg	Eq511	Generated/Greedy/Eq511.lean	2751	Equation511_not_implies_Equation614	511	614	Gg	1	-	-	x = (((y ◇ x) ◇ y) ◇ y) ◇ y	x = (y ◇ ((x ◇ y) ◇ y)) ◇ y
+unresolved	3116	2847	dual	1	Gg	Eq511	Generated/Greedy/Eq511.lean	2751	Equation511_not_implies_Equation614	511	614	Gg	1	-	-	x = (((y ◇ x) ◇ y) ◇ y) ◇ y	x = ((x ◇ (x ◇ x)) ◇ x) ◇ x
+unresolved	3116	2913	dual	11	Gg	Eq511	Generated/Greedy/Eq511.lean	2751	Equation511_not_implies_Equation614	511	614	Gg	1	-	-	x = (((y ◇ x) ◇ y) ◇ y) ◇ y	x = ((y ◇ (x ◇ y)) ◇ y) ◇ y
+unresolved	3116	4380	dual	1	Gg	Eq511	Generated/Greedy/Eq511.lean	3106	Equation511_not_implies_Equation4380	511	4380	Gg	1	-	-	x = (((y ◇ x) ◇ y) ◇ y) ◇ y	x ◇ (x ◇ x) = (x ◇ x) ◇ x
+unresolved	3116	4435	dual	2	Gg	Eq511	Generated/Greedy/Eq511.lean	3106	Equation511_not_implies_Equation4380	511	4380	Gg	1	-	-	x = (((y ◇ x) ◇ y) ◇ y) ◇ y	x ◇ (y ◇ x) = (x ◇ y) ◇ x
+unresolved	3308	3456	direct	1	Gs	Equation3308	ManuallyProved/Equation3308.lean	741	Refutation_3308.not_3456_3511	3308	3456	Gs	1	-	TI=accepted	x ◇ y = x ◇ (x ◇ (y ◇ x))	x ◇ x = x ◇ ((x ◇ x) ◇ x)
+unresolved	3308	3511	direct	1	Gs	Equation3308	ManuallyProved/Equation3308.lean	741	Refutation_3308.not_3456_3511	3308	3511	Gs	1	-	TI=accepted	x ◇ y = x ◇ (x ◇ (y ◇ x))	x ◇ y = x ◇ ((x ◇ y) ◇ x)
+unresolved	3342	3456	direct	1	E	M3342	ManuallyProved/Equation3342.lean	23	Eq3342.Equation3342_facts	3342	3456	E	1	M3342	M3342=accepted	x ◇ y = y ◇ (x ◇ (x ◇ x))	x ◇ x = x ◇ ((x ◇ x) ◇ x)
+unresolved	3342	3522	direct	1	E	M3342	ManuallyProved/Equation3342.lean	23	Eq3342.Equation3342_facts	3342	3522	E	1	M3342	M3342=accepted	x ◇ y = y ◇ (x ◇ (x ◇ x))	x ◇ y = x ◇ ((y ◇ y) ◇ y)
+unresolved	3342	4065	direct	1	E	M3342	ManuallyProved/Equation3342.lean	23	Eq3342.Equation3342_facts	3342	4065	E	1	M3342	M3342=accepted	x ◇ y = y ◇ (x ◇ (x ◇ x))	x ◇ x = ((x ◇ x) ◇ x) ◇ x
+unresolved	3342	4118	direct	1	E	M3342	ManuallyProved/Equation3342.lean	23	Eq3342.Equation3342_facts	3342	4118	E	1	M3342	M3342=accepted	x ◇ y = y ◇ (x ◇ (x ◇ x))	x ◇ y = ((x ◇ x) ◇ x) ◇ y
+unresolved	3549	3862	closure	1	C	rw3588	Confluence2.lean	314	rw3588.Facts	3588	3862	C	1	M3994^T	M3994xT=accepted	x ◇ y = y ◇ ((x ◇ y) ◇ y)	x ◇ x = (x ◇ (x ◇ x)) ◇ x
+unresolved	3549	3955	closure	1	C	rw3588	Confluence2.lean	314	rw3588.Facts	3588	3955	C	1	M3994^T	M3994xT=accepted	x ◇ y = y ◇ ((x ◇ y) ◇ y)	x ◇ y = (y ◇ (x ◇ y)) ◇ y
+unresolved	3917	3456	dual	1	C	rw3588	Confluence2.lean	314	rw3588.Facts	3588	3862	C	1	M3994	M3994x=accepted	x ◇ y = (x ◇ (x ◇ y)) ◇ x	x ◇ x = x ◇ ((x ◇ x) ◇ x)
+unresolved	3917	3511	dual	1	C	rw3588	Confluence2.lean	314	rw3588.Facts	3588	3955	C	1	M3994	M3994x=accepted	x ◇ y = (x ◇ (x ◇ y)) ◇ x	x ◇ y = x ◇ ((x ◇ y) ◇ x)
+unresolved	4158	3862	dual	1	Gs	Equation3308	ManuallyProved/Equation3308.lean	741	Refutation_3308.not_3456_3511	3308	3456	Gs	1	-	TI=accepted	x ◇ y = ((y ◇ x) ◇ y) ◇ y	x ◇ x = (x ◇ (x ◇ x)) ◇ x
+unresolved	4158	3955	dual	1	Gs	Equation3308	ManuallyProved/Equation3308.lean	741	Refutation_3308.not_3456_3511	3308	3511	Gs	1	-	TI=accepted	x ◇ y = ((y ◇ x) ◇ y) ◇ y	x ◇ y = (y ◇ (x ◇ y)) ◇ y
+unresolved	4167	3253	dual	1	E	M3342	ManuallyProved/Equation3342.lean	23	Eq3342.Equation3342_facts	3342	4065	E	1	M3342^T	M3342T=accepted	x ◇ y = ((y ◇ y) ◇ y) ◇ x	x ◇ x = x ◇ (x ◇ (x ◇ x))
+unresolved	4167	3319	dual	1	E	M3342	ManuallyProved/Equation3342.lean	23	Eq3342.Equation3342_facts	3342	4118	E	1	M3342^T	M3342T=accepted	x ◇ y = ((y ◇ y) ◇ y) ◇ x	x ◇ y = x ◇ (y ◇ (y ◇ y))
+unresolved	4167	3862	dual	1	E	M3342	ManuallyProved/Equation3342.lean	23	Eq3342.Equation3342_facts	3342	3456	E	1	M3342^T	M3342T=accepted	x ◇ y = ((y ◇ y) ◇ y) ◇ x	x ◇ x = (x ◇ (x ◇ x)) ◇ x
+unresolved	4167	3915	dual	1	E	M3342	ManuallyProved/Equation3342.lean	23	Eq3342.Equation3342_facts	3342	3522	E	1	M3342^T	M3342T=accepted	x ◇ y = ((y ◇ y) ◇ y) ◇ x	x ◇ y = (x ◇ (x ◇ x)) ◇ y
+saturation_refuted	115	2707	direct	1	C	rw115	Confluence2.lean	28	rw115.Facts	115	4332	C	1	-	-	x = y ◇ ((x ◇ x) ◇ y)	x = ((y ◇ x) ◇ (y ◇ x)) ◇ y
+saturation_refuted	115	4273	direct	1	C	rw115	Confluence2.lean	28	rw115.Facts	115	4332	C	1	-	-	x = y ◇ ((x ◇ x) ◇ y)	x ◇ (x ◇ x) = y ◇ (x ◇ y)
+saturation_refuted	115	4332	direct	1	C	rw115	Confluence2.lean	28	rw115.Facts	115	4332	C	1	-	-	x = y ◇ ((x ◇ x) ◇ y)	x ◇ (y ◇ x) = z ◇ (y ◇ z)
+saturation_refuted	118	274	direct	1	Gg	Eq118	Generated/Greedy/Eq118.lean	2740	Equation118_not_implies_Equation274	118	274	Gg	1	-	-	x = y ◇ ((x ◇ y) ◇ y)	x = ((y ◇ x) ◇ y) ◇ y
+saturation_refuted	118	4435	direct	1	Gg	Eq118	Generated/Greedy/Eq118.lean	2775	Equation118_not_implies_Equation4435	118	4435	Gg	1	-	-	x = y ◇ ((x ◇ y) ◇ y)	x ◇ (y ◇ x) = (x ◇ y) ◇ x
+saturation_refuted	124	1924	dual	2	W	M3C2	ThreeC2.lean	367	ThreeC2.Fact	206	1648	W,Gg	2	M3C2^T	M3C2T=accepted	x = y ◇ ((y ◇ x) ◇ x)	x = (y ◇ (y ◇ x)) ◇ (y ◇ x)
+saturation_refuted	219	880	dual	1	C	rw115	Confluence2.lean	28	rw115.Facts	115	4332	C	1	-	-	x = (y ◇ (x ◇ x)) ◇ y	x = y ◇ ((x ◇ y) ◇ (x ◇ y))
+saturation_refuted	219	4588	dual	1	C	rw115	Confluence2.lean	28	rw115.Facts	115	4332	C	1	-	-	x = (y ◇ (x ◇ x)) ◇ y	(x ◇ x) ◇ x = (y ◇ x) ◇ y
+saturation_refuted	219	4647	dual	1	C	rw115	Confluence2.lean	28	rw115.Facts	115	4332	C	1	-	-	x = (y ◇ (x ◇ x)) ◇ y	(x ◇ y) ◇ x = (z ◇ y) ◇ z
+saturation_refuted	229	125	dual	3	Gg	Eq118	Generated/Greedy/Eq118.lean	2707	Equation118_not_implies_Equation222	118	222	Gg	1	-	-	x = (y ◇ (y ◇ x)) ◇ y	x = y ◇ ((y ◇ x) ◇ y)
+saturation_refuted	467	2847	direct	2	C	rw467	Confluence1.lean	105	rw467.Facts	467	2847	C	2	-	-	x = y ◇ (x ◇ (x ◇ (y ◇ y)))	x = ((x ◇ (x ◇ x)) ◇ x) ◇ x
+saturation_refuted	477	1426	direct	2	C	rw477	Confluence1.lean	60	rw477.Facts	477	1426	C	2	-	-	x = y ◇ (x ◇ (y ◇ (y ◇ y)))	x = (x ◇ x) ◇ (x ◇ (x ◇ x))
+saturation_refuted	477	1492	closure	3	C	rw477	Confluence1.lean	60	rw477.Facts	477	3150	C	3	-	-	x = y ◇ (x ◇ (y ◇ (y ◇ y)))	x = (y ◇ x) ◇ (y ◇ (y ◇ y))
+saturation_refuted	477	1519	direct	2	C	rw477	Confluence1.lean	60	rw477.Facts	477	1519	C	2	-	-	x = y ◇ (x ◇ (y ◇ (y ◇ y)))	x = (y ◇ y) ◇ (x ◇ (y ◇ y))
+saturation_refuted	477	2035	direct	3	C	rw477	Confluence1.lean	60	rw477.Facts	477	2035	C	3	-	-	x = y ◇ (x ◇ (y ◇ (y ◇ y)))	x = ((x ◇ x) ◇ x) ◇ (x ◇ x)
+saturation_refuted	477	2128	direct	3	C	rw477	Confluence1.lean	60	rw477.Facts	477	2128	C	3	-	-	x = y ◇ (x ◇ (y ◇ (y ◇ y)))	x = ((y ◇ y) ◇ x) ◇ (y ◇ y)
+saturation_refuted	477	2135	closure	3	C	rw477	Confluence1.lean	60	rw477.Facts	477	3150	C	3	-	-	x = y ◇ (x ◇ (y ◇ (y ◇ y)))	x = ((y ◇ y) ◇ y) ◇ (x ◇ y)
+saturation_refuted	477	3050	direct	3	C	rw477	Confluence1.lean	60	rw477.Facts	477	3050	C	3	-	-	x = y ◇ (x ◇ (y ◇ (y ◇ y)))	x = (((x ◇ x) ◇ x) ◇ x) ◇ x
+saturation_refuted	477	3150	direct	3	C	rw477	Confluence1.lean	60	rw477.Facts	477	3150	C	3	-	-	x = y ◇ (x ◇ (y ◇ (y ◇ y)))	x = (((y ◇ y) ◇ y) ◇ x) ◇ y
+saturation_refuted	481	1488	direct	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	1488	C	1	-	-	x = y ◇ (x ◇ (y ◇ (z ◇ z)))	x = (y ◇ x) ◇ (y ◇ (x ◇ x))
+saturation_refuted	481	1492	direct	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	3150	C	1	-	-	x = y ◇ (x ◇ (y ◇ (z ◇ z)))	x = (y ◇ x) ◇ (y ◇ (y ◇ y))
+saturation_refuted	481	1496	direct	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	3161	C	1	-	-	x = y ◇ (x ◇ (y ◇ (z ◇ z)))	x = (y ◇ x) ◇ (y ◇ (z ◇ z))
+saturation_refuted	481	2035	direct	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	2035	C	1	-	-	x = y ◇ (x ◇ (y ◇ (z ◇ z)))	x = ((x ◇ x) ◇ x) ◇ (x ◇ x)
+saturation_refuted	481	2038	direct	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	2038	C	1	-	-	x = y ◇ (x ◇ (y ◇ (z ◇ z)))	x = ((x ◇ x) ◇ x) ◇ (y ◇ y)
+saturation_refuted	481	2041	direct	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	2041	C	1	-	-	x = y ◇ (x ◇ (y ◇ (z ◇ z)))	x = ((x ◇ x) ◇ y) ◇ (x ◇ y)
+saturation_refuted	481	2124	direct	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	2124	C	1	-	-	x = y ◇ (x ◇ (y ◇ (z ◇ z)))	x = ((y ◇ y) ◇ x) ◇ (x ◇ x)
+saturation_refuted	481	2128	direct	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	2128	C	1	-	-	x = y ◇ (x ◇ (y ◇ (z ◇ z)))	x = ((y ◇ y) ◇ x) ◇ (y ◇ y)
+saturation_refuted	481	2132	direct	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	2132	C	1	-	-	x = y ◇ (x ◇ (y ◇ (z ◇ z)))	x = ((y ◇ y) ◇ x) ◇ (z ◇ z)
+saturation_refuted	481	2135	direct	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	3150	C	1	-	-	x = y ◇ (x ◇ (y ◇ (z ◇ z)))	x = ((y ◇ y) ◇ y) ◇ (x ◇ y)
+saturation_refuted	481	2146	closure	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	3161	C	1	-	-	x = y ◇ (x ◇ (y ◇ (z ◇ z)))	x = ((y ◇ y) ◇ z) ◇ (x ◇ z)
+saturation_refuted	481	3050	direct	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	3050	C	1	-	-	x = y ◇ (x ◇ (y ◇ (z ◇ z)))	x = (((x ◇ x) ◇ x) ◇ x) ◇ x
+saturation_refuted	481	3056	direct	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	3056	C	1	-	-	x = y ◇ (x ◇ (y ◇ (z ◇ z)))	x = (((x ◇ x) ◇ y) ◇ x) ◇ y
+saturation_refuted	481	3139	direct	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	3139	C	1	-	-	x = y ◇ (x ◇ (y ◇ (z ◇ z)))	x = (((y ◇ y) ◇ x) ◇ x) ◇ x
+saturation_refuted	481	3150	direct	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	3150	C	1	-	-	x = y ◇ (x ◇ (y ◇ (z ◇ z)))	x = (((y ◇ y) ◇ y) ◇ x) ◇ y
+saturation_refuted	481	3161	direct	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	3161	C	1	-	-	x = y ◇ (x ◇ (y ◇ (z ◇ z)))	x = (((y ◇ y) ◇ z) ◇ x) ◇ z
+saturation_refuted	504	817	direct	2	C	rw504	Confluence1.lean	149	rw504.Facts	504	817	C	2	-	rw504=accepted	x = y ◇ (y ◇ (x ◇ (y ◇ y)))	x = x ◇ ((x ◇ x) ◇ (x ◇ x))
+saturation_refuted	504	910	closure	2	C	rw504	Confluence1.lean	149	rw504.Facts	504	1925	C	2	-	rw504=accepted	x = y ◇ (y ◇ (x ◇ (y ◇ y)))	x = y ◇ ((y ◇ x) ◇ (y ◇ y))
+saturation_refuted	504	1629	direct	2	C	rw504	Confluence1.lean	149	rw504.Facts	504	1629	C	2	-	rw504=accepted	x = y ◇ (y ◇ (x ◇ (y ◇ y)))	x = (x ◇ x) ◇ ((x ◇ x) ◇ x)
+saturation_refuted	504	1832	direct	2	C	rw504	Confluence1.lean	149	rw504.Facts	504	1832	C	2	-	rw504=accepted	x = y ◇ (y ◇ (x ◇ (y ◇ y)))	x = (x ◇ (x ◇ x)) ◇ (x ◇ x)
+saturation_refuted	504	1925	direct	2	C	rw504	Confluence1.lean	149	rw504.Facts	504	1925	C	2	-	rw504=accepted	x = y ◇ (y ◇ (x ◇ (y ◇ y)))	x = (y ◇ (y ◇ x)) ◇ (y ◇ y)
+saturation_refuted	680	1629	direct	1	C	rw680	Confluence2.lean	70	rw680.Facts	680	1629	C	1	-	-	x = y ◇ (x ◇ ((y ◇ y) ◇ y))	x = (x ◇ x) ◇ ((x ◇ x) ◇ x)
+saturation_refuted	680	1695	direct	1	C	rw680	Confluence2.lean	70	rw680.Facts	680	2947	C	1	-	-	x = y ◇ (x ◇ ((y ◇ y) ◇ y))	x = (y ◇ x) ◇ ((y ◇ y) ◇ y)
+saturation_refuted	680	1832	direct	1	C	rw680	Confluence2.lean	70	rw680.Facts	680	1832	C	1	-	-	x = y ◇ (x ◇ ((y ◇ y) ◇ y))	x = (x ◇ (x ◇ x)) ◇ (x ◇ x)
+saturation_refuted	680	1932	closure	1	C	rw680	Confluence2.lean	70	rw680.Facts	680	2947	C	1	-	-	x = y ◇ (x ◇ ((y ◇ y) ◇ y))	x = (y ◇ (y ◇ y)) ◇ (x ◇ y)
+saturation_refuted	680	2847	direct	1	C	rw680	Confluence2.lean	70	rw680.Facts	680	2847	C	1	-	-	x = y ◇ (x ◇ ((y ◇ y) ◇ y))	x = ((x ◇ (x ◇ x)) ◇ x) ◇ x
+saturation_refuted	680	2947	direct	1	C	rw680	Confluence2.lean	70	rw680.Facts	680	2947	C	1	-	-	x = y ◇ (x ◇ ((y ◇ y) ◇ y))	x = ((y ◇ (y ◇ y)) ◇ x) ◇ y
+saturation_refuted	707	2940	direct	2	Gg	Eq707	Generated/Greedy/Eq707.lean	664	Equation707_not_implies_Equation2940	707	2940	Gg	1	-	-	x = y ◇ (y ◇ ((x ◇ y) ◇ y))	x = ((y ◇ (y ◇ x)) ◇ y) ◇ y
+saturation_refuted	713	1426	direct	1	Gs	Equation713	ManuallyProved/Equation713.lean	348	Eq713.not_817_1426_3862_4065	713	1426	Gs	1	-	-	x = y ◇ (y ◇ ((y ◇ x) ◇ x))	x = (x ◇ x) ◇ (x ◇ (x ◇ x))
+saturation_refuted	883	2101	direct	2	Gg	Eq883	Generated/Greedy/Eq883.lean	685	Equation883_not_implies_Equation2101	883	2101	Gg	1	-	-	x = y ◇ ((x ◇ y) ◇ (y ◇ y))	x = ((y ◇ x) ◇ y) ◇ (y ◇ y)
+saturation_refuted	883	2238	direct	1	Gg	Eq883	Generated/Greedy/Eq883.lean	713	Equation883_not_implies_Equation2238	883	2238	Gg	1	-	-	x = y ◇ ((x ◇ y) ◇ (y ◇ y))	x = (x ◇ (x ◇ (x ◇ x))) ◇ x
+saturation_refuted	906	3862	direct	1	Gg	Eq906	Generated/Greedy/Eq906.lean	735	Equation906_not_implies_Equation3862	906	3862	Gg	1	-	-	x = y ◇ ((y ◇ x) ◇ (x ◇ x))	x ◇ x = (x ◇ (x ◇ x)) ◇ x
+saturation_refuted	1086	1832	direct	2	C	rw1086	Confluence1.lean	447	rw1086.Facts	1086	1832	C	2	-	-	x = y ◇ ((x ◇ (y ◇ y)) ◇ y)	x = (x ◇ (x ◇ x)) ◇ (x ◇ x)
+saturation_refuted	1086	1898	direct	2	C	rw1086	Confluence1.lean	447	rw1086.Facts	1086	1898	C	2	-	-	x = y ◇ ((x ◇ (y ◇ y)) ◇ y)	x = (y ◇ (x ◇ y)) ◇ (y ◇ y)
+saturation_refuted	1086	2644	direct	3	C	rw1086	Confluence1.lean	447	rw1086.Facts	1086	2644	C,Gs	3	-	-	x = y ◇ ((x ◇ (y ◇ y)) ◇ y)	x = ((x ◇ x) ◇ (x ◇ x)) ◇ x
+saturation_refuted	1086	2710	direct	3	C	rw1086	Confluence1.lean	447	rw1086.Facts	1086	2710	C,Gs	3	-	-	x = y ◇ ((x ◇ (y ◇ y)) ◇ y)	x = ((y ◇ x) ◇ (y ◇ y)) ◇ y
+saturation_refuted	1110	8	direct	2	C	rw1110	Confluence1.lean	403	rw1110.Facts	1110	3915	C	2	-	-	x = y ◇ ((y ◇ (x ◇ x)) ◇ y)	x = x ◇ (x ◇ x)
+saturation_refuted	1110	411	direct	2	C	rw1110	Confluence1.lean	403	rw1110.Facts	1110	411	C	2	-	-	x = y ◇ ((y ◇ (x ◇ x)) ◇ y)	x = x ◇ (x ◇ (x ◇ (x ◇ x)))
+saturation_refuted	1110	1832	direct	2	C	rw1110	Confluence1.lean	403	rw1110.Facts	1110	1832	C	2	-	-	x = y ◇ ((y ◇ (x ◇ x)) ◇ y)	x = (x ◇ (x ◇ x)) ◇ (x ◇ x)
+saturation_refuted	1110	3253	direct	2	C	rw1110	Confluence1.lean	403	rw1110.Facts	1110	3253	C	2	-	-	x = y ◇ ((y ◇ (x ◇ x)) ◇ y)	x ◇ x = x ◇ (x ◇ (x ◇ x))
+saturation_refuted	1110	3319	direct	2	C	rw1110	Confluence1.lean	403	rw1110.Facts	1110	3319	C	2	-	-	x = y ◇ ((y ◇ (x ◇ x)) ◇ y)	x ◇ y = x ◇ (y ◇ (y ◇ y))
+saturation_refuted	1110	3862	direct	2	C	rw1110	Confluence1.lean	403	rw1110.Facts	1110	3862	C	2	-	-	x = y ◇ ((y ◇ (x ◇ x)) ◇ y)	x ◇ x = (x ◇ (x ◇ x)) ◇ x
+saturation_refuted	1110	3915	direct	2	C	rw1110	Confluence1.lean	403	rw1110.Facts	1110	3915	C	2	-	-	x = y ◇ ((y ◇ (x ◇ x)) ◇ y)	x ◇ y = (x ◇ (x ◇ x)) ◇ y
+saturation_refuted	1113	2441	closure	2	E	M1117	ManuallyProved/Equation1117.lean	8	Equation1117_not_implies_Equation2441	1117	2441	E,Gg	2	M1117	M1117x=accepted	x = y ◇ ((y ◇ (x ◇ y)) ◇ y)	x = (x ◇ ((x ◇ x) ◇ x)) ◇ x
+saturation_refuted	1113	2534	closure	3	E	M1117	ManuallyProved/Equation1117.lean	8	Equation1117_not_implies_Equation2441	1117	2441	E,Gg	2	M1117	M1117x=accepted	x = y ◇ ((y ◇ (x ◇ y)) ◇ y)	x = (y ◇ ((y ◇ x) ◇ y)) ◇ y
+saturation_refuted	1276	4273	direct	1	C	rw1276	Confluence2.lean	112	rw1276.Facts	1276	4332	C	1	-	-	x = y ◇ (((x ◇ x) ◇ x) ◇ y)	x ◇ (x ◇ x) = y ◇ (x ◇ y)
+saturation_refuted	1276	4332	direct	1	C	rw1276	Confluence2.lean	112	rw1276.Facts	1276	4332	C	1	-	-	x = y ◇ (((x ◇ x) ◇ x) ◇ y)	x ◇ (y ◇ x) = z ◇ (y ◇ z)
+saturation_refuted	1289	3116	direct	1	Gs	Equation1289	ManuallyProved/Equation1289.lean	397	Eq1289.not_3116_4435	1289	3116	Gs	1	-	-	x = y ◇ (((x ◇ y) ◇ y) ◇ y)	x = (((y ◇ x) ◇ y) ◇ y) ◇ y
+saturation_refuted	1431	1428	direct	1	C	rw1431	Confluence2.lean	148	rw1431.Facts	1431	1428	C	1	-	-	x = (x ◇ x) ◇ (y ◇ (x ◇ x))	x = (x ◇ x) ◇ (x ◇ (y ◇ x))
+saturation_refuted	1431	4269	closure	2	E	M1437	ManuallyProved/Equation1437.lean	15	Equation1437_not_implies_Equation4269	1437	4269	E,C	2	M1437	M1437=accepted	x = (x ◇ x) ◇ (y ◇ (x ◇ x))	x ◇ (x ◇ x) = x ◇ (y ◇ x)
+saturation_refuted	1431	4316	closure	2	E	M1437	ManuallyProved/Equation1437.lean	15	Equation1437_not_implies_Equation4269	1437	4269	E,C	2	M1437	M1437=accepted	x = (x ◇ x) ◇ (y ◇ (x ◇ x))	x ◇ (y ◇ x) = x ◇ (z ◇ x)
+saturation_refuted	1441	4065	closure	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	4065	C	1	-	-	x = (x ◇ y) ◇ (x ◇ (x ◇ x))	x ◇ x = ((x ◇ x) ◇ x) ◇ x
+saturation_refuted	1441	4067	closure	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	4067	C	1	-	-	x = (x ◇ y) ◇ (x ◇ (x ◇ x))	x ◇ x = ((x ◇ x) ◇ y) ◇ x
+saturation_refuted	1443	23	direct	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	4118	C	1	-	-	x = (x ◇ y) ◇ (x ◇ (x ◇ z))	x = (x ◇ x) ◇ x
+saturation_refuted	1443	1629	direct	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	1629	C	1	-	-	x = (x ◇ y) ◇ (x ◇ (x ◇ z))	x = (x ◇ x) ◇ ((x ◇ x) ◇ x)
+saturation_refuted	1443	1630	direct	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	4118	C	1	-	-	x = (x ◇ y) ◇ (x ◇ (x ◇ z))	x = (x ◇ x) ◇ ((x ◇ x) ◇ y)
+saturation_refuted	1443	2441	direct	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	2441	C	1	-	-	x = (x ◇ y) ◇ (x ◇ (x ◇ z))	x = (x ◇ ((x ◇ x) ◇ x)) ◇ x
+saturation_refuted	1443	3050	direct	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	3050	C	1	-	-	x = (x ◇ y) ◇ (x ◇ (x ◇ z))	x = (((x ◇ x) ◇ x) ◇ x) ◇ x
+saturation_refuted	1443	3055	direct	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	3055	C	1	-	-	x = (x ◇ y) ◇ (x ◇ (x ◇ z))	x = (((x ◇ x) ◇ y) ◇ x) ◇ x
+saturation_refuted	1443	3522	direct	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	3522	C	1	-	-	x = (x ◇ y) ◇ (x ◇ (x ◇ z))	x ◇ y = x ◇ ((y ◇ y) ◇ y)
+saturation_refuted	1443	4065	direct	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	4065	C	1	-	-	x = (x ◇ y) ◇ (x ◇ (x ◇ z))	x ◇ x = ((x ◇ x) ◇ x) ◇ x
+saturation_refuted	1443	4067	direct	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	4067	C	1	-	-	x = (x ◇ y) ◇ (x ◇ (x ◇ z))	x ◇ x = ((x ◇ x) ◇ y) ◇ x
+saturation_refuted	1443	4118	direct	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	4118	C	1	-	-	x = (x ◇ y) ◇ (x ◇ (x ◇ z))	x ◇ y = ((x ◇ x) ◇ x) ◇ y
+saturation_refuted	1443	4268	direct	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	4282	C	1	-	-	x = (x ◇ y) ◇ (x ◇ (x ◇ z))	x ◇ (x ◇ x) = x ◇ (x ◇ y)
+saturation_refuted	1443	4282	direct	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	4282	C	1	-	-	x = (x ◇ y) ◇ (x ◇ (x ◇ z))	x ◇ (x ◇ y) = x ◇ (x ◇ z)
+saturation_refuted	1515	4590	direct	2	C	rw1515	Confluence1.lean	188	rw1515.Facts	1515	4590	C	2	-	-	x = (y ◇ y) ◇ (x ◇ (x ◇ x))	(x ◇ x) ◇ x = (y ◇ y) ◇ x
+saturation_refuted	1515	4622	closure	2	C	rw1515	Confluence1.lean	188	rw1515.Facts	1515	4590	C	2	-	-	x = (y ◇ y) ◇ (x ◇ (x ◇ x))	(x ◇ x) ◇ y = (z ◇ z) ◇ y
+saturation_refuted	1519	2035	direct	3	C	rw1519	Confluence2.lean	184	rw1519.Facts	1519	2035	C	3	-	-	x = (y ◇ y) ◇ (x ◇ (y ◇ y))	x = ((x ◇ x) ◇ x) ◇ (x ◇ x)
+saturation_refuted	1519	2128	direct	3	C	rw1519	Confluence2.lean	184	rw1519.Facts	1519	2128	C	3	-	-	x = (y ◇ y) ◇ (x ◇ (y ◇ y))	x = ((y ◇ y) ◇ x) ◇ (y ◇ y)
+saturation_refuted	1523	2035	direct	2	C	rw1523	Confluence2.lean	234	rw1523.Facts	1523	2035	C	2	-	-	x = (y ◇ y) ◇ (x ◇ (z ◇ z))	x = ((x ◇ x) ◇ x) ◇ (x ◇ x)
+saturation_refuted	1523	2038	direct	2	C	rw1523	Confluence2.lean	234	rw1523.Facts	1523	2038	C	2	-	-	x = (y ◇ y) ◇ (x ◇ (z ◇ z))	x = ((x ◇ x) ◇ x) ◇ (y ◇ y)
+saturation_refuted	1523	2124	direct	2	C	rw1523	Confluence2.lean	234	rw1523.Facts	1523	2124	C	2	-	-	x = (y ◇ y) ◇ (x ◇ (z ◇ z))	x = ((y ◇ y) ◇ x) ◇ (x ◇ x)
+saturation_refuted	1523	2128	direct	2	C	rw1523	Confluence2.lean	234	rw1523.Facts	1523	2128	C	2	-	-	x = (y ◇ y) ◇ (x ◇ (z ◇ z))	x = ((y ◇ y) ◇ x) ◇ (y ◇ y)
+saturation_refuted	1523	2132	direct	2	C	rw1523	Confluence2.lean	234	rw1523.Facts	1523	2132	C	2	-	-	x = (y ◇ y) ◇ (x ◇ (z ◇ z))	x = ((y ◇ y) ◇ x) ◇ (z ◇ z)
+saturation_refuted	1630	4268	closure	3	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4268	E,C	3	M1659	M1659=accepted	x = (x ◇ x) ◇ ((x ◇ x) ◇ y)	x ◇ (x ◇ x) = x ◇ (x ◇ y)
+saturation_refuted	1630	4282	closure	3	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4268	E,C	3	M1659	M1659=accepted	x = (x ◇ x) ◇ ((x ◇ x) ◇ y)	x ◇ (x ◇ y) = x ◇ (x ◇ z)
+saturation_refuted	1633	4268	direct	1	C	rw1633	Confluence4.lean	123	rw1633.Facts	1633	4282	C	1	-	-	x = (x ◇ x) ◇ ((x ◇ y) ◇ z)	x ◇ (x ◇ x) = x ◇ (x ◇ y)
+saturation_refuted	1633	4282	direct	1	C	rw1633	Confluence4.lean	123	rw1633.Facts	1633	4282	C	1	-	-	x = (x ◇ x) ◇ ((x ◇ y) ◇ z)	x ◇ (x ◇ y) = x ◇ (x ◇ z)
+saturation_refuted	1681	3862	closure	1	E	M1701_8	ManuallyProved/Equation1701.lean	128	Equation1701_facts	1701	3862	E	1	M1701_8	M1701_8=accepted	x = (y ◇ x) ◇ ((x ◇ x) ◇ x)	x ◇ x = (x ◇ (x ◇ x)) ◇ x
+saturation_refuted	1681	3877	closure	1	E	M1701_8	ManuallyProved/Equation1701.lean	128	Equation1701_facts	1701	3862	E	1	M1701_3253,M1701_8	M1701_3253=accepted;M1701_8=accepted	x = (y ◇ x) ◇ ((x ◇ x) ◇ x)	x ◇ x = (y ◇ (x ◇ x)) ◇ x
+saturation_refuted	1701	8	direct	3	E	M1701_8	ManuallyProved/Equation1701.lean	128	Equation1701_facts	1701	3862	E	2	M1701_3253,M1701_4587,M1701_8	M1701_3253=accepted;M1701_4587=accepted;M1701_8=accepted	x = (y ◇ x) ◇ ((z ◇ x) ◇ x)	x = x ◇ (x ◇ x)
+saturation_refuted	1701	1020	direct	1	E	M1701_8	ManuallyProved/Equation1701.lean	128	Equation1701_facts	1701	1020	E	1	M1701_3253,M1701_4587,M1701_8	M1701_3253=accepted;M1701_4587=accepted;M1701_8=accepted	x = (y ◇ x) ◇ ((z ◇ x) ◇ x)	x = x ◇ ((x ◇ (x ◇ x)) ◇ x)
+saturation_refuted	1701	1035	direct	2	E	M1701_8	ManuallyProved/Equation1701.lean	137	Equation1701_facts'	1701	1035	E	1	M1701_3253,M1701_4587,M1701_8	M1701_3253=accepted;M1701_4587=accepted;M1701_8=accepted	x = (y ◇ x) ◇ ((z ◇ x) ◇ x)	x = x ◇ ((y ◇ (x ◇ x)) ◇ x)
+saturation_refuted	1701	1832	direct	1	E	M1701_8	ManuallyProved/Equation1701.lean	128	Equation1701_facts	1701	1832	E	1	M1701_3253,M1701_8	M1701_3253=accepted;M1701_8=accepted	x = (y ◇ x) ◇ ((z ◇ x) ◇ x)	x = (x ◇ (x ◇ x)) ◇ (x ◇ x)
+saturation_refuted	1701	3862	direct	1	E	M1701_8	ManuallyProved/Equation1701.lean	128	Equation1701_facts	1701	3862	E	1	M1701_8	M1701_8=accepted	x = (y ◇ x) ◇ ((z ◇ x) ◇ x)	x ◇ x = (x ◇ (x ◇ x)) ◇ x
+saturation_refuted	1701	4587	direct	1	E	M1701_4587	ManuallyProved/Equation1701.lean	385	Equation1701_not_implies_Equation4587	1701	4587	E	1	M1701_4587	M1701_4587=accepted	x = (y ◇ x) ◇ ((z ◇ x) ◇ x)	(x ◇ x) ◇ x = (y ◇ x) ◇ x
+saturation_refuted	1701	4666	closure	1	E	M1701_4587	ManuallyProved/Equation1701.lean	385	Equation1701_not_implies_Equation4587	1701	4587	E	1	M1701_4587	M1701_4587=accepted	x = (y ◇ x) ◇ ((z ◇ x) ◇ x)	(x ◇ y) ◇ y = (z ◇ y) ◇ y
+saturation_refuted	1833	3456	dual	1	E	M1701_8	ManuallyProved/Equation1701.lean	128	Equation1701_facts	1701	3862	E	1	M1701_8^T	M1701_8T=accepted	x = (x ◇ (x ◇ x)) ◇ (x ◇ y)	x ◇ x = x ◇ ((x ◇ x) ◇ x)
+saturation_refuted	1833	3457	dual	1	E	M1701_8	ManuallyProved/Equation1701.lean	128	Equation1701_facts	1701	3862	E	1	M1701_3253^T,M1701_8^T	M1701_3253T=accepted;M1701_8T=accepted	x = (x ◇ (x ◇ x)) ◇ (x ◇ y)	x ◇ x = x ◇ ((x ◇ x) ◇ y)
+saturation_refuted	1839	23	dual	3	E	M1701_8	ManuallyProved/Equation1701.lean	128	Equation1701_facts	1701	3862	E	2	M1701_3253^T,M1701_4587^T,M1701_8^T	M1701_3253T=accepted;M1701_4587T=accepted;M1701_8T=accepted	x = (x ◇ (x ◇ y)) ◇ (x ◇ z)	x = (x ◇ x) ◇ x
+saturation_refuted	1839	1629	dual	1	E	M1701_8	ManuallyProved/Equation1701.lean	128	Equation1701_facts	1701	1832	E	1	M1701_3253^T,M1701_8^T	M1701_3253T=accepted;M1701_8T=accepted	x = (x ◇ (x ◇ y)) ◇ (x ◇ z)	x = (x ◇ x) ◇ ((x ◇ x) ◇ x)
+saturation_refuted	1839	3050	dual	1	E	M1701_8	ManuallyProved/Equation1701.lean	128	Equation1701_facts	1701	411	E	1	M1701_3253^T,M1701_4587^T,M1701_8^T	M1701_3253T=accepted;M1701_4587T=accepted;M1701_8T=accepted	x = (x ◇ (x ◇ y)) ◇ (x ◇ z)	x = (((x ◇ x) ◇ x) ◇ x) ◇ x
+saturation_refuted	1884	4587	dual	3	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4268	E,C	3	M1659^T	M1659T=accepted	x = (y ◇ (x ◇ x)) ◇ (x ◇ x)	(x ◇ x) ◇ x = (y ◇ x) ◇ x
+saturation_refuted	1884	4666	dual	3	E	M1659	ManuallyProved/Equation1659.lean	164	Equation1659_facts	1659	4268	E,C	3	M1659^T	M1659T=accepted	x = (y ◇ (x ◇ x)) ◇ (x ◇ x)	(x ◇ y) ◇ y = (z ◇ y) ◇ y
+saturation_refuted	1958	4587	dual	1	C	rw1633	Confluence4.lean	123	rw1633.Facts	1633	4282	C	1	-	-	x = (y ◇ (z ◇ x)) ◇ (x ◇ x)	(x ◇ x) ◇ x = (y ◇ x) ◇ x
+saturation_refuted	1958	4666	dual	1	C	rw1633	Confluence4.lean	123	rw1633.Facts	1633	4282	C	1	-	-	x = (y ◇ (z ◇ x)) ◇ (x ◇ x)	(x ◇ y) ◇ y = (z ◇ y) ◇ y
+saturation_refuted	2037	3253	dual	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	4065	C	1	-	-	x = ((x ◇ x) ◇ x) ◇ (y ◇ x)	x ◇ x = x ◇ (x ◇ (x ◇ x))
+saturation_refuted	2037	3258	dual	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	4067	C	1	-	-	x = ((x ◇ x) ◇ x) ◇ (y ◇ x)	x ◇ x = x ◇ (y ◇ (x ◇ x))
+saturation_refuted	2038	4270	direct	2	C	rw2038	Confluence1.lean	227	rw2038.Facts	2038	4270	C	2	-	-	x = ((x ◇ x) ◇ x) ◇ (y ◇ y)	x ◇ (x ◇ x) = x ◇ (y ◇ y)
+saturation_refuted	2038	4341	closure	2	C	rw2038	Confluence1.lean	227	rw2038.Facts	2038	4270	C	2	-	-	x = ((x ◇ x) ◇ x) ◇ (y ◇ y)	x ◇ (y ◇ y) = x ◇ (z ◇ z)
+saturation_refuted	2040	2050	dual	1	C	rw1431	Confluence2.lean	148	rw1431.Facts	1431	1428	C	1	-	-	x = ((x ◇ x) ◇ y) ◇ (x ◇ x)	x = ((x ◇ y) ◇ x) ◇ (x ◇ x)
+saturation_refuted	2040	4584	dual	2	E	M1437	ManuallyProved/Equation1437.lean	15	Equation1437_not_implies_Equation4269	1437	4269	E,C	2	M1437^T	M1437T=accepted	x = ((x ◇ x) ◇ y) ◇ (x ◇ x)	(x ◇ x) ◇ x = (x ◇ y) ◇ x
+saturation_refuted	2040	4631	dual	2	E	M1437	ManuallyProved/Equation1437.lean	15	Equation1437_not_implies_Equation4269	1437	4269	E,C	2	M1437^T	M1437T=accepted	x = ((x ◇ x) ◇ y) ◇ (x ◇ x)	(x ◇ y) ◇ x = (x ◇ z) ◇ x
+saturation_refuted	2093	8	dual	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	4118	C	1	-	-	x = ((y ◇ x) ◇ x) ◇ (z ◇ x)	x = x ◇ (x ◇ x)
+saturation_refuted	2093	411	dual	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	3050	C	1	-	-	x = ((y ◇ x) ◇ x) ◇ (z ◇ x)	x = x ◇ (x ◇ (x ◇ (x ◇ x)))
+saturation_refuted	2093	416	dual	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	3055	C	1	-	-	x = ((y ◇ x) ◇ x) ◇ (z ◇ x)	x = x ◇ (x ◇ (y ◇ (x ◇ x)))
+saturation_refuted	2093	1020	dual	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	2441	C	1	-	-	x = ((y ◇ x) ◇ x) ◇ (z ◇ x)	x = x ◇ ((x ◇ (x ◇ x)) ◇ x)
+saturation_refuted	2093	1832	dual	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	1629	C	1	-	-	x = ((y ◇ x) ◇ x) ◇ (z ◇ x)	x = (x ◇ (x ◇ x)) ◇ (x ◇ x)
+saturation_refuted	2093	1884	dual	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	4118	C	1	-	-	x = ((y ◇ x) ◇ x) ◇ (z ◇ x)	x = (y ◇ (x ◇ x)) ◇ (x ◇ x)
+saturation_refuted	2093	3253	dual	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	4065	C	1	-	-	x = ((y ◇ x) ◇ x) ◇ (z ◇ x)	x ◇ x = x ◇ (x ◇ (x ◇ x))
+saturation_refuted	2093	3258	dual	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	4067	C	1	-	-	x = ((y ◇ x) ◇ x) ◇ (z ◇ x)	x ◇ x = x ◇ (y ◇ (x ◇ x))
+saturation_refuted	2093	3319	dual	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	4118	C	1	-	-	x = ((y ◇ x) ◇ x) ◇ (z ◇ x)	x ◇ y = x ◇ (y ◇ (y ◇ y))
+saturation_refuted	2093	3915	dual	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	3522	C	1	-	-	x = ((y ◇ x) ◇ x) ◇ (z ◇ x)	x ◇ y = (x ◇ (x ◇ x)) ◇ y
+saturation_refuted	2093	4587	dual	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	4282	C	1	-	-	x = ((y ◇ x) ◇ x) ◇ (z ◇ x)	(x ◇ x) ◇ x = (y ◇ x) ◇ x
+saturation_refuted	2093	4666	dual	1	C	rw1443	Confluence4.lean	61	rw1443.Facts	1443	4282	C	1	-	-	x = ((y ◇ x) ◇ x) ◇ (z ◇ x)	(x ◇ y) ◇ y = (z ◇ y) ◇ y
+saturation_refuted	2128	1426	dual	3	C	rw1519	Confluence2.lean	184	rw1519.Facts	1519	2035	C	3	-	-	x = ((y ◇ y) ◇ x) ◇ (y ◇ y)	x = (x ◇ x) ◇ (x ◇ (x ◇ x))
+saturation_refuted	2128	1519	dual	3	C	rw1519	Confluence2.lean	184	rw1519.Facts	1519	2128	C	3	-	-	x = ((y ◇ y) ◇ x) ◇ (y ◇ y)	x = (y ◇ y) ◇ (x ◇ (y ◇ y))
+saturation_refuted	2132	1426	dual	2	C	rw1523	Confluence2.lean	234	rw1523.Facts	1523	2035	C	2	-	-	x = ((y ◇ y) ◇ x) ◇ (z ◇ z)	x = (x ◇ x) ◇ (x ◇ (x ◇ x))
+saturation_refuted	2132	1429	dual	2	C	rw1523	Confluence2.lean	234	rw1523.Facts	1523	2124	C	2	-	-	x = ((y ◇ y) ◇ x) ◇ (z ◇ z)	x = (x ◇ x) ◇ (x ◇ (y ◇ y))
+saturation_refuted	2132	1515	dual	2	C	rw1523	Confluence2.lean	234	rw1523.Facts	1523	2038	C	2	-	-	x = ((y ◇ y) ◇ x) ◇ (z ◇ z)	x = (y ◇ y) ◇ (x ◇ (x ◇ x))
+saturation_refuted	2132	1519	dual	2	C	rw1523	Confluence2.lean	234	rw1523.Facts	1523	2128	C	2	-	-	x = ((y ◇ y) ◇ x) ◇ (z ◇ z)	x = (y ◇ y) ◇ (x ◇ (y ◇ y))
+saturation_refuted	2132	1523	dual	2	C	rw1523	Confluence2.lean	234	rw1523.Facts	1523	2132	C	2	-	-	x = ((y ◇ y) ◇ x) ◇ (z ◇ z)	x = (y ◇ y) ◇ (x ◇ (z ◇ z))
+saturation_refuted	2291	4588	dual	1	C	rw1276	Confluence2.lean	112	rw1276.Facts	1276	4332	C	1	-	-	x = (y ◇ (x ◇ (x ◇ x))) ◇ y	(x ◇ x) ◇ x = (y ◇ x) ◇ y
+saturation_refuted	2291	4647	dual	1	C	rw1276	Confluence2.lean	112	rw1276.Facts	1276	4332	C	1	-	-	x = (y ◇ (x ◇ (x ◇ x))) ◇ y	(x ◇ y) ◇ x = (z ◇ y) ◇ z
+saturation_refuted	2338	4435	dual	1	Gs	Equation1289	ManuallyProved/Equation1289.lean	397	Eq1289.not_3116_4435	1289	4435	Gs	1	-	-	x = (y ◇ (y ◇ (y ◇ x))) ◇ y	x ◇ (y ◇ x) = (x ◇ y) ◇ x
+saturation_refuted	2497	23	direct	2	C	rw2497	Confluence1.lean	491	rw2497.Facts	2497	4118	C	2	-	-	x = (y ◇ ((x ◇ x) ◇ y)) ◇ y	x = (x ◇ x) ◇ x
+saturation_refuted	2497	1629	direct	2	C	rw2497	Confluence1.lean	491	rw2497.Facts	2497	1629	C	2	-	-	x = (y ◇ ((x ◇ x) ◇ y)) ◇ y	x = (x ◇ x) ◇ ((x ◇ x) ◇ x)
+saturation_refuted	2497	3050	direct	2	C	rw2497	Confluence1.lean	491	rw2497.Facts	2497	3050	C	2	-	-	x = (y ◇ ((x ◇ x) ◇ y)) ◇ y	x = (((x ◇ x) ◇ x) ◇ x) ◇ x
+saturation_refuted	2497	3456	direct	2	C	rw2497	Confluence1.lean	491	rw2497.Facts	2497	3456	C	2	-	-	x = (y ◇ ((x ◇ x) ◇ y)) ◇ y	x ◇ x = x ◇ ((x ◇ x) ◇ x)
+saturation_refuted	2497	3522	direct	2	C	rw2497	Confluence1.lean	491	rw2497.Facts	2497	3522	C	2	-	-	x = (y ◇ ((x ◇ x) ◇ y)) ◇ y	x ◇ y = x ◇ ((y ◇ y) ◇ y)
+saturation_refuted	2497	4065	direct	2	C	rw2497	Confluence1.lean	491	rw2497.Facts	2497	4065	C	2	-	-	x = (y ◇ ((x ◇ x) ◇ y)) ◇ y	x ◇ x = ((x ◇ x) ◇ x) ◇ x
+saturation_refuted	2497	4118	direct	2	C	rw2497	Confluence1.lean	491	rw2497.Facts	2497	4118	C	2	-	-	x = (y ◇ ((x ◇ x) ◇ y)) ◇ y	x ◇ y = ((x ◇ x) ◇ x) ◇ y
+saturation_refuted	2541	817	direct	3	C	rw2541	Confluence1.lean	535	rw2541.Facts	2541	817	C,Gs	3	-	-	x = (y ◇ ((y ◇ y) ◇ x)) ◇ y	x = x ◇ ((x ◇ x) ◇ (x ◇ x))
+saturation_refuted	2541	917	direct	3	C	rw2541	Confluence1.lean	535	rw2541.Facts	2541	917	C,Gs	3	-	-	x = (y ◇ ((y ◇ y) ◇ x)) ◇ y	x = y ◇ ((y ◇ y) ◇ (x ◇ y))
+saturation_refuted	2541	1629	direct	2	C	rw2541	Confluence1.lean	535	rw2541.Facts	2541	1629	C	2	-	-	x = (y ◇ ((y ◇ y) ◇ x)) ◇ y	x = (x ◇ x) ◇ ((x ◇ x) ◇ x)
+saturation_refuted	2541	1729	direct	2	C	rw2541	Confluence1.lean	535	rw2541.Facts	2541	1729	C	2	-	-	x = (y ◇ ((y ◇ y) ◇ x)) ◇ y	x = (y ◇ y) ◇ ((y ◇ x) ◇ y)
+saturation_refuted	2647	3456	dual	1	Gg	Eq906	Generated/Greedy/Eq906.lean	735	Equation906_not_implies_Equation3862	906	3862	Gg	1	-	-	x = ((x ◇ x) ◇ (x ◇ y)) ◇ y	x ◇ x = x ◇ ((x ◇ x) ◇ x)
+saturation_refuted	2744	1223	dual	1	Gg	Eq883	Generated/Greedy/Eq883.lean	713	Equation883_not_implies_Equation2238	883	2238	Gg	1	-	-	x = ((y ◇ y) ◇ (y ◇ x)) ◇ y	x = x ◇ (((x ◇ x) ◇ x) ◇ x)
+saturation_refuted	2856	307	dual	1	Gs	Equation713	ManuallyProved/Equation713.lean	348	Eq713.not_817_1426_3862_4065	713	4065	Gs	1	-	-	x = ((x ◇ (x ◇ y)) ◇ y) ◇ y	x ◇ x = x ◇ (x ◇ x)
+saturation_refuted	2856	2644	dual	1	Gs	Equation713	ManuallyProved/Equation713.lean	348	Eq713.not_817_1426_3862_4065	713	817	Gs	1	-	-	x = ((x ◇ (x ◇ y)) ◇ y) ◇ y	x = ((x ◇ x) ◇ (x ◇ x)) ◇ x
+saturation_refuted	2856	3253	dual	1	Gs	Equation713	ManuallyProved/Equation713.lean	348	Eq713.not_817_1426_3862_4065	713	4065	Gs	1	-	-	x = ((x ◇ (x ◇ y)) ◇ y) ◇ y	x ◇ x = x ◇ (x ◇ (x ◇ x))
+saturation_refuted	2940	707	dual	2	Gg	Eq707	Generated/Greedy/Eq707.lean	636	Equation707_not_implies_Equation2847	707	2847	Gg	1	-	-	x = ((y ◇ (y ◇ x)) ◇ y) ◇ y	x = y ◇ (y ◇ ((x ◇ y) ◇ y))
+saturation_refuted	2940	1223	dual	1	Gg	Eq707	Generated/Greedy/Eq707.lean	608	Equation707_not_implies_Equation2238	707	2238	Gg	1	-	-	x = ((y ◇ (y ◇ x)) ◇ y) ◇ y	x = x ◇ (((x ◇ x) ◇ x) ◇ x)
+saturation_refuted	2940	2238	dual	1	Gg	Eq707	Generated/Greedy/Eq707.lean	548	Equation707_not_implies_Equation1223	707	1223	Gg	1	-	-	x = ((y ◇ (y ◇ x)) ◇ y) ◇ y	x = (x ◇ (x ◇ (x ◇ x))) ◇ x
+saturation_refuted	2940	2331	dual	5	Gg	Eq707	Generated/Greedy/Eq707.lean	548	Equation707_not_implies_Equation1223	707	1223	Gg	1	-	-	x = ((y ◇ (y ◇ x)) ◇ y) ◇ y	x = (y ◇ (y ◇ (x ◇ y))) ◇ y
+saturation_refuted	2947	614	dual	1	C	rw680	Confluence2.lean	70	rw680.Facts	680	2847	C	1	-	-	x = ((y ◇ (y ◇ y)) ◇ x) ◇ y	x = x ◇ (x ◇ ((x ◇ x) ◇ x))
+saturation_refuted	2947	680	dual	1	C	rw680	Confluence2.lean	70	rw680.Facts	680	2947	C	1	-	-	x = ((y ◇ (y ◇ y)) ◇ x) ◇ y	x = y ◇ (x ◇ ((y ◇ y) ◇ y))
+saturation_refuted	2947	1629	dual	1	C	rw680	Confluence2.lean	70	rw680.Facts	680	1832	C	1	-	-	x = ((y ◇ (y ◇ y)) ◇ x) ◇ y	x = (x ◇ x) ◇ ((x ◇ x) ◇ x)
+saturation_refuted	2947	1695	dual	1	C	rw680	Confluence2.lean	70	rw680.Facts	680	2947	C	1	-	-	x = ((y ◇ (y ◇ y)) ◇ x) ◇ y	x = (y ◇ x) ◇ ((y ◇ y) ◇ y)
+saturation_refuted	2947	1832	dual	1	C	rw680	Confluence2.lean	70	rw680.Facts	680	1629	C	1	-	-	x = ((y ◇ (y ◇ y)) ◇ x) ◇ y	x = (x ◇ (x ◇ x)) ◇ (x ◇ x)
+saturation_refuted	2947	1932	dual	1	C	rw680	Confluence2.lean	70	rw680.Facts	680	2947	C	1	-	-	x = ((y ◇ (y ◇ y)) ◇ x) ◇ y	x = (y ◇ (y ◇ y)) ◇ (x ◇ y)
+saturation_refuted	3140	614	direct	2	C	rw3140	Confluence1.lean	271	rw3140.Facts	3140	614	C	2	-	-	x = (((y ◇ y) ◇ x) ◇ x) ◇ y	x = x ◇ (x ◇ ((x ◇ x) ◇ x))
+saturation_refuted	3143	1629	direct	2	C	rw3143	Confluence1.lean	315	rw3143.Facts	3143	1629	C	2	-	rw504T=accepted	x = (((y ◇ y) ◇ x) ◇ y) ◇ y	x = (x ◇ x) ◇ ((x ◇ x) ◇ x)
+saturation_refuted	3143	1722	closure	2	C	rw3143	Confluence1.lean	315	rw3143.Facts	3143	1629	C	2	-	rw504T=accepted	x = (((y ◇ y) ◇ x) ◇ y) ◇ y	x = (y ◇ y) ◇ ((x ◇ y) ◇ y)
+saturation_refuted	3143	1832	direct	2	C	rw3143	Confluence1.lean	315	rw3143.Facts	3143	1832	C	2	-	rw504T=accepted	x = (((y ◇ y) ◇ x) ◇ y) ◇ y	x = (x ◇ (x ◇ x)) ◇ (x ◇ x)
+saturation_refuted	3143	2644	direct	2	C	rw3143	Confluence1.lean	315	rw3143.Facts	3143	2644	C	2	-	rw504T=accepted	x = (((y ◇ y) ◇ x) ◇ y) ◇ y	x = ((x ◇ x) ◇ (x ◇ x)) ◇ x
+saturation_refuted	3143	2737	closure	2	C	rw3143	Confluence1.lean	315	rw3143.Facts	3143	2644	C	2	-	rw504T=accepted	x = (((y ◇ y) ◇ x) ◇ y) ◇ y	x = ((y ◇ y) ◇ (x ◇ y)) ◇ y
+saturation_refuted	3150	411	direct	3	C	rw3150	Confluence1.lean	359	rw3150.Facts	3150	411	C	3	-	-	x = (((y ◇ y) ◇ y) ◇ x) ◇ y	x = x ◇ (x ◇ (x ◇ (x ◇ x)))
+saturation_refuted	3150	477	closure	3	C	rw3150	Confluence1.lean	359	rw3150.Facts	3150	411	C	3	-	-	x = (((y ◇ y) ◇ y) ◇ x) ◇ y	x = y ◇ (x ◇ (y ◇ (y ◇ y)))
+saturation_refuted	3150	1426	direct	3	C	rw3150	Confluence1.lean	359	rw3150.Facts	3150	1426	C	3	-	-	x = (((y ◇ y) ◇ y) ◇ x) ◇ y	x = (x ◇ x) ◇ (x ◇ (x ◇ x))
+saturation_refuted	3150	1492	closure	3	C	rw3150	Confluence1.lean	359	rw3150.Facts	3150	2035	C	3	-	-	x = (((y ◇ y) ◇ y) ◇ x) ◇ y	x = (y ◇ x) ◇ (y ◇ (y ◇ y))
+saturation_refuted	3150	1519	closure	3	C	rw3150	Confluence1.lean	359	rw3150.Facts	3150	1426	C	3	-	-	x = (((y ◇ y) ◇ y) ◇ x) ◇ y	x = (y ◇ y) ◇ (x ◇ (y ◇ y))
+saturation_refuted	3150	2035	direct	2	C	rw3150	Confluence1.lean	359	rw3150.Facts	3150	2035	C	2	-	-	x = (((y ◇ y) ◇ y) ◇ x) ◇ y	x = ((x ◇ x) ◇ x) ◇ (x ◇ x)
+saturation_refuted	3150	2128	closure	2	C	rw3150	Confluence1.lean	359	rw3150.Facts	3150	2035	C	2	-	-	x = (((y ◇ y) ◇ y) ◇ x) ◇ y	x = ((y ◇ y) ◇ x) ◇ (y ◇ y)
+saturation_refuted	3150	2135	closure	3	C	rw3150	Confluence1.lean	359	rw3150.Facts	3150	2035	C	3	-	-	x = (((y ◇ y) ◇ y) ◇ x) ◇ y	x = ((y ◇ y) ◇ y) ◇ (x ◇ y)
+saturation_refuted	3161	411	dual	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	3050	C	1	-	-	x = (((y ◇ y) ◇ z) ◇ x) ◇ z	x = x ◇ (x ◇ (x ◇ (x ◇ x)))
+saturation_refuted	3161	414	dual	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	3139	C	1	-	-	x = (((y ◇ y) ◇ z) ◇ x) ◇ z	x = x ◇ (x ◇ (x ◇ (y ◇ y)))
+saturation_refuted	3161	473	dual	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	3056	C	1	-	-	x = (((y ◇ y) ◇ z) ◇ x) ◇ z	x = y ◇ (x ◇ (y ◇ (x ◇ x)))
+saturation_refuted	3161	477	dual	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	3150	C	1	-	-	x = (((y ◇ y) ◇ z) ◇ x) ◇ z	x = y ◇ (x ◇ (y ◇ (y ◇ y)))
+saturation_refuted	3161	481	dual	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	3161	C	1	-	-	x = (((y ◇ y) ◇ z) ◇ x) ◇ z	x = y ◇ (x ◇ (y ◇ (z ◇ z)))
+saturation_refuted	3161	1426	dual	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	2035	C	1	-	-	x = (((y ◇ y) ◇ z) ◇ x) ◇ z	x = (x ◇ x) ◇ (x ◇ (x ◇ x))
+saturation_refuted	3161	1429	dual	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	2124	C	1	-	-	x = (((y ◇ y) ◇ z) ◇ x) ◇ z	x = (x ◇ x) ◇ (x ◇ (y ◇ y))
+saturation_refuted	3161	1488	dual	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	2041	C	1	-	-	x = (((y ◇ y) ◇ z) ◇ x) ◇ z	x = (y ◇ x) ◇ (y ◇ (x ◇ x))
+saturation_refuted	3161	1492	dual	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	3150	C	1	-	-	x = (((y ◇ y) ◇ z) ◇ x) ◇ z	x = (y ◇ x) ◇ (y ◇ (y ◇ y))
+saturation_refuted	3161	1496	dual	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	3161	C	1	-	-	x = (((y ◇ y) ◇ z) ◇ x) ◇ z	x = (y ◇ x) ◇ (y ◇ (z ◇ z))
+saturation_refuted	3161	1515	dual	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	2038	C	1	-	-	x = (((y ◇ y) ◇ z) ◇ x) ◇ z	x = (y ◇ y) ◇ (x ◇ (x ◇ x))
+saturation_refuted	3161	1519	dual	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	2128	C	1	-	-	x = (((y ◇ y) ◇ z) ◇ x) ◇ z	x = (y ◇ y) ◇ (x ◇ (y ◇ y))
+saturation_refuted	3161	1523	dual	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	2132	C	1	-	-	x = (((y ◇ y) ◇ z) ◇ x) ◇ z	x = (y ◇ y) ◇ (x ◇ (z ◇ z))
+saturation_refuted	3161	2041	dual	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	1488	C	1	-	-	x = (((y ◇ y) ◇ z) ◇ x) ◇ z	x = ((x ◇ x) ◇ y) ◇ (x ◇ y)
+saturation_refuted	3161	2135	dual	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	3150	C	1	-	-	x = (((y ◇ y) ◇ z) ◇ x) ◇ z	x = ((y ◇ y) ◇ y) ◇ (x ◇ y)
+saturation_refuted	3161	2146	dual	1	C	rw481	Confluence3.lean	66	rw481.Facts	481	3161	C	1	-	-	x = (((y ◇ y) ◇ z) ◇ x) ◇ z	x = ((y ◇ y) ◇ z) ◇ (x ◇ z)
+saturation_refuted	3588	3862	direct	1	C	rw3588	Confluence2.lean	314	rw3588.Facts	3588	3862	C	1	M3994^T	M3994xT=accepted	x ◇ y = z ◇ ((x ◇ y) ◇ z)	x ◇ x = (x ◇ (x ◇ x)) ◇ x
+saturation_refuted	3588	3878	direct	1	C	rw3588	Confluence2.lean	314	rw3588.Facts	3588	3878	C	1	M3994^T	M3994xT=accepted	x ◇ y = z ◇ ((x ◇ y) ◇ z)	x ◇ x = (y ◇ (x ◇ x)) ◇ y
+saturation_refuted	3588	3917	direct	1	C	rw3588	Confluence2.lean	314	rw3588.Facts	3588	3917	C	1	M3994^T	M3994xT=accepted	x ◇ y = z ◇ ((x ◇ y) ◇ z)	x ◇ y = (x ◇ (x ◇ y)) ◇ x
+saturation_refuted	3588	3955	direct	1	C	rw3588	Confluence2.lean	314	rw3588.Facts	3588	3955	C	1	M3994^T	M3994xT=accepted	x ◇ y = z ◇ ((x ◇ y) ◇ z)	x ◇ y = (y ◇ (x ◇ y)) ◇ y
+saturation_refuted	3588	3994	direct	3	E	M3994^T	InfModel.lean	464	InfModel.Equation3588_not_implies_Equation3994	3588	3994	E,C	3	M3994^T	M3994xT=accepted	x ◇ y = z ◇ ((x ◇ y) ◇ z)	x ◇ y = (z ◇ (x ◇ y)) ◇ z
+saturation_refuted	3994	3456	dual	1	C	rw3588	Confluence2.lean	314	rw3588.Facts	3588	3862	C	1	M3994	M3994x=accepted	x ◇ y = (z ◇ (x ◇ y)) ◇ z	x ◇ x = x ◇ ((x ◇ x) ◇ x)
+saturation_refuted	3994	3472	dual	1	C	rw3588	Confluence2.lean	314	rw3588.Facts	3588	3878	C	1	M3994	M3994x=accepted	x ◇ y = (z ◇ (x ◇ y)) ◇ z	x ◇ x = y ◇ ((x ◇ x) ◇ y)
+saturation_refuted	3994	3511	dual	1	C	rw3588	Confluence2.lean	314	rw3588.Facts	3588	3955	C	1	M3994	M3994x=accepted	x ◇ y = (z ◇ (x ◇ y)) ◇ z	x ◇ y = x ◇ ((x ◇ y) ◇ x)
+saturation_refuted	3994	3549	dual	1	C	rw3588	Confluence2.lean	314	rw3588.Facts	3588	3917	C	1	M3994	M3994x=accepted	x ◇ y = (z ◇ (x ◇ y)) ◇ z	x ◇ y = y ◇ ((x ◇ y) ◇ y)
+saturation_refuted	3994	3588	direct	3	E	M3994	InfModel.lean	428	InfModel.Equation3994_not_implies_Equation3588	3994	3588	E,C	3	M3994	M3994x=accepted	x ◇ y = (z ◇ (x ◇ y)) ◇ z	x ◇ y = z ◇ ((x ◇ y) ◇ z)

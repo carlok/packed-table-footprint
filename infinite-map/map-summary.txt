@@ -1,0 +1,11 @@
+how, 820 [('dual', 308), ('direct', 280), ('closure', 232)]
+how, 610 [('dual', 232), ('closure', 207), ('direct', 171)]
+best class, 820 [('E', 396), ('W', 2), ('C', 168), ('Ga', 14), ('Gg', 70), ('Gs', 112), ('Gt', 34), ('Gv', 24)]
+best class, 610 [('E', 370), ('W', 1), ('C', 4), ('Ga', 14), ('Gg', 57), ('Gs', 106), ('Gt', 34), ('Gv', 24)]
+best class, 210 [('E', 26), ('W', 1), ('C', 164), ('Gg', 13), ('Gs', 6)]
+explicit model by sampling, 820: 410  610: 375
+explicit by sampling but not attributed E/W: [(3549, 3862, 'unresolved', 'C', 'M3994^T'), (3549, 3955, 'unresolved', 'C', 'M3994^T'), (3917, 3456, 'unresolved', 'C', 'M3994'), (3917, 3511, 'unresolved', 'C', 'M3994'), (3588, 3862, 'saturation_refuted', 'C', 'M3994^T'), (3588, 3878, 'saturation_refuted', 'C', 'M3994^T'), (3588, 3917, 'saturation_refuted', 'C', 'M3994^T'), (3588, 3955, 'saturation_refuted', 'C', 'M3994^T'), (3994, 3456, 'saturation_refuted', 'C', 'M3994'), (3994, 3472, 'saturation_refuted', 'C', 'M3994'), (3994, 3511, 'saturation_refuted', 'C', 'M3994'), (3994, 3549, 'saturation_refuted', 'C', 'M3994')]
+attributed E/W but not sampled: []
+best model, 820 [('M1659', 152), ('Equation1076', 76), ('M1661^T', 74), ('M1661', 74), ('rw481', 32), ('rw1443', 28), ('M1648b', 26), ('Eq511', 24), ('M1701_8', 24), ('Equation1692', 22), ('Asterix', 14), ('Equation73', 14), ('Eq1112', 14), ('M1117', 14), ('Eq707', 12), ('rw3588', 12), ('rw680', 12), ('Equation713', 10), ('Equation1722', 10), ('rw1523', 10), ('Eq883', 8), ('Equation917', 8), ('Equation1289', 8), ('M1437', 8), ('M3342', 8), ('rw477', 8), ('rw3150', 8), ('rw1110', 7), ('rw2497', 7), ('Eq118', 6), ('M1447', 6), ('rw115', 6), ('Equation1526', 5), ('rw504', 5), ('rw3143', 5), ('Equation1729', 4), ('M1701_4587', 4), ('Equation3308', 4), ('rw1086', 4), ('rw1276', 4), ('rw1519', 4), ('rw1633', 4), ('rw2541', 4), ('Equation1323', 3), ('Equation63', 2), ('M3C2', 2), ('Eq476', 2), ('Obelix', 2), ('Equation1516', 2), ('M1648a', 2), ('Eq1648', 2), ('M1701_3253', 2), ('Eq906', 2), ('rw1431', 2), ('rw1515', 2), ('rw2038', 2), ('rw467', 1), ('rw3140', 1), ('M3994^T', 1), ('M3994', 1)]
+single-class pairs [('E', 378), ('C', 164), ('Gs', 112), ('Gg', 70), ('Gt', 34), ('Gv', 24), ('Ga', 14), ('E,C', 10), ('E,Gg', 8), ('C,Gs', 4), ('W,Gg', 2)]
+judged pairs 433 accepted with nothing 433

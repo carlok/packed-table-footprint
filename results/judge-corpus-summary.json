@@ -1,0 +1,114 @@
+{
+ "list:official": {
+  "calls": 100,
+  "status": {
+   "accepted/ACCEPTED": 100
+  },
+  "axioms": {
+   "propext": 100
+  },
+  "seconds_median": 3.61,
+  "seconds_max": 13.98,
+  "seconds_total": 465.6,
+  "bytes_median": 365.0,
+  "bytes_max": 477
+ },
+ "list:zero": {
+  "calls": 100,
+  "status": {
+   "incomplete_proof/DISALLOWED_AXIOMS": 100
+  },
+  "axioms": {
+   "propext": 100
+  },
+  "seconds_median": 3.58,
+  "seconds_max": 14.04,
+  "seconds_total": 465.1,
+  "bytes_median": 365.0,
+  "bytes_max": 477
+ },
+ "nth:official": {
+  "calls": 100,
+  "status": {
+   "accepted/ACCEPTED": 100
+  },
+  "axioms": {
+   "none": 100
+  },
+  "seconds_median": 3.59,
+  "seconds_max": 13.24,
+  "seconds_total": 464.1,
+  "bytes_median": 460.0,
+  "bytes_max": 572
+ },
+ "nth:zero": {
+  "calls": 100,
+  "status": {
+   "accepted/ACCEPTED": 100
+  },
+  "axioms": {
+   "none": 100
+  },
+  "seconds_median": 3.58,
+  "seconds_max": 13.49,
+  "seconds_total": 462.9,
+  "bytes_median": 460.0,
+  "bytes_max": 572
+ },
+ "packed:official": {
+  "calls": 100,
+  "status": {
+   "accepted/ACCEPTED": 100
+  },
+  "axioms": {
+   "none": 100
+  },
+  "seconds_median": 3.54,
+  "seconds_max": 13.07,
+  "seconds_total": 454.1,
+  "bytes_median": 335.0,
+  "bytes_max": 391
+ },
+ "packed:zero": {
+  "calls": 100,
+  "status": {
+   "accepted/ACCEPTED": 100
+  },
+  "axioms": {
+   "none": 100
+  },
+  "seconds_median": 3.51,
+  "seconds_max": 13.06,
+  "seconds_total": 452.8,
+  "bytes_median": 335.0,
+  "bytes_max": 391
+ },
+ "table:official": {
+  "calls": 100,
+  "status": {
+   "accepted/ACCEPTED": 100
+  },
+  "axioms": {
+   "Classical.choice, Quot.sound, propext": 100
+  },
+  "seconds_median": 3.81,
+  "seconds_max": 17.13,
+  "seconds_total": 524.2,
+  "bytes_median": 253.0,
+  "bytes_max": 371
+ },
+ "table:zero": {
+  "calls": 100,
+  "status": {
+   "incomplete_proof/DISALLOWED_AXIOMS": 100
+  },
+  "axioms": {
+   "Classical.choice, Quot.sound, propext": 100
+  },
+  "seconds_median": 3.8,
+  "seconds_max": 17.7,
+  "seconds_total": 522.7,
+  "bytes_median": 253.0,
+  "bytes_max": 371
+ }
+}

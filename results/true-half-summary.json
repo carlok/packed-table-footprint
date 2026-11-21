@@ -1,0 +1,262 @@
+{
+ "run": {
+  "specs": 1727,
+  "rows_done": 1727,
+  "missing": 0,
+  "sum_weight": 4126,
+  "distinct_code": 1635,
+  "distinct_problems": 1419
+ },
+ "histogram": [
+  {
+   "status": "accepted",
+   "error_code": "ACCEPTED",
+   "axioms": "",
+   "distinct": 1727,
+   "rows": 4126
+  }
+ ],
+ "seconds": {
+  "median": 3.12,
+  "p90": 9.51,
+  "max": 19.55,
+  "total": 7252
+ },
+ "direct_declarations_union": [
+  [
+   "EquationLHS",
+   1727
+  ],
+  [
+   "Goal",
+   1727
+  ],
+  [
+   "Magma",
+   1727
+  ],
+  [
+   "submission",
+   1727
+  ],
+  [
+   "Magma.op",
+   1678
+  ],
+  [
+   "Eq.symm",
+   1671
+  ],
+  [
+   "Eq",
+   1670
+  ],
+  [
+   "Eq.trans",
+   1670
+  ],
+  [
+   "congrArg",
+   1218
+  ],
+  [
+   "rfl",
+   1
+  ]
+ ],
+ "by_family": {
+  "singleton collapse": {
+   "accepted []": 781
+  },
+  "general (have chain)": {
+   "accepted []": 888
+  },
+  "substitution instance (no have)": {
+   "accepted []": 56
+  },
+  "general, grind fallback in text": {
+   "accepted []": 1
+  },
+  "reflexive goal (x = x)": {
+   "accepted []": 1
+  }
+ },
+ "false_finoptable": [
+  {
+   "enc": "packed",
+   "policy": "zero",
+   "status": "accepted",
+   "axioms": "",
+   "distinct": 1494,
+   "rows": 4240
+  },
+  {
+   "enc": "table",
+   "policy": "official",
+   "status": "accepted",
+   "axioms": "Classical.choice,Quot.sound,propext",
+   "distinct": 1494,
+   "rows": 4240
+  }
+ ],
+ "false_finoptable_problems": 1448,
+ "false_other": [
+  {
+   "problem": "1167->1763",
+   "ids": [
+    "hard2_0027_corenat2"
+   ],
+   "rows": 1,
+   "bytes": 7670,
+   "imports_mathlib": false,
+   "status": "incorrect",
+   "error_code": "LEAN_REJECTED",
+   "axioms": [],
+   "seconds": 6.84
+  },
+  {
+   "problem": "1167->1763",
+   "ids": [
+    "hard2_0027"
+   ],
+   "rows": 2,
+   "bytes": 6885,
+   "imports_mathlib": false,
+   "status": "incomplete_proof",
+   "error_code": "DISALLOWED_AXIOMS",
+   "axioms": [
+    "Quot.sound",
+    "propext"
+   ],
+   "seconds": 11.42
+  },
+  {
+   "problem": "1167->1763",
+   "ids": [
+    "hard2_0027_corenat"
+   ],
+   "rows": 1,
+   "bytes": 7638,
+   "imports_mathlib": false,
+   "status": "incorrect",
+   "error_code": "LEAN_REJECTED",
+   "axioms": [],
+   "seconds": 4.06
+  },
+  {
+   "problem": "1167->1763",
+   "ids": [
+    "hard2_0027_noMathlib"
+   ],
+   "rows": 1,
+   "bytes": 7638,
+   "imports_mathlib": false,
+   "status": "incorrect",
+   "error_code": "LEAN_REJECTED",
+   "axioms": [],
+   "seconds": 3.26
+  },
+  {
+   "problem": "2531->4307",
+   "ids": [
+    "hard2_0051"
+   ],
+   "rows": 4,
+   "bytes": 375,
+   "imports_mathlib": false,
+   "status": "accepted",
+   "error_code": "ACCEPTED",
+   "axioms": [],
+   "seconds": 15.29
+  },
+  {
+   "problem": "1167->1763",
+   "ids": [
+    "hard2_0027"
+   ],
+   "rows": 3,
+   "bytes": 7660,
+   "imports_mathlib": true,
+   "status": "incomplete_proof",
+   "error_code": "DISALLOWED_AXIOMS",
+   "axioms": [
+    "Classical.choice",
+    "Quot.sound",
+    "propext"
+   ],
+   "seconds": 113.9
+  }
+ ],
+ "ledger": {
+  "classes": [
+   {
+    "class": "true",
+    "problems": 1419,
+    "rows": 4126,
+    "distinct": 1727,
+    "axioms": "none",
+    "zero": "accepted"
+   },
+   {
+    "class": "false, finOpTable",
+    "problems": 1448,
+    "rows": 4240,
+    "distinct": 1494,
+    "axioms": "Classical.choice,Quot.sound,propext",
+    "zero": "rejected (by the axioms the official run reports)"
+   },
+   {
+    "class": "false, 1167->1763, Mathlib",
+    "problems": 1,
+    "rows": 3,
+    "distinct": 1,
+    "axioms": "Classical.choice,Quot.sound,propext",
+    "zero": "rejected"
+   },
+   {
+    "class": "false, 1167->1763",
+    "problems": 1,
+    "rows": 2,
+    "distinct": 1,
+    "axioms": "Quot.sound,propext",
+    "zero": "rejected"
+   },
+   {
+    "class": "false, 1167->1763",
+    "problems": 1,
+    "rows": 3,
+    "distinct": 3,
+    "axioms": "does not compile",
+    "zero": "rejected, no report"
+   },
+   {
+    "class": "false, 2531->4307",
+    "problems": 1,
+    "rows": 4,
+    "distinct": 1,
+    "axioms": "none",
+    "zero": "accepted"
+   }
+  ],
+  "rows": 8378,
+  "distinct": 3227,
+  "problems": 2869,
+  "as_emitted_zero_accepted": {
+   "rows": 4130,
+   "distinct": 1728,
+   "problems": 1420
+  },
+  "histogram_rows": {
+   "none": 4130,
+   "Classical.choice,Quot.sound,propext": 4243,
+   "Quot.sound,propext": 2,
+   "does not compile": 3
+  },
+  "histogram_distinct": {
+   "none": 1728,
+   "Classical.choice,Quot.sound,propext": 1495,
+   "Quot.sound,propext": 1,
+   "does not compile": 3
+  }
+ }
+}

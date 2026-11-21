@@ -1,0 +1,11 @@
+{
+  "distinct_certs": 173,
+  "judge_accepted_zero": 173,
+  "leanchecker_exit0": 173,
+  "independent_no_axioms": 173,
+  "all_three_agree": 173,
+  "failures": [],
+  "judge_commit": "817a4653bf762584931d49c6714c9fcfab7df66a",
+  "lean": "4.33.1",
+  "policy": "zero (allowed_axioms=[])"
+}

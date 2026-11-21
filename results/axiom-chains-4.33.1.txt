@@ -1,0 +1,94 @@
+MemoFinOp.finOpTable: axioms [propext, Classical.choice, Quot.sound]
+  propext via [MemoFinOp.finOpTable,
+ _private.JudgeFinOp.MemoFinOp.0.MemoFinOp.extractDigits,
+ String.toList,
+ String.Internal.toArray,
+ String.Internal.toArray._proof_1,
+ ByteArray.isSome_utf8Decode?_iff,
+ propext]
+  Classical.choice via [MemoFinOp.finOpTable,
+ _private.JudgeFinOp.MemoFinOp.0.MemoFinOp.extractDigits,
+ String.toList,
+ String.Internal.toArray,
+ String.Internal.toArray._proof_1,
+ ByteArray.isSome_utf8Decode?_iff,
+ _private.Init.Data.String.Basic.0.ByteArray.isSome_utf8Decode?go_iff,
+ ByteArray.utf8DecodeChar?_eq_utf8DecodeChar?_extract,
+ _private.Init.Data.String.Decode.0.ByteArray.utf8DecodeChar?_eq_utf8DecodeChar?_extract._proof_1_4,
+ Classical.propDecidable,
+ Classical.choice]
+  Quot.sound via [MemoFinOp.finOpTable,
+ _private.JudgeFinOp.MemoFinOp.0.MemoFinOp.extractDigits,
+ String.toList,
+ String.Internal.toArray,
+ ByteArray.utf8Decode?,
+ ByteArray.utf8Decode?.go,
+ ByteArray.utf8Decode?.go._unary,
+ ByteArray.le_size_of_utf8DecodeChar?_eq_some,
+ funext,
+ Quot.sound]
+String.toList: axioms [propext, Classical.choice, Quot.sound]
+  propext via [String.toList,
+ String.Internal.toArray,
+ String.Internal.toArray._proof_1,
+ ByteArray.isSome_utf8Decode?_iff,
+ propext]
+  Classical.choice via [String.toList,
+ String.Internal.toArray,
+ String.Internal.toArray._proof_1,
+ ByteArray.isSome_utf8Decode?_iff,
+ _private.Init.Data.String.Basic.0.ByteArray.isSome_utf8Decode?go_iff,
+ ByteArray.utf8DecodeChar?_eq_utf8DecodeChar?_extract,
+ _private.Init.Data.String.Decode.0.ByteArray.utf8DecodeChar?_eq_utf8DecodeChar?_extract._proof_1_4,
+ Classical.propDecidable,
+ Classical.choice]
+  Quot.sound via [String.toList,
+ String.Internal.toArray,
+ ByteArray.utf8Decode?,
+ ByteArray.utf8Decode?.go,
+ ByteArray.utf8Decode?.go._unary,
+ ByteArray.le_size_of_utf8DecodeChar?_eq_some,
+ funext,
+ Quot.sound]
+List.filterMap: axioms []
+Char.isDigit: axioms []
+Char.toNat: axioms []
+List.getD: axioms [propext]
+  propext via [List.getD,
+ List.instGetElem?NatLtLength,
+ List.get?Internal,
+ List.get?Internal._f,
+ List.get?Internal.match_1,
+ List.get?Internal._sparseCasesOn_1,
+ Nat.land,
+ Nat.bitwise,
+ Nat.bitwise._unary,
+ _private.Init.Data.Nat.Bitwise.Basic.0.Nat.bitwise._unary._proof_1,
+ Nat.bitwise_rec_lemma,
+ Nat.div_lt_self,
+ eq_false,
+ propext]
+Option.getD: axioms []
+List.getElem?_cons: axioms [propext]
+  propext via [List.getElem?_cons,
+ List.instLawfulGetElemNatLtLength,
+ _private.Init.GetElem.0.List.getElem?_eq_none_iff._simp_1,
+ propext]
+Nat.mod_lt: axioms []
+Nat.decidableForallFin: axioms []
+instDecidableEqFin: axioms []
+magmaFin: axioms [propext]
+  propext via [magmaFin,
+ List.instGetElem?NatLtLength,
+ List.get?Internal,
+ List.get?Internal._f,
+ List.get?Internal.match_1,
+ List.get?Internal._sparseCasesOn_1,
+ Nat.land,
+ Nat.bitwise,
+ Nat.bitwise._unary,
+ _private.Init.Data.Nat.Bitwise.Basic.0.Nat.bitwise._unary._proof_1,
+ Nat.bitwise_rec_lemma,
+ Nat.div_lt_self,
+ eq_false,
+ propext]

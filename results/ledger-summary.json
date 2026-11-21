@@ -1,0 +1,177 @@
+{
+ "judge_commit": "817a4653bf762584931d49c6714c9fcfab7df66a",
+ "ledger_commit": "4bf87e3",
+ "extraction": {
+  "files": 42,
+  "finOpTable_certificates": 4240,
+  "other_false_certificates": 12,
+  "differ_from_template": 0,
+  "distinct_certificates": 1494,
+  "distinct_tables": 172,
+  "distinct_law_pairs": 1448,
+  "distinct_by_carrier": {
+   "2": 702,
+   "3": 365,
+   "4": 61,
+   "5": 82,
+   "6": 13,
+   "7": 11,
+   "8": 23,
+   "9": 237
+  }
+ },
+ "plans": {
+  "packed:zero": {
+   "calls": 1494,
+   "status": {
+    "accepted/ACCEPTED": 1494
+   },
+   "axioms": {
+    "none": 1494
+   },
+   "seconds_median": 3.12,
+   "seconds_max": 13.59,
+   "seconds_total": 5297.8,
+   "bytes_median": 404.0,
+   "bytes_max": 480
+  },
+  "table:official": {
+   "calls": 1494,
+   "status": {
+    "accepted/ACCEPTED": 1494
+   },
+   "axioms": {
+    "Classical.choice, Quot.sound, propext": 1494
+   },
+   "seconds_median": 3.35,
+   "seconds_max": 72.24,
+   "seconds_total": 8783.6,
+   "bytes_median": 323.0,
+   "bytes_max": 551
+  }
+ },
+ "accepted_counting_duplicates": {
+  "packed:zero": 4240,
+  "table:official": 4240
+ },
+ "per_carrier": {
+  "2": {
+   "packed:zero": {
+    "certificates": 702,
+    "accepted": 702,
+    "seconds_median": 3.13,
+    "seconds_max": 13.49
+   },
+   "table:official": {
+    "certificates": 702,
+    "accepted": 702,
+    "seconds_median": 3.18,
+    "seconds_max": 13.63
+   }
+  },
+  "3": {
+   "packed:zero": {
+    "certificates": 365,
+    "accepted": 365,
+    "seconds_median": 3.1,
+    "seconds_max": 13.24
+   },
+   "table:official": {
+    "certificates": 365,
+    "accepted": 365,
+    "seconds_median": 3.32,
+    "seconds_max": 14.36
+   }
+  },
+  "4": {
+   "packed:zero": {
+    "certificates": 61,
+    "accepted": 61,
+    "seconds_median": 2.9,
+    "seconds_max": 11.79
+   },
+   "table:official": {
+    "certificates": 61,
+    "accepted": 61,
+    "seconds_median": 3.41,
+    "seconds_max": 16.19
+   }
+  },
+  "5": {
+   "packed:zero": {
+    "certificates": 82,
+    "accepted": 82,
+    "seconds_median": 3.0,
+    "seconds_max": 11.14
+   },
+   "table:official": {
+    "certificates": 82,
+    "accepted": 82,
+    "seconds_median": 4.15,
+    "seconds_max": 18.63
+   }
+  },
+  "6": {
+   "packed:zero": {
+    "certificates": 13,
+    "accepted": 13,
+    "seconds_median": 3.09,
+    "seconds_max": 3.27
+   },
+   "table:official": {
+    "certificates": 13,
+    "accepted": 13,
+    "seconds_median": 5.63,
+    "seconds_max": 5.85
+   }
+  },
+  "7": {
+   "packed:zero": {
+    "certificates": 11,
+    "accepted": 11,
+    "seconds_median": 3.03,
+    "seconds_max": 3.59
+   },
+   "table:official": {
+    "certificates": 11,
+    "accepted": 11,
+    "seconds_median": 7.34,
+    "seconds_max": 7.68
+   }
+  },
+  "8": {
+   "packed:zero": {
+    "certificates": 23,
+    "accepted": 23,
+    "seconds_median": 3.23,
+    "seconds_max": 11.62
+   },
+   "table:official": {
+    "certificates": 23,
+    "accepted": 23,
+    "seconds_median": 10.52,
+    "seconds_max": 43.58
+   }
+  },
+  "9": {
+   "packed:zero": {
+    "certificates": 237,
+    "accepted": 237,
+    "seconds_median": 3.22,
+    "seconds_max": 13.59
+   },
+   "table:official": {
+    "certificates": 237,
+    "accepted": 237,
+    "seconds_median": 14.19,
+    "seconds_max": 72.24
+   }
+  }
+ },
+ "table_over_packed_seconds": {
+  "median": 1.05,
+  "min": 0.8,
+  "max": 15.6,
+  "packed_slower_in": 225
+ }
+}

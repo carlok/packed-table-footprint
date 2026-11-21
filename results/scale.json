@@ -1,0 +1,92 @@
+[
+ {
+  "model": "F15",
+  "n": 15,
+  "mode": "decide",
+  "rc": 0,
+  "seconds": 0.3,
+  "bytes": 633,
+  "axioms": "'certificate' does not depend on any axioms",
+  "error": null
+ },
+ {
+  "model": "F15",
+  "n": 15,
+  "mode": "threshold",
+  "rc": 0,
+  "seconds": 0.3,
+  "bytes": 679,
+  "axioms": "'certificate' does not depend on any axioms",
+  "error": null
+ },
+ {
+  "model": "F15",
+  "n": 15,
+  "mode": "kernel",
+  "rc": 0,
+  "seconds": 0.2,
+  "bytes": 641,
+  "axioms": "'certificate' does not depend on any axioms",
+  "error": null
+ },
+ {
+  "model": "F39",
+  "n": 39,
+  "mode": "decide",
+  "rc": 0,
+  "seconds": 0.9,
+  "bytes": 2788,
+  "axioms": "'certificate' does not depend on any axioms",
+  "error": null
+ },
+ {
+  "model": "F39",
+  "n": 39,
+  "mode": "threshold",
+  "rc": 0,
+  "seconds": 0.8,
+  "bytes": 2834,
+  "axioms": "'certificate' does not depend on any axioms",
+  "error": null
+ },
+ {
+  "model": "F39",
+  "n": 39,
+  "mode": "kernel",
+  "rc": 0,
+  "seconds": 0.6,
+  "bytes": 2796,
+  "axioms": "'certificate' does not depend on any axioms",
+  "error": null
+ },
+ {
+  "model": "F75",
+  "n": 75,
+  "mode": "decide",
+  "rc": 0,
+  "seconds": 9.7,
+  "bytes": 10915,
+  "axioms": "'certificate' does not depend on any axioms",
+  "error": null
+ },
+ {
+  "model": "F75",
+  "n": 75,
+  "mode": "threshold",
+  "rc": 0,
+  "seconds": 4.4,
+  "bytes": 10961,
+  "axioms": "'certificate' does not depend on any axioms",
+  "error": null
+ },
+ {
+  "model": "F75",
+  "n": 75,
+  "mode": "kernel",
+  "rc": 0,
+  "seconds": 1.7,
+  "bytes": 10923,
+  "axioms": "'certificate' does not depend on any axioms",
+  "error": null
+ }
+]

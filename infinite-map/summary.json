@@ -1,0 +1,253 @@
+{
+ "by_model": {
+  "M1117x": {
+   "calls": 7,
+   "accepted_nothing": 7,
+   "distinct_pairs": 7,
+   "bytes_max": 6876,
+   "seconds_median": 1.93
+  },
+  "M1117xT": {
+   "calls": 7,
+   "accepted_nothing": 7,
+   "distinct_pairs": 7,
+   "bytes_max": 6891,
+   "seconds_median": 1.89
+  },
+  "M1437": {
+   "calls": 4,
+   "accepted_nothing": 4,
+   "distinct_pairs": 4,
+   "bytes_max": 1036,
+   "seconds_median": 4.28
+  },
+  "M1437^T": {
+   "calls": 4,
+   "accepted_nothing": 4,
+   "distinct_pairs": 4,
+   "bytes_max": 1051,
+   "seconds_median": 3.81
+  },
+  "M1447x": {
+   "calls": 3,
+   "accepted_nothing": 3,
+   "distinct_pairs": 3,
+   "bytes_max": 3227,
+   "seconds_median": 1.66
+  },
+  "M1447xT": {
+   "calls": 3,
+   "accepted_nothing": 3,
+   "distinct_pairs": 3,
+   "bytes_max": 3242,
+   "seconds_median": 1.58
+  },
+  "M1648a": {
+   "calls": 1,
+   "accepted_nothing": 1,
+   "distinct_pairs": 1,
+   "bytes_max": 4319,
+   "seconds_median": 3.9
+  },
+  "M1648a^T": {
+   "calls": 1,
+   "accepted_nothing": 1,
+   "distinct_pairs": 1,
+   "bytes_max": 4334,
+   "seconds_median": 4.49
+  },
+  "M1648b": {
+   "calls": 14,
+   "accepted_nothing": 14,
+   "distinct_pairs": 14,
+   "bytes_max": 3502,
+   "seconds_median": 3.4
+  },
+  "M1648b^T": {
+   "calls": 14,
+   "accepted_nothing": 14,
+   "distinct_pairs": 14,
+   "bytes_max": 3517,
+   "seconds_median": 4.31
+  },
+  "M1659": {
+   "calls": 76,
+   "accepted_nothing": 76,
+   "distinct_pairs": 76,
+   "bytes_max": 1130,
+   "seconds_median": 2.71
+  },
+  "M1659^T": {
+   "calls": 76,
+   "accepted_nothing": 76,
+   "distinct_pairs": 76,
+   "bytes_max": 1130,
+   "seconds_median": 3.43
+  },
+  "M1661": {
+   "calls": 74,
+   "accepted_nothing": 74,
+   "distinct_pairs": 74,
+   "bytes_max": 2819,
+   "seconds_median": 2.83
+  },
+  "M1661^T": {
+   "calls": 74,
+   "accepted_nothing": 74,
+   "distinct_pairs": 74,
+   "bytes_max": 2331,
+   "seconds_median": 4.0
+  },
+  "M1701_3253": {
+   "calls": 11,
+   "accepted_nothing": 11,
+   "distinct_pairs": 11,
+   "bytes_max": 1285,
+   "seconds_median": 3.5
+  },
+  "M1701_3253^T": {
+   "calls": 11,
+   "accepted_nothing": 11,
+   "distinct_pairs": 11,
+   "bytes_max": 1300,
+   "seconds_median": 3.33
+  },
+  "M1701_4587": {
+   "calls": 9,
+   "accepted_nothing": 9,
+   "distinct_pairs": 9,
+   "bytes_max": 2293,
+   "seconds_median": 3.7
+  },
+  "M1701_4587^T": {
+   "calls": 9,
+   "accepted_nothing": 9,
+   "distinct_pairs": 9,
+   "bytes_max": 2308,
+   "seconds_median": 3.28
+  },
+  "M1701_8": {
+   "calls": 12,
+   "accepted_nothing": 12,
+   "distinct_pairs": 12,
+   "bytes_max": 1038,
+   "seconds_median": 3.6
+  },
+  "M1701_8^T": {
+   "calls": 12,
+   "accepted_nothing": 12,
+   "distinct_pairs": 12,
+   "bytes_max": 1053,
+   "seconds_median": 3.01
+  },
+  "M3342": {
+   "calls": 4,
+   "accepted_nothing": 4,
+   "distinct_pairs": 4,
+   "bytes_max": 4973,
+   "seconds_median": 3.31
+  },
+  "M3342^T": {
+   "calls": 4,
+   "accepted_nothing": 4,
+   "distinct_pairs": 4,
+   "bytes_max": 4988,
+   "seconds_median": 2.67
+  },
+  "M3994x": {
+   "calls": 7,
+   "accepted_nothing": 7,
+   "distinct_pairs": 7,
+   "bytes_max": 7029,
+   "seconds_median": 1.84
+  },
+  "M3994xT": {
+   "calls": 7,
+   "accepted_nothing": 7,
+   "distinct_pairs": 7,
+   "bytes_max": 7044,
+   "seconds_median": 1.91
+  },
+  "M3C2": {
+   "calls": 1,
+   "accepted_nothing": 1,
+   "distinct_pairs": 1,
+   "bytes_max": 7455,
+   "seconds_median": 1.66
+  },
+  "M3C2^T": {
+   "calls": 1,
+   "accepted_nothing": 1,
+   "distinct_pairs": 1,
+   "bytes_max": 7470,
+   "seconds_median": 1.71
+  },
+  "TI": {
+   "calls": 12,
+   "accepted_nothing": 12,
+   "distinct_pairs": 12,
+   "bytes_max": 10030,
+   "seconds_median": 1.62
+  },
+  "hard2_0027": {
+   "calls": 1,
+   "accepted_nothing": 1,
+   "distinct_pairs": 1,
+   "bytes_max": 1029,
+   "seconds_median": 16.03
+  },
+  "hard2_0027_ledger": {
+   "calls": 1,
+   "accepted_nothing": 0,
+   "distinct_pairs": 0,
+   "bytes_max": 6885,
+   "seconds_median": 1.66
+  },
+  "hard2_0027_nat": {
+   "calls": 1,
+   "accepted_nothing": 1,
+   "distinct_pairs": 1,
+   "bytes_max": 6834,
+   "seconds_median": 1.96
+  },
+  "hard2_0051_v0": {
+   "calls": 1,
+   "accepted_nothing": 1,
+   "distinct_pairs": 1,
+   "bytes_max": 375,
+   "seconds_median": 2.4
+  },
+  "rw504": {
+   "calls": 5,
+   "accepted_nothing": 5,
+   "distinct_pairs": 5,
+   "bytes_max": 3198,
+   "seconds_median": 1.54
+  },
+  "rw504T": {
+   "calls": 5,
+   "accepted_nothing": 5,
+   "distinct_pairs": 5,
+   "bytes_max": 3213,
+   "seconds_median": 1.75
+  }
+ },
+ "zero_calls": 472,
+ "zero_accepted_nothing": 471,
+ "official_calls": 67,
+ "official_accepted": 67,
+ "distinct_pairs": 433,
+ "in_list": 432,
+ "pairs_610": 387,
+ "pairs_210": 45,
+ "not_accepted": [
+  [
+   "hard2_0027_ledger",
+   "incomplete_proof",
+   [
+    "Quot.sound",
+    "propext"
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,131 @@
+file	line	theorem	class	model	note	sat	ref	pairs_covered	in_610	pairs_where_best	pairs_closed_by_judge
+Asterix.lean	531	Asterix.Equation65_facts	Ga	Asterix	closureSeq on Nat: greedy but no noncomputable; Mathlib Finset and Denumerable	[65]	[4065, 3862, 1426, 817, 614]	14	14	14	6
+Confluence1.lean	60	rw477.Facts	C	rw477	ConfMagma: normal forms in FreeMagma Nat	[477]	[3150, 3050, 2128, 2035, 1519, 1426]	16	0	8	0
+Confluence1.lean	105	rw467.Facts	C	rw467	ConfMagma: normal forms in FreeMagma Nat	[467]	[2847]	2	0	1	0
+Confluence1.lean	149	rw504.Facts	C	rw504	ConfMagma: normal forms in FreeMagma Nat	[504]	[1925, 1832, 1629, 817]	10	0	5	10
+Confluence1.lean	188	rw1515.Facts	C	rw1515	ConfMagma: normal forms in FreeMagma Nat	[1515]	[4590]	4	0	2	0
+Confluence1.lean	227	rw2038.Facts	C	rw2038	ConfMagma: normal forms in FreeMagma Nat	[2038]	[4270]	4	0	2	0
+Confluence1.lean	271	rw3140.Facts	C	rw3140	ConfMagma: normal forms in FreeMagma Nat	[3140]	[614]	2	0	1	0
+Confluence1.lean	315	rw3143.Facts	C	rw3143	ConfMagma: normal forms in FreeMagma Nat	[3143]	[2644, 1832, 1629]	10	0	5	10
+Confluence1.lean	359	rw3150.Facts	C	rw3150	ConfMagma: normal forms in FreeMagma Nat	[3150]	[2035, 1426, 411]	16	0	8	0
+Confluence1.lean	403	rw1110.Facts	C	rw1110	ConfMagma: normal forms in FreeMagma Nat	[1110]	[3915, 3862, 3319, 3253, 1832, 1629, 411, 8]	14	0	7	0
+Confluence1.lean	447	rw1086.Facts	C	rw1086	ConfMagma: normal forms in FreeMagma Nat	[1086]	[2710, 2644, 1898, 1832]	8	0	4	0
+Confluence1.lean	491	rw2497.Facts	C	rw2497	ConfMagma: normal forms in FreeMagma Nat	[2497]	[4118, 4065, 3522, 3456, 3050, 1832, 1629, 23]	14	0	7	0
+Confluence1.lean	535	rw2541.Facts	C	rw2541	ConfMagma: normal forms in FreeMagma Nat	[2541]	[1729, 1629, 917, 817]	8	0	4	0
+Confluence2.lean	28	rw115.Facts	C	rw115	ConfMagma: normal forms in FreeMagma Nat	[115]	[4332, 4273, 2707]	6	0	6	0
+Confluence2.lean	70	rw680.Facts	C	rw680	ConfMagma: normal forms in FreeMagma Nat	[680]	[2947, 2847, 1832, 1695, 1629]	12	0	12	0
+Confluence2.lean	112	rw1276.Facts	C	rw1276	ConfMagma: normal forms in FreeMagma Nat	[1276]	[4332, 4273]	4	0	4	0
+Confluence2.lean	148	rw1431.Facts	C	rw1431	ConfMagma: normal forms in FreeMagma Nat	[1431]	[4316, 4269, 1428]	6	0	2	4
+Confluence2.lean	184	rw1519.Facts	C	rw1519	ConfMagma: normal forms in FreeMagma Nat	[1519]	[2128, 2035]	4	0	4	0
+Confluence2.lean	234	rw1523.Facts	C	rw1523	ConfMagma: normal forms in FreeMagma Nat	[1523]	[2132, 2128, 2124, 2038, 2035]	14	0	10	0
+Confluence2.lean	270	rw1630.Facts	C	rw1630	ConfMagma: normal forms in FreeMagma Nat	[1630]	[4282, 4268]	4	0	0	4
+Confluence2.lean	314	rw3588.Facts	C	rw3588	ConfMagma: normal forms in FreeMagma Nat	[3588]	[3955, 3917, 3878, 3862]	14	4	12	14
+Confluence3.lean	66	rw481.Facts	C	rw481	ConfMagma: normal forms in FreeMagma Nat	[481]	[3161, 3150, 3139, 3056, 3050, 2135, 2132, 2128, 2124, 2041, 2038, 2035, 1496, 1492, 1488]	58	0	32	0
+Confluence4.lean	61	rw1443.Facts	C	rw1443	ConfMagma: normal forms in FreeMagma Nat	[1443]	[4282, 4268, 4118, 4067, 4065, 3522, 3055, 3050, 2441, 1630, 1629, 23]	28	0	28	0
+Confluence4.lean	123	rw1633.Facts	C	rw1633	ConfMagma: normal forms in FreeMagma Nat	[1633]	[4282, 4268]	8	0	4	4
+Generated/Greedy/Eq1112.lean	833	Equation1112_not_implies_Equation8	Gg	Eq1112	PartialSolution sequence indexed by Nat.pair, Classical .choose	[1112]	[8]	2	2	2	0
+Generated/Greedy/Eq1112.lean	859	Equation1112_not_implies_Equation411	Gg	Eq1112	PartialSolution sequence indexed by Nat.pair, Classical .choose	[1112]	[411]	4	4	2	0
+Generated/Greedy/Eq1112.lean	912	Equation1112_not_implies_Equation1832	Gg	Eq1112	PartialSolution sequence indexed by Nat.pair, Classical .choose	[1112]	[1832]	4	4	2	0
+Generated/Greedy/Eq1112.lean	939	Equation1112_not_implies_Equation3253	Gg	Eq1112	PartialSolution sequence indexed by Nat.pair, Classical .choose	[1112]	[3253]	6	6	3	0
+Generated/Greedy/Eq1112.lean	966	Equation1112_not_implies_Equation3319	Gg	Eq1112	PartialSolution sequence indexed by Nat.pair, Classical .choose	[1112]	[3319]	4	4	1	0
+Generated/Greedy/Eq1112.lean	993	Equation1112_not_implies_Equation3862	Gg	Eq1112	PartialSolution sequence indexed by Nat.pair, Classical .choose	[1112]	[3862]	6	6	3	0
+Generated/Greedy/Eq1112.lean	1021	Equation1112_not_implies_Equation3915	Gg	Eq1112	PartialSolution sequence indexed by Nat.pair, Classical .choose	[1112]	[3915]	4	4	1	0
+Generated/Greedy/Eq1113.lean	736	Equation1113_not_implies_Equation2441	Gg	Eq1113	PartialSolution sequence indexed by Nat.pair, Classical .choose	[1113]	[2441]	4	2	0	4
+Generated/Greedy/Eq1113.lean	764	Equation1113_not_implies_Equation2534	Gg	Eq1113	PartialSolution sequence indexed by Nat.pair, Classical .choose	[1113]	[2534]	2	1	0	2
+Generated/Greedy/Eq118.lean	2707	Equation118_not_implies_Equation222	Gg	Eq118	PartialSolution sequence indexed by Nat.pair, Classical .choose	[118]	[222]	2	1	2	0
+Generated/Greedy/Eq118.lean	2740	Equation118_not_implies_Equation274	Gg	Eq118	PartialSolution sequence indexed by Nat.pair, Classical .choose	[118]	[274]	4	2	2	0
+Generated/Greedy/Eq118.lean	2775	Equation118_not_implies_Equation4435	Gg	Eq118	PartialSolution sequence indexed by Nat.pair, Classical .choose	[118]	[4435]	4	2	2	0
+Generated/Greedy/Eq124.lean	961	Equation124_not_implies_Equation1924	Gg	Eq124	PartialSolution sequence indexed by Nat.pair, Classical .choose	[124]	[1924]	2	1	0	2
+Generated/Greedy/Eq1648.lean	407	Equation1648_not_implies_Equation3253	Gg	Eq1648	PartialSolution sequence indexed by Nat.pair, Classical .choose	[1648]	[3253]	6	6	2	4
+Generated/Greedy/Eq476.lean	1058	Equation476_not_implies_Equation3862	Gg	Eq476	PartialSolution sequence indexed by Nat.pair, Classical .choose	[476]	[3862]	2	2	2	0
+Generated/Greedy/Eq511.lean	2751	Equation511_not_implies_Equation614	Gg	Eq511	PartialSolution sequence indexed by Nat.pair, Classical .choose	[511]	[614]	8	8	6	0
+Generated/Greedy/Eq511.lean	2792	Equation511_not_implies_Equation714	Gg	Eq511	PartialSolution sequence indexed by Nat.pair, Classical .choose	[511]	[714]	4	4	1	0
+Generated/Greedy/Eq511.lean	2830	Equation511_not_implies_Equation1020	Gg	Eq511	PartialSolution sequence indexed by Nat.pair, Classical .choose	[511]	[1020]	8	8	2	0
+Generated/Greedy/Eq511.lean	2870	Equation511_not_implies_Equation1223	Gg	Eq511	PartialSolution sequence indexed by Nat.pair, Classical .choose	[511]	[1223]	8	8	2	0
+Generated/Greedy/Eq511.lean	2910	Equation511_not_implies_Equation2238	Gg	Eq511	PartialSolution sequence indexed by Nat.pair, Classical .choose	[511]	[2238]	8	8	2	0
+Generated/Greedy/Eq511.lean	2949	Equation511_not_implies_Equation2338	Gg	Eq511	PartialSolution sequence indexed by Nat.pair, Classical .choose	[511]	[2338]	6	6	1	0
+Generated/Greedy/Eq511.lean	2987	Equation511_not_implies_Equation2441	Gg	Eq511	PartialSolution sequence indexed by Nat.pair, Classical .choose	[511]	[2441]	8	8	2	0
+Generated/Greedy/Eq511.lean	3027	Equation511_not_implies_Equation2847	Gg	Eq511	PartialSolution sequence indexed by Nat.pair, Classical .choose	[511]	[2847]	8	8	2	0
+Generated/Greedy/Eq511.lean	3066	Equation511_not_implies_Equation3050	Gg	Eq511	PartialSolution sequence indexed by Nat.pair, Classical .choose	[511]	[3050]	8	8	2	0
+Generated/Greedy/Eq511.lean	3106	Equation511_not_implies_Equation4380	Gg	Eq511	PartialSolution sequence indexed by Nat.pair, Classical .choose	[511]	[4380]	10	10	3	0
+Generated/Greedy/Eq511.lean	3145	Equation511_not_implies_Equation4435	Gg	Eq511	PartialSolution sequence indexed by Nat.pair, Classical .choose	[511]	[4435]	6	6	1	0
+Generated/Greedy/Eq707.lean	548	Equation707_not_implies_Equation1223	Gg	Eq707	PartialSolution sequence indexed by Nat.pair, Classical .choose	[707]	[1223]	6	4	5	0
+Generated/Greedy/Eq707.lean	581	Equation707_not_implies_Equation1316	Gg	Eq707	PartialSolution sequence indexed by Nat.pair, Classical .choose	[707]	[1316]	4	3	1	0
+Generated/Greedy/Eq707.lean	608	Equation707_not_implies_Equation2238	Gg	Eq707	PartialSolution sequence indexed by Nat.pair, Classical .choose	[707]	[2238]	6	4	2	0
+Generated/Greedy/Eq707.lean	636	Equation707_not_implies_Equation2847	Gg	Eq707	PartialSolution sequence indexed by Nat.pair, Classical .choose	[707]	[2847]	8	5	3	0
+Generated/Greedy/Eq707.lean	664	Equation707_not_implies_Equation2940	Gg	Eq707	PartialSolution sequence indexed by Nat.pair, Classical .choose	[707]	[2940]	6	3	1	0
+Generated/Greedy/Eq883.lean	657	Equation883_not_implies_Equation2035	Gg	Eq883	PartialSolution sequence indexed by Nat.pair, Classical .choose	[883]	[2035]	6	5	4	0
+Generated/Greedy/Eq883.lean	685	Equation883_not_implies_Equation2101	Gg	Eq883	PartialSolution sequence indexed by Nat.pair, Classical .choose	[883]	[2101]	4	3	1	0
+Generated/Greedy/Eq883.lean	713	Equation883_not_implies_Equation2238	Gg	Eq883	PartialSolution sequence indexed by Nat.pair, Classical .choose	[883]	[2238]	4	2	2	0
+Generated/Greedy/Eq883.lean	742	Equation883_not_implies_Equation2304	Gg	Eq883	PartialSolution sequence indexed by Nat.pair, Classical .choose	[883]	[2304]	2	2	1	0
+Generated/Greedy/Eq906.lean	735	Equation906_not_implies_Equation3862	Gg	Eq906	PartialSolution sequence indexed by Nat.pair, Classical .choose	[906]	[3862]	2	0	2	0
+InfModel.lean	428	InfModel.Equation3994_not_implies_Equation3588	E	M3994	Nat, Even and xor	[3994]	[3588]	2	0	1	2
+InfModel.lean	464	InfModel.Equation3588_not_implies_Equation3994	E	M3994^T	Nat, Even and xor, transposed	[3588]	[3994]	2	0	1	2
+ManuallyProved/Equation1076.lean	247	Eq1076.refute_seed1	Gs	Equation1076	greedy chain (exists_greedy_chain) on Nat with fresh elements	[1076]	[4435, 4380, 4118, 3915, 3722, 3456, 3050, 2441, 1223, 375, 307, 203, 99, 23, 3]	38	38	33	0
+ManuallyProved/Equation1076.lean	274	Eq1076.refute_seed2	Gs	Equation1076	greedy chain (exists_greedy_chain) on Nat with fresh elements	[1076]	[4470, 3715, 3522, 2644, 2035, 1629, 817, 326, 151]	22	22	14	0
+ManuallyProved/Equation1076.lean	312	Eq1076.refute_seed3	Gs	Equation1076	greedy chain (exists_greedy_chain) on Nat with fresh elements	[1076]	[3862, 3253, 2294, 1426, 411, 8]	24	24	10	0
+ManuallyProved/Equation1076.lean	343	Eq1076.refute_seed4	Gs	Equation1076	greedy chain (exists_greedy_chain) on Nat with fresh elements	[1076]	[3319, 2238, 47]	14	14	5	0
+ManuallyProved/Equation1076.lean	369	Eq1076.refute_seed5	Gs	Equation1076	greedy chain (exists_greedy_chain) on Nat with fresh elements	[1076]	[2847]	4	4	2	0
+ManuallyProved/Equation1076.lean	390	Eq1076.refute_seed6	Gs	Equation1076	greedy chain (exists_greedy_chain) on Nat with fresh elements	[1076]	[614, 359]	10	10	4	0
+ManuallyProved/Equation1076.lean	408	Eq1076.refute_seed7	Gs	Equation1076	greedy chain (exists_greedy_chain) on Nat with fresh elements	[1076]	[4065, 255]	16	16	4	0
+ManuallyProved/Equation1076.lean	429	Eq1076.refute_seed8	Gs	Equation1076	greedy chain (exists_greedy_chain) on Nat with fresh elements	[1076]	[1832]	6	6	2	0
+ManuallyProved/Equation1076.lean	444	Eq1076.refute_seed9	Gs	Equation1076	greedy chain (exists_greedy_chain) on Nat with fresh elements	[1076]	[3659]	8	8	2	0
+ManuallyProved/Equation1117.lean	8	Equation1117_not_implies_Equation2441	E	M1117	Int, 2a - b/2	[1117]	[2441]	14	12	14	14
+ManuallyProved/Equation1289.lean	397	Eq1289.not_3116_4435	Gs	Equation1289	greedy chain (exists_greedy_chain) on Nat with fresh elements	[1289]	[4435, 3116]	8	6	8	0
+ManuallyProved/Equation1323.lean	672	Eq1323.Equation1323_not_implies_Equation2744	Gt	Equation1323	translation-invariant on a free group or similar, greedy	[1323]	[2744]	4	4	3	0
+ManuallyProved/Equation1437.lean	15	Equation1437_not_implies_Equation4269	E	M1437	Nat x Fin 3	[1437]	[4269]	8	4	8	8
+ManuallyProved/Equation1447.lean	325	Equation1447.Equation1447_facts	E	M1447	PNat, S(n) = n/2, root 2n	[1447]	[4269, 1431]	6	6	6	6
+ManuallyProved/Equation1516.lean	2151	Equation1516_not_implies_Equation255	Gt	Equation1516	translation-invariant on a free group or similar, greedy	[1516]	[255]	2	2	2	0
+ManuallyProved/Equation1526.lean	279	Eq1526.not_1223	Gt	Equation1526	translation-invariant on a free group or similar, greedy	[1526]	[1223]	4	4	4	0
+ManuallyProved/Equation1526.lean	297	Eq1526.not_2744	Gt	Equation1526	translation-invariant on a free group or similar, greedy	[1526]	[2744]	2	2	1	0
+ManuallyProved/Equation1648.lean	11	Equation1648_not_implies_Equation206	E	M1648a	Int, x - sign(y - x)	[1648]	[206]	2	2	2	2
+ManuallyProved/Equation1648.lean	34	Equation1648_facts	E	M1648b	Int, if x > y then x + 1 else x - 1	[1648]	[4065, 3522, 3456, 3050, 2441, 2238, 1832, 1426, 307, 203, 151]	28	28	26	28
+ManuallyProved/Equation1659.lean	164	Equation1659_facts	E	M1659	Nat, parity shift	[1659]	[4315, 4314, 4268, 3527, 3525, 3524, 3520, 3519, 3460, 3458, 2460, 2452, 2446, 1860, 1851, 1839, 1837, 1833, 1661, 1660, 1656, 1655, 1631]	152	148	152	152
+ManuallyProved/Equation1661.lean	399	Equation1661_not_implies_Equation1657	E	M1661	Nat, parity shift, patch near 0	[1661]	[1657]	56	56	28	56
+ManuallyProved/Equation1661.lean	411	Equation1979_not_implies_Equation1860	E	M1661^T	Nat, parity shift, patch near 0, transposed	[1979]	[1860]	56	56	28	56
+ManuallyProved/Equation1661.lean	420	Equation1661_not_implies_Equation1630	E	M1661	Nat, parity shift, patch near 0	[1661]	[1630]	52	52	4	52
+ManuallyProved/Equation1661.lean	432	Equation1979_not_implies_Equation1884	E	M1661^T	Nat, parity shift, patch near 0, transposed	[1979]	[1884]	52	52	4	52
+ManuallyProved/Equation1661.lean	441	Equation1661_not_implies_Equation1833	E	M1661	Nat, parity shift, patch near 0	[1661]	[1833]	44	44	4	44
+ManuallyProved/Equation1661.lean	453	Equation1979_not_implies_Equation1681	E	M1661^T	Nat, parity shift, patch near 0, transposed	[1979]	[1681]	44	44	4	44
+ManuallyProved/Equation1661.lean	462	Equation1661_not_implies_Equation1837	E	M1661	Nat, parity shift, patch near 0	[1661]	[1837]	52	52	2	52
+ManuallyProved/Equation1661.lean	474	Equation1979_not_implies_Equation1634	E	M1661^T	Nat, parity shift, patch near 0, transposed	[1979]	[1634]	52	52	2	52
+ManuallyProved/Equation1661.lean	483	Equation1661_not_implies_Equation1851	E	M1661	Nat, parity shift, patch near 0	[1661]	[1851]	40	40	2	40
+ManuallyProved/Equation1661.lean	495	Equation1979_not_implies_Equation1721	E	M1661^T	Nat, parity shift, patch near 0, transposed	[1979]	[1721]	40	40	2	40
+ManuallyProved/Equation1661.lean	504	Equation1661_not_implies_Equation1860	E	M1661	Nat, parity shift, patch near 0	[1661]	[1860]	48	48	2	48
+ManuallyProved/Equation1661.lean	516	Equation1979_not_implies_Equation1657	E	M1661^T	Nat, parity shift, patch near 0, transposed	[1979]	[1657]	48	48	2	48
+ManuallyProved/Equation1661.lean	525	Equation1661_not_implies_Equation2443	E	M1661	Nat, parity shift, patch near 0	[1661]	[2443]	52	52	4	52
+ManuallyProved/Equation1661.lean	537	Equation1979_not_implies_Equation1035	E	M1661^T	Nat, parity shift, patch near 0, transposed	[1979]	[1035]	52	52	4	52
+ManuallyProved/Equation1661.lean	546	Equation1661_not_implies_Equation2467	E	M1661	Nat, parity shift, patch near 0	[1661]	[2467]	48	48	2	48
+ManuallyProved/Equation1661.lean	558	Equation1979_not_implies_Equation1085	E	M1661^T	Nat, parity shift, patch near 0, transposed	[1979]	[1085]	48	48	2	48
+ManuallyProved/Equation1661.lean	567	Equation1661_not_implies_Equation3457	E	M1661	Nat, parity shift, patch near 0	[1661]	[3457]	64	64	10	64
+ManuallyProved/Equation1661.lean	579	Equation1979_not_implies_Equation3877	E	M1661^T	Nat, parity shift, patch near 0, transposed	[1979]	[3877]	64	64	10	64
+ManuallyProved/Equation1661.lean	588	Equation1661_not_implies_Equation3521	E	M1661	Nat, parity shift, patch near 0	[1661]	[3521]	60	60	4	60
+ManuallyProved/Equation1661.lean	600	Equation1979_not_implies_Equation3952	E	M1661^T	Nat, parity shift, patch near 0, transposed	[1979]	[3952]	60	60	4	60
+ManuallyProved/Equation1661.lean	609	Equation1661_not_implies_Equation4268	E	M1661	Nat, parity shift, patch near 0	[1661]	[4268]	56	56	10	56
+ManuallyProved/Equation1661.lean	621	Equation1979_not_implies_Equation4587	E	M1661^T	Nat, parity shift, patch near 0, transposed	[1979]	[4587]	56	56	10	56
+ManuallyProved/Equation1661.lean	630	Equation1661_not_implies_Equation4314	E	M1661	Nat, parity shift, patch near 0	[1661]	[4314]	52	52	2	52
+ManuallyProved/Equation1661.lean	642	Equation1979_not_implies_Equation4606	E	M1661^T	Nat, parity shift, patch near 0, transposed	[1979]	[4606]	52	52	2	52
+ManuallyProved/Equation1692.lean	2556	Equation1692_not_implies_Equation23	Gv	Equation1692	translation-invariant on ℕ →₀ ℚ, f built recursively	[1692]	[23]	4	4	4	0
+ManuallyProved/Equation1692.lean	2566	Equation1692_not_implies_Equation47	Gv	Equation1692	translation-invariant on ℕ →₀ ℚ, f built recursively	[1692]	[47]	4	4	2	0
+ManuallyProved/Equation1692.lean	2576	Equation1692_not_implies_Equation1832	Gv	Equation1692	translation-invariant on ℕ →₀ ℚ, f built recursively	[1692]	[1832]	6	6	4	0
+ManuallyProved/Equation1692.lean	2586	Equation1692_not_implies_Equation2441	Gv	Equation1692	translation-invariant on ℕ →₀ ℚ, f built recursively	[1692]	[2441]	6	6	2	0
+ManuallyProved/Equation1692.lean	2596	Equation1692_not_implies_Equation3050	Gv	Equation1692	translation-invariant on ℕ →₀ ℚ, f built recursively	[1692]	[3050]	6	6	2	0
+ManuallyProved/Equation1692.lean	2612	Equation1692_not_implies_Equation3456	Gv	Equation1692	translation-invariant on ℕ →₀ ℚ, f built recursively	[1692]	[3456]	8	8	4	0
+ManuallyProved/Equation1692.lean	2622	Equation1692_not_implies_Equation4065	Gv	Equation1692	translation-invariant on ℕ →₀ ℚ, f built recursively	[1692]	[4065]	8	8	4	0
+ManuallyProved/Equation1701.lean	128	Equation1701_facts	E	M1701_8	Nat, parity shift, truncated	[1701]	[3862, 1832, 1020, 411, 8]	22	10	20	22
+ManuallyProved/Equation1701.lean	137	Equation1701_facts'	E	M1701_8	Nat, parity shift, truncated	[1701]	[3319, 1884, 1035]	8	5	4	8
+ManuallyProved/Equation1701.lean	246	Equation1701_not_implies_Equation3253	E	M1701_3253	Nat, parity shift, patch	[1701]	[3253]	8	6	2	8
+ManuallyProved/Equation1701.lean	385	Equation1701_not_implies_Equation4587	E	M1701_4587	Nat, parity shift, patch	[1701]	[4587]	4	2	4	4
+ManuallyProved/Equation1722.lean	400	Eq1722.not_1832_2644_3050	Gs	Equation1722	greedy chain (exists_greedy_chain) on Nat with fresh elements	[1722]	[3050, 2644, 1832]	10	10	10	0
+ManuallyProved/Equation1729.lean	14	Eq1729.not_817	Gs	Equation1729	greedy chain (exists_greedy_chain) on Nat with fresh elements	[1729]	[817]	8	4	4	0
+ManuallyProved/Equation3308.lean	741	Refutation_3308.not_3456_3511	Gs	Equation3308	greedy chain (exists_greedy_chain) on Nat with fresh elements	[3308]	[3511, 3456]	4	4	4	4
+ManuallyProved/Equation3342.lean	23	Eq3342.Equation3342_facts	E	M3342	Option (Nat x Nat)	[3342]	[4118, 4065, 3522, 3456]	8	8	8	8
+ManuallyProved/Equation63.lean	313	Eq63.Equation63_not_implies_Equation1692	Gt	Equation63	translation-invariant on a free group or similar, greedy	[63]	[1692]	2	2	2	0
+ManuallyProved/Equation713.lean	348	Eq713.not_817_1426_3862_4065	Gs	Equation713	greedy chain (exists_greedy_chain) on Nat with fresh elements	[713]	[4065, 3862, 1426, 817]	10	6	10	0
+ManuallyProved/Equation73.lean	269	Eq73.not_99_4380	Gt	Equation73	translation-invariant on a free group or similar, greedy	[73]	[4380, 99]	10	10	10	0
+ManuallyProved/Equation73.lean	296	Eq73.not_203	Gt	Equation73	translation-invariant on a free group or similar, greedy	[73]	[203]	6	6	2	0
+ManuallyProved/Equation73.lean	313	Eq73.not_255	Gt	Equation73	translation-invariant on a free group or similar, greedy	[73]	[255]	6	6	2	0
+ManuallyProved/Equation917.lean	284	Eq917.not_1629	Gt	Equation917	translation-invariant on a free group or similar, greedy	[917]	[1629]	4	4	4	0
+ManuallyProved/Equation917.lean	301	Eq917.not_2441	Gt	Equation917	translation-invariant on a free group or similar, greedy	[917]	[2441]	6	6	4	0
+Obelix.lean	789	Obelix.PartialSolution.Equation1491_facts	Gv	Obelix	on ℕ →₀ ℚ (DFinsupp), closure of partial solutions, Classical	[1491]	[65]	2	2	2	2
+ThreeC2.lean	367	ThreeC2.Fact	W	M3C2	reduced words, free product of three C2	[206]	[1648]	2	1	2	2

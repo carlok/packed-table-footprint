@@ -1,0 +1,101 @@
+packed-footprint-lean
+Copyright 2026 Carlo Perassi
+Licensed under the Apache License, Version 2.0, except as noted below. See LICENSE.
+
+This folder uses material from the following works. Each is licensed under the
+Apache License, Version 2.0, unless stated otherwise.
+
+
+sair-eqt2-stage2-solver
+  Haobo Ma, Wenlin Zhang and Manuel Israel Cázares
+  https://github.com/the-omega-institute/sair-eqt2-stage2-solver, commit 4bf87e3
+
+  hard2_0027_zero.lean
+    Derived from the certificate with SHA-256 prefix dd26586983db in that
+    repository's results/,
+    as emitted by austin_counterexample in submission/solver.py.
+    Kept byte for byte: def f, the statement of f_1659, impl, f_2473 and the
+    final def submission.
+    Changed: the lemma block, with its helper lemmas replaced and its proofs
+    redone from the fuel definitions of Nat.mod and Nat.modCore, so that the
+    certificate closes over no axioms.
+    The file carries no notice of its own, because a comment would change the
+    bytes the judge accepted.
+
+  austin_f_lemmas_hand.txt
+    A replacement for the string _AUSTIN_F_LEMMAS in submission/solver.py.
+    It keeps def f and the statements of f_1659, mod_two_ne_down_to and
+    mod_two_eq_down_to, drops the other six mod_two lemmas, adds 14 new ones, and
+    redoes every proof as above. No notice in the file, because its text is pasted
+    into certificates.
+
+  ledger_extract.py, true_extract.py, cert_run.py, results/
+    Read that repository's results/ tree. Only aggregates and per-problem status
+    are recorded here. No certificate from the ledger is included, apart from the
+    two files above. ledger_extract.py's TEMPLATE holds the fixed frame of the
+    finOpTable certificates, with no table.
+
+  The packed form itself is the shape make_false_code_arith in
+  submission/solver.py already writes.
+
+
+Equational Theories Project
+  https://github.com/teorth/equational_theories
+
+  hard2_0027_zero.lean
+    def f is that project's op_1659_4315, in
+    equational_theories/ManuallyProved/Equation1659.lean, lines 21 to 28, as the
+    certificate above uses it.
+
+  The packed reader
+    (t / n^i) % n was written by Joachim Breitner for that project in September
+    2024, as opOfTable behind memoFinOp in MemoFinOp.lean (first in commit
+    937546f, on the branch of PR #19; on main through PR #110), for kernel
+    reduction speed. No code is copied from it here.
+
+  NoFinite.lean
+    The finite statement is already in that project as
+    Eq1133.Finite.Equation1167_implies_Equation1096 plus three general
+    implications. The proof here is a different route.
+
+  infinite-map/
+    infinite-map.tsv and facts.tsv cite that project's files and theorems.
+    Certificates for pairs it refutes with an explicit construction follow that
+    construction's operation, rewritten in core Lean. The 12 translation-invariant
+    models on Z are not taken from it.
+
+  The infinite-only list rests on that project's graph.json and finite_graph.json,
+  as the header of data/etp/infinite-only.tsv in parsimagma says, and its
+  attribution on graph.json's full_entries and the Lean sources at commit e5a88a1.
+  The graphs are not vendored; data/etp/PROVENANCE.txt lists what is.
+
+
+equational-theories-lean-stage2 (the competition's judge)
+  https://github.com/SAIRcompetition/equational-theories-lean-stage2, commit 817a465
+
+  judge_run.py, cert_run.py
+    Call its verify_answer. No judge code is included.
+
+  memofinop-three-lines.diff, PatchedParserEqual.lean
+    A patch to judge/JudgeFinOp/MemoFinOp.lean, and a proof about it that imports that
+    module and copies the patched lines.
+
+
+
+magma-1518-obstruction-lean
+  https://github.com/carlok/magma-1518-obstruction-lean
+
+  results/scale-models.json
+    Three models of Theorem F.
+
+
+Remarks this measures or sits beside. On the SAIR Foundation Zulip, in the thread
+on axiom-free certificates: Alex Meiburg on adapting any finite magma to
+an axiom-free proof, 1 September 2026, and Axabra on axiom-free infinite
+countermodels, later that night. On the Lean Zulip's Equational channel: Daniel
+Weber on translation-invariant magmas around law 65, October 2024.
+
+
+The Lean files, the scripts and this folder were written with Claude Code
+(Claude Opus 5.5), for Carlo Perassi. hard2_0027_zero.lean and
+austin_f_lemmas_hand.txt carry no such line, for the reasons above.

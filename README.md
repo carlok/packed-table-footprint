@@ -21,7 +21,7 @@ Same goal, same tactic (`decideFin!`), same options, only the operation rewritte
 
 Row-level results are in `results/judge-corpus.json`, and the packed certificates in `results/packed-certificates.json`.
 
-**The ledger.** The JSON files under `results/` of `the-omega-institute/sair-eqt2-stage2-solver` at commit `4bf87e3` hold together, counting result rows with problem ids, exactly 4,240 `finOpTable` false certificates, the count Wenlin Zhang gave. All are byte-identical to one template. They reduce to 1,494 law pair and table combinations, which are 172 distinct as text (156 tables up to isomorphism), carriers 2 to 9. Each combination ran once in each encoding, 2,988 judge calls:
+**The ledger.** The JSON files under `results/` of `the-omega-institute/sair-eqt2-stage2-solver` at commit `4bf87e3` hold together, counting result rows with problem ids, exactly 4,240 `finOpTable` false certificates. All are byte-identical to one template. They reduce to 1,494 law pair and table combinations, which are 172 distinct as text (156 tables up to isomorphism), carriers 2 to 9. Each combination ran once in each encoding, 2,988 judge calls:
 
 | Encoding, policy | Accepted | Counting duplicates | Closes over |
 | --- | ---: | ---: | --- |
